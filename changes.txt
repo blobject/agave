@@ -1,18 +1,19 @@
 legend:
-- "cmp": fully implemented (per designer's whim)
-- "prt": partially implemented
-- "add": additions (after having been deemed "cmp")
-- "fix": modified to eliminate design error
-- "imp": modified as improvement
+"cmp" = fully implemented (per designer's whim)
+"prt" = partially implemented
+"add" = additions (after having been deemed "cmp")
+"fix" = modified to eliminate design error
+"imp" = modified as improvement
+"*"   = non-design-related update
 
 005
-- decided to put font under MIT license
-- 20 Apr 2013: bitbucket upload
+- [*] decided to place font under MIT X license
+- [*] 20 Apr 2013: bitbucket upload
 - [cmp] u2190-u21ff (arrows)
 - [imp] u2208,u2282 (∈⊂) shapelier
 
 004
-- 19 Apr 2013: bitbucket upload
+- [*] 19 Apr 2013: bitbucket upload
 - [cmp] u0400-u051d (cyrillic + supp)
 - [fix] u1fbf,u1ffe (psili,dasia) more distinct
 - [imp] u0047 (G) rounded spur
@@ -22,19 +23,19 @@ legend:
 - [imp] u006d,u0428,u0429,u0448,u0449 (mШЩшщ) narrower legs
 
 003
-- 01 Apr 2013: bitbucket upload
+- [*] 01 Apr 2013: bitbucket upload
 - [cmp] u0400-u045f (partial cyrillic)
 - [fix] u0057 (W) lower inv-crotch
 - [imp] u0043,u0050,u0053,u005a (CPSZ) now sans-serif
 
 002
-- 29 Mar 2013: bitbucket upload
+- [*] 29 Mar 2013: bitbucket upload
 - [cmp] u0384-u03ce (basic greek)
 - [cmp] u1ffe-u1f00 (greek ext)
 - [fix] u004a (J) now wears baseball cap
 
 001
-- 26 Mar 2013: first upload to bitbucket
+- [*] 26 Mar 2013: first upload to bitbucket
 - [cmp] u0100-u017f (latin ext-a)
 - [cmp] u2500-u257f (box drawing) partial
 - [cmp] u2580-u259f (block) partial
@@ -48,5 +49,5 @@ legend:
 - [prt] u2600-u267f (miscellaneous)
 
 000
-- 29 Oct 2012: [cmp] u0020-u007e (ascii)
-- 20 Nov 2012: [cmp] u00a0-u00ff (latin-1 supp)
+- [cmp] 29 Oct 2012: u0020-u007e (ascii)
+- [cmp] 20 Nov 2012: u00a0-u00ff (latin-1 supp)

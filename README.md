@@ -10,7 +10,7 @@
 ## about
 *agave* is a fixed-width truetype font designed by *[type agaric](http://an.erki.net/~b/typo/)*.
 
-The font is free to use and is under the [MIT License](http://an.erki.net/~b/typo/agave_license).
+The font is free to use and it (including actual font files, glyph designs, glyph databases, documentation) is released under the [MIT X license](http://an.erki.net/~b/typo/agave_license).
 
 For more details about the font, visit the [designer's page](http://an.erki.net/~b/typo/agave).
 
@@ -29,13 +29,6 @@ For more details about the font, visit the [designer's page](http://an.erki.net/
 * [agave-src-*REV*.tar.gz][1] contains the font files, the source glyphs, the changelog, and the license document.
 * [agave-*REV*.tar.gz][2] contains just the font files.
 
-On \*nix, you can issue:
-
-    tar -xzf agave-REV.tar.gz
-
-to get `agave-?.ttf`,  
-where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
-
 **packaging:**
 
 * deb: [ttf-agave][3]
@@ -43,12 +36,16 @@ where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, 
 * pacman: [ttf-agave][5] (AUR)
 * rpm: [agave-fonts][6]
 
-## requests, suggestions, bugs, etc.
-Feedback, questions, and discussion are all very much welcomed.
+In each form of distribution, the actual font files are named `agave-?.ttf`,  
+where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
 
-When possible, please use the bitbucket [issues page](https://bitbucket.org/agaric/agave/issues) so that everyone can better track *agave*'s progress.
+## discussion
+Feedback, questions, suggestions, etc. are encouraged.
 
-You could also [contact](http://an.erki.net/~b/info) *type agaric* by email, or join the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
+When applicable, please use the bitbucket [issues page](https://bitbucket.org/agaric/agave/issues) to help everyone better track *agave*'s progress.
+
+You could also [contact](http://an.erki.net/~b/info) *type agaric* by email,  
+or join the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
 
 ## thanks
 ... to the people behind FontForge and Inkscape, as I relied on the two programs to design, draw, and generate *agave*,
