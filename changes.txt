@@ -1,38 +1,54 @@
 legend:
 "cmp" = fully implemented (per designer's whim)
 "prt" = partially implemented
-"add" = additions (after having been deemed "cmp")
+"add" = additions
 "fix" = modified to eliminate design error
 "imp" = modified as improvement
-"*"   = non-design-related update
+" * " = non-design-related update
+
+006
+- [*] 01 May 2013: bitbucket upload
+- [cmp] u0180-u024f (latin ext-b)
+- [fix] line spacing; os/2 metrics are now all 0 except typo ascent and
+        hhead ascent which are both 64
+- [fix] underline; 128 @ -128
+- [fix] u0052 ("R") metrics
+- [fix] u0074,u03b9 ("tι") thicker tail
+- [fix] u1fcd,u1fce,u1fdd,u1fde (greek accents) wider apart
+- [imp] u004e ("N") narrower slanted stroke
+- [imp] u003f,u0050 ("?P") shapelier
+- [imp] u0053,u005a,u007a ("SZz") shorter top stroke
+- [imp] u0069,u006a ("ij") raise dot, same level as modifiers
+- [imp] u00ab,u00bb ("«»") wider
+- [imp] u014b,u04fa-u04fd,u0512,u0513 (glyphs with hook) shapelier hooks
 
 005
 - [*] decided to place font under MIT X license
 - [*] 20 Apr 2013: bitbucket upload
 - [cmp] u2190-u21ff (arrows)
-- [imp] u2208,u2282 (∈⊂) shapelier
+- [imp] u2208,u2282 ("∈⊂") shapelier
 
 004
 - [*] 19 Apr 2013: bitbucket upload
 - [cmp] u0400-u051d (cyrillic + supp)
 - [fix] u1fbf,u1ffe (psili,dasia) more distinct
-- [imp] u0047 (G) rounded spur
-- [imp] u0050 (P) stylised for case-disambiguity
-- [imp] u0055 (U) now sans-serif
-- [imp] u0056 (V) narrower serif
-- [imp] u006d,u0428,u0429,u0448,u0449 (mШЩшщ) narrower legs
+- [imp] u0047 ("G") rounded spur
+- [imp] u0050 ("P") stylised for case-disambiguity
+- [imp] u0055 ("U") now sans-serif
+- [imp] u0056 ("V") narrower serif
+- [imp] u006d,u0428,u0429,u0448,u0449 ("mШЩшщ") narrower legs
 
 003
 - [*] 01 Apr 2013: bitbucket upload
 - [cmp] u0400-u045f (partial cyrillic)
-- [fix] u0057 (W) lower inv-crotch
-- [imp] u0043,u0050,u0053,u005a (CPSZ) now sans-serif
+- [fix] u0057 ("W") lower inv-crotch
+- [imp] u0043,u0050,u0053,u005a ("CPSZ") now sans-serif
 
 002
 - [*] 29 Mar 2013: bitbucket upload
 - [cmp] u0384-u03ce (basic greek)
 - [cmp] u1ffe-u1f00 (greek ext)
-- [fix] u004a (J) now wears baseball cap
+- [fix] u004a ("J") now wears baseball cap
 
 001
 - [*] 26 Mar 2013: first upload to bitbucket
