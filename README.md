@@ -1,6 +1,6 @@
 # agave
 
-[1]: https://bitbucket.org/agaric/agave/downloads/agave-src-006.tar.gz "get agave with source"
+[1]: https://bitbucket.org/agaric/agave/downloads/agave-006-src.tar.gz "get agave with source"
 [2]: https://bitbucket.org/agaric/agave/downloads/agave-006.tar.gz "get agave"
 [3]: http://an.erki.net/pub/repo/ttf-agave_6-1_all.deb "get agave (deb)"
 [4]: http://an.erki.net/pub/repo/agave-6.ebuild "get agave (ebuild)"
@@ -26,7 +26,7 @@ For more details about the font, visit the [designer's page](http://an.erki.net/
 *yet to be designed*
 
 ## distribution
-* [agave-src-*REV*.tar.gz][1] contains font files, glyphs source, FontForge file, changelog, and license document.
+* [agave-*REV*-src.tar.gz][1] contains font files, glyphs source, FontForge file, changelog, and license document.
 * [agave-*REV*.tar.gz][2] contains just the font files.
 
 **packaging:**
