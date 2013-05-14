@@ -6,14 +6,21 @@ legend:
 "imp" = modified as improvement
 " * " = non-design-related update
 
+007
+- [*] reorganised source archive
+- [*] 14 May 2013: bitbucket upload
+- [cmp] u0250-u2af (ipa)
+- [imp] u0024,u0047,u004f,u0398 ($GOΘ) metrics
+- [imp] u0057,u0077 (Ww) now symmetric
+
 006
 - [*] 01 May 2013: bitbucket upload
 - [cmp] u0180-u024f (latin ext-b)
 - [fix] line spacing; os/2 metrics are now all 0 except typo ascent and
         hhead ascent which are both 64
-- [fix] underline; 128 @ -128
+- [fix] underline; 128 @ -384
 - [fix] u0052 ("R") metrics
-- [fix] u0074,u03b9 ("tι") thicker tail
+- [fix] u0074,u03b9,u03c4 ("tιτ") thicker tail
 - [fix] u1fcd,u1fce,u1fdd,u1fde (greek accents) wider apart
 - [imp] u004e ("N") narrower slanted stroke
 - [imp] u003f,u0050 ("?P") shapelier

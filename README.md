@@ -1,23 +1,23 @@
 # agave
 
-[1]: https://bitbucket.org/agaric/agave/downloads/agave-006-src.tar.gz "get agave with source"
-[2]: https://bitbucket.org/agaric/agave/downloads/agave-006.tar.gz "get agave"
-[3]: http://an.erki.net/pub/repo/ttf-agave_6-1_all.deb "get agave (deb)"
-[4]: http://an.erki.net/pub/repo/agave-6.ebuild "get agave (ebuild)"
+[1]: https://bitbucket.org/agaric/agave/downloads/agave-007-src.tar.gz "get agave with source"
+[2]: https://bitbucket.org/agaric/agave/downloads/agave-007.tar.gz "get agave"
+[3]: http://an.erki.net/pub/repo/ttf-agave_7-1_all.deb "get agave (deb)"
+[4]: http://an.erki.net/pub/repo/agave-7.ebuild "get agave (ebuild)"
 [5]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
-[6]: http://an.erki.net/pub/repo/agave-fonts-6-1.noarch.rpm "get agave (rpm)"
+[6]: http://an.erki.net/pub/repo/agave-fonts-7-1.noarch.rpm "get agave (rpm)"
 
 ## about
-*agave* is a fixed-width truetype font designed by *[type agaric](http://an.erki.net/~b/typo/)*.
+*agave* is a fixed-width truetype font designed by *[type agaric](http://an.erki.net/~b/type/)*.
 
-The font is free to use, and it (including font files, glyph designs, glyph databases, documentation) is released under the [MIT X license](http://an.erki.net/~b/typo/agave_license).
+The font is free to use and peruse (font files, glyph designs, glyph databases, and documentation released under the [MIT X license](http://an.erki.net/~b/type/agave_license)).
 
-For more details about the font, visit the [designer's page](http://an.erki.net/~b/typo/agave).
+For more details about the font, visit the [designer's page](http://an.erki.net/~b/type/agave).
 
-## status (rev. 006)
+## status (rev. 007)
 * regular:
-    * **done:** ascii; latin ext; greek; cyrillic; arrows; *some others*
-    * **todo:** ipa; math; super/sub; box; punct; misc
+    * **done:** ascii; latin ext; greek; cyrillic; ipa; arrows; *some others*
+    * **todo:** more glyphs here and there
 
 * bold:
 *yet to be designed*
@@ -42,7 +42,7 @@ where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, 
 ## discussion
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
-When applicable, please use the bitbucket [issues page](https://bitbucket.org/agaric/agave/issues) to help everyone better track *agave*'s progress.
+When applicable, please use the bitbucket [issues page](https://bitbucket.org/agaric/agave/issues) so that everyone can better track *agave*'s progress.
 
 You could also [contact](http://an.erki.net/~b/info) *type agaric* by email,  
 or join the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
