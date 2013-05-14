@@ -39,6 +39,10 @@ For more details about the font, visit the [designer's page](http://an.erki.net/
 In each form of distribution, the actual font files are named `agave-?.ttf`,  
 where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
 
+**archiving:**
+
+At every revision, the font files are backed up but source files and documentation are not. Therefore only the latest version of the source and documentation are uploaded on Bitbucket.
+
 ## discussion
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 

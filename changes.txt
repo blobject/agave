@@ -9,7 +9,7 @@ legend:
 007
 - [*] reorganised source archive
 - [*] 14 May 2013: bitbucket upload
-- [cmp] u0250-u2af (ipa)
+- [cmp] u0250-u02af (ipa)
 - [imp] u0024,u0047,u004f,u0398 ($GOΘ) metrics
 - [imp] u0057,u0077 (Ww) now symmetric
 
