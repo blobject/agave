@@ -6,12 +6,23 @@ legend:
 "imp" = modified as improvement
 " * " = non-design-related update
 
+008
+- [*] 19 May 2013: bitbucket upload
+- [*] switched to cubic representation in fontforge
+- [*] clean up: integer points; rid fontforge warnings
+- [cmp] u1e00-u1e00 (latin ext additional)
+- [imp] u0041,u00c6 ("AÆ") shape
+- [imp] u0385 (dialytika-tonos) raised tonos
+- [imp] u1fcd,u1fce,u1fdd,u1fde (greek diacritics) longer top stroke;
+        diacritics above capitals, which is wrong, but perhaps could be
+        forgiven for a monospaced font
+
 007
-- [*] reorganised source archive
 - [*] 14 May 2013: bitbucket upload
+- [*] reorganised source archive
 - [cmp] u0250-u02af (ipa)
-- [imp] u0024,u0047,u004f,u0398 ($GOΘ) metrics
-- [imp] u0057,u0077 (Ww) now symmetric
+- [imp] u0024,u0047,u004f,u0398 ("$GOΘ") metrics
+- [imp] u0057,u0077 ("Ww") now symmetric
 
 006
 - [*] 01 May 2013: bitbucket upload
@@ -21,7 +32,7 @@ legend:
 - [fix] underline; 128 @ -384
 - [fix] u0052 ("R") metrics
 - [fix] u0074,u03b9,u03c4 ("tιτ") thicker tail
-- [fix] u1fcd,u1fce,u1fdd,u1fde (greek accents) wider apart
+- [fix] u1fcd,u1fce,u1fdd,u1fde (greek diacritics) wider apart
 - [imp] u004e ("N") narrower slanted stroke
 - [imp] u003f,u0050 ("?P") shapelier
 - [imp] u0053,u005a,u007a ("SZz") shorter top stroke
@@ -30,8 +41,8 @@ legend:
 - [imp] u014b,u04fa-u04fd,u0512,u0513 (glyphs with hook) shapelier hooks
 
 005
-- [*] decided to place font under MIT X license
 - [*] 20 Apr 2013: bitbucket upload
+- [*] decided to place font under MIT X license
 - [cmp] u2190-u21ff (arrows)
 - [imp] u2208,u2282 ("∈⊂") shapelier
 
@@ -48,13 +59,13 @@ legend:
 003
 - [*] 01 Apr 2013: bitbucket upload
 - [cmp] u0400-u045f (partial cyrillic)
-- [fix] u0057 ("W") lower inv-crotch
+- [fix] u0057 ("W") lower apex
 - [imp] u0043,u0050,u0053,u005a ("CPSZ") now sans-serif
 
 002
 - [*] 29 Mar 2013: bitbucket upload
 - [cmp] u0384-u03ce (basic greek)
-- [cmp] u1ffe-u1f00 (greek ext)
+- [cmp] u1f00-u1ffe (greek ext)
 - [fix] u004a ("J") now wears baseball cap
 
 001
@@ -63,7 +74,7 @@ legend:
 - [cmp] u2500-u257f (box drawing) partial
 - [cmp] u2580-u259f (block) partial
 - [prt] u02b0-u036f (modifiers, diacritics)
-- [prt] u0370-u03ff (greek + coptic)
+- [prt] u0370-u03ff (greek)
 - [prt] u0400-u04ff (cyrillic)
 - [prt] u2000-u206f (general punctuation)
 - [prt] u2070-u209f (super + sub scripts)
