@@ -1,7 +1,7 @@
 # agave
 
 [1]: https://bitbucket.org/agaric/agave/downloads/agave-008-src.tar.gz "get agave with source"
-[2]: https://bitbucket.org/agaric/agave/downloads/agave-008.tar.gz "get agave"
+[2]: https://bitbucket.org/agaric/agave/downloads/agave-008a.tar.gz "get agave"
 [3]: http://an.erki.net/pub/repo/ttf-agave_8-1_all.deb "get agave (deb)"
 [4]: http://an.erki.net/pub/repo/agave-8.ebuild "get agave (ebuild)"
 [5]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"

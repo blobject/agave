@@ -9,8 +9,8 @@ legend:
 008
 - [*] 19 May 2013: bitbucket upload
 - [*] switched to cubic representation in fontforge
-- [*] clean up: integer points; rid fontforge warnings
-- [cmp] u1e00-u1e00 (latin ext additional)
+- [*] integral rounding of all points
+- [cmp] u1e00-u1eff (latin ext additional)
 - [imp] u0041,u00c6 ("AÆ") shape
 - [imp] u0385 (dialytika-tonos) raised tonos
 - [imp] u1fcd,u1fce,u1fdd,u1fde (greek diacritics) longer top stroke;
@@ -36,7 +36,7 @@ legend:
 - [imp] u004e ("N") narrower slanted stroke
 - [imp] u003f,u0050 ("?P") shapelier
 - [imp] u0053,u005a,u007a ("SZz") shorter top stroke
-- [imp] u0069,u006a ("ij") raise dot, same level as modifiers
+- [imp] u0069,u006a ("ij") raised dot, same level as modifiers
 - [imp] u00ab,u00bb ("«»") wider
 - [imp] u014b,u04fa-u04fd,u0512,u0513 (glyphs with hook) shapelier hooks
 
