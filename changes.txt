@@ -4,7 +4,12 @@ legend:
 "add" = additions
 "fix" = modified to eliminate design error
 "imp" = modified as improvement
-" * " = non-design-related update
+" * " = non-design or holistic update
+
+009
+- : bitbucket upload
+- [*] now provide a version without line gap (ie. one that ignores
+      vertical outliers like accents): agave-REV-just.tar.gz
 
 008
 - [*] 19 May 2013: bitbucket upload
