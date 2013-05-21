@@ -1,8 +1,8 @@
 # agave
 
-[1]: https://bitbucket.org/agaric/agave/downloads/agave-008-src.tar.gz "get agave with source"
-[2]: https://bitbucket.org/agaric/agave/downloads/agave-008a.tar.gz "get agave"
-[3]: https://bitbucket.org/agaric/agave/downloads/agave-008-just.tar.gz "get agave, strict"
+[1]: /agaric/agave/downloads/agave-008-src.tar.gz "get agave with source"
+[2]: /agaric/agave/downloads/agave-008a.tar.gz "get agave"
+[3]: /agaric/agave/downloads/agave-008-just.tar.gz "get agave, strict"
 [4]: http://an.erki.net/pub/repo/ttf-agave_7-1_all.deb "get agave (deb)"
 [5]: http://an.erki.net/pub/repo/agave-7.ebuild "get agave (ebuild)"
 [6]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
@@ -30,29 +30,34 @@ For more details about the font, visit the [designer's page](http://an.erki.net/
 
 ## distribution
 
-* [agave-*REV*-src.tar.gz][1] contains font files, glyphs source, FontForge file, changelog, and license document.
-* [agave-*REV*.tar.gz][2] contains only the font files.
-* [agave-*REV*-just.tar.gz][3] is exactly the same as the preceding, except for one slight metric difference: the font it contains ignores any vertical outliers and therefore gives smaller line-heights. This is for users who prefer vertical space efficiency over being able to see certain accents.
+* [agave-*REV*-src.tar.gz][1]
+    * contains font files, glyphs source, FontForge file, changelog, and license document
+* [agave-*REV*.tar.gz][2]
+    * contains only the font files
+* [agave-*REV*-just.tar.gz][3]
+    * same as preceding but the font has smaller line height; this is for users who prefer vertical space efficiency over the ability to see highly positioned accents (cf. [issue #3](/agaric/agave/issue/3/006-big-line-height))
 
 **packaging:**
 
 * deb: [ttf-agave][4]
 * ebuild: [media-fonts/agave][5]
 * pacman: [ttf-agave][6] (AUR)
-* rpm spec: [agave-fonts][7]
+* rpm: [agave-fonts][7]
+
+**note:** these packages install the "agave-*REV*.tar.gz" version of the font, not the "-just" one.
 
 In each form of distribution, the actual font files are named `agave-?.ttf`,  
 where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
 
 **archiving:**
 
-At every revision, the font files are backed up, but source files and documentation are not. Only the latest version of the latter files are uploaded on Bitbucket.
+At every revision, the original font files are backed up, but source files, documentation, and the -just version are not. Only the latest revision of the latter files are uploaded on Bitbucket.
 
 ## discussion
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
-When applicable, please use the bitbucket [issues page](https://bitbucket.org/agaric/agave/issues) so that everyone can better track *agave*'s progress.
+When applicable, please use the bitbucket [issues page](/agaric/agave/issues) so that everyone can better track *agave*'s progress.
 
 You could also [contact](http://an.erki.net/~b/info) *type agaric* by email,  
 or join the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
