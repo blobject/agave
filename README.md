@@ -8,13 +8,19 @@
 [6]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
 [7]: http://an.erki.net/pub/repo/agave-fonts-7-1.noarch.rpm "get agave (rpm)"
 
+----
+
+**notice:** Progress in designing *agave* has somewhat slowed for the moment. The designer will get back to it whole-heartedly when favorable conditions arise.
+
+----
+
 ## about
 
-*agave* is a fixed-width outline font designed by *[type agaric](http://an.erki.net/~b/type/)*.
+*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net/~b/type/)*, that is primarily aimed at freetype/X environments.
 
-The font is free to use and peruse (font files, glyph designs, glyph databases, and documentation released under the [MIT X license](http://an.erki.net/~b/type/agave_license)).
+Free to use and peruse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/type/agave_license).
 
-For more details about the font, visit the [designer's page](http://an.erki.net/~b/type/agave).
+For more details, visit the [designer's page](http://an.erki.net/~b/type/agave).
 
 ## status (rev. 008)
 
@@ -30,28 +36,30 @@ For more details about the font, visit the [designer's page](http://an.erki.net/
 
 ## distribution
 
+On the [downloads page](/agaric/agave/downloads) you will find:
+
 * [agave-*REV*-src.tar.gz][1]
     * contains font files, glyphs source, FontForge file, changelog, and license document
 * [agave-*REV*.tar.gz][2]
     * contains only the font files
 * [agave-*REV*-just.tar.gz][3]
-    * same as preceding but the font has smaller line height; this is for users who prefer vertical space efficiency over the ability to see highly positioned accents (cf. [issue #3](/agaric/agave/issue/3/006-big-line-height))
+    * same as preceding but the font has smaller line height; intended for users who prefer vertical space efficiency over the ability to see highly positioned accents (cf. [issue #3](/agaric/agave/issue/3/006-big-line-height)).
 
-**packaging:**
+**(unofficial) packages:**
+
+*note:* the following packages install the "agave-*REV*.tar.gz" version of the font, not the "-just" version.
 
 * deb: [ttf-agave][4]
 * ebuild: [media-fonts/agave][5]
 * pacman: [ttf-agave][6] (AUR)
 * rpm: [agave-fonts][7]
 
-**note:** these packages install the "agave-*REV*.tar.gz" version of the font, not the "-just" one.
-
 In each form of distribution, the actual font files are named `agave-?.ttf`,  
 where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
 
 **archiving:**
 
-At every revision, the original font files are backed up, but source files, documentation, and the -just version are not. Only the latest revision of the latter files are uploaded on Bitbucket.
+At every revision, the original font files are backed up, but the "-src" and "-just" are not. Only the latest revision of the latter files are uploaded on Bitbucket.
 
 ## discussion
 
