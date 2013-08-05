@@ -16,11 +16,11 @@
 
 ## about
 
-*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net/~b/type/)*, that is primarily aimed at freetype/X environments.
+*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net/~b/type)*, that is primarily aimed at freetype/X environments.
 
-Free to use and peruse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/type/agave_license).
+Free to use and peruse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/agave/license).
 
-For more details, visit the [designer's page](http://an.erki.net/~b/type/agave).
+For more details, visit the [designer's page](http://an.erki.net/~b/agave/).
 
 ## status (rev. 008)
 
@@ -48,6 +48,8 @@ On the [downloads page](/agaric/agave/downloads) you will find:
 **(unofficial) packages:**
 
 *note:* the following packages install the "agave-*REV*.tar.gz" version of the font, not the "-just" version.
+
+*warning:* some of the following might be out of date.
 
 * deb: [ttf-agave][4]
 * ebuild: [media-fonts/agave][5]
