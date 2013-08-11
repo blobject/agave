@@ -2,11 +2,8 @@
 
 [1]: /agaric/agave/downloads/agave-008-src.tar.gz "get agave with source"
 [2]: /agaric/agave/downloads/agave-008a.tar.gz "get agave"
-[3]: /agaric/agave/downloads/agave-008-just.tar.gz "get agave, strict"
-[4]: http://an.erki.net/pub/repo/ttf-agave_7-1_all.deb "get agave (deb)"
-[5]: http://an.erki.net/pub/repo/agave-7.ebuild "get agave (ebuild)"
-[6]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
-[7]: http://an.erki.net/pub/repo/agave-fonts-7-1.noarch.rpm "get agave (rpm)"
+[3]: /agaric/agave/downloads/agave-008-just.tar.gz "get agave, small gap version"
+[4]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
 
 ----
 
@@ -18,7 +15,7 @@
 
 *agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net/~b/type)*, that is primarily aimed at freetype/X environments.
 
-Free to use and peruse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/agave/license).
+Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/agave/license).
 
 For more details, visit the [designer's page](http://an.erki.net/~b/agave/).
 
@@ -47,14 +44,11 @@ On the [downloads page](/agaric/agave/downloads) you will find:
 
 **(unofficial) packages:**
 
-*note:* the following packages install the "agave-*REV*.tar.gz" version of the font, not the "-just" version.
+*note:* the following package(s) install the "agave-*REV*.tar.gz" version of the font rather than the "-just" version.
 
-*warning:* some of the following might be out of date.
+* pacman: [ttf-agave][4] (AUR)
 
-* deb: [ttf-agave][4]
-* ebuild: [media-fonts/agave][5]
-* pacman: [ttf-agave][6] (AUR)
-* rpm: [agave-fonts][7]
+**distribution files:**
 
 In each form of distribution, the actual font files are named `agave-?.ttf`,  
 where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
@@ -70,7 +64,7 @@ Feedback, questions, suggestions, etc. are welcome and encouraged.
 When applicable, please use the bitbucket [issues page](/agaric/agave/issues) so that everyone can better track *agave*'s progress.
 
 You could also [contact](http://an.erki.net/~b/info) *type agaric* by email,  
-or join the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
+or visit the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
 
 ## thanks
 
