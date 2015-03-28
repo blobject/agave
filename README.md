@@ -13,11 +13,11 @@
 
 ## about
 
-*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net/~b/type)*, that is primarily aimed at freetype/X environments.
+*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net:88/~b/type)*, that is primarily aimed at freetype/X environments.
 
-Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/agave/license).
+Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net:88/~b/agave/license).
 
-For more details, visit the [designer's page](http://an.erki.net/~b/agave/).
+For more details, visit the [designer's page](http://an.erki.net:88/~b/agave/).
 
 ## status (rev. 008)
 
@@ -63,7 +63,7 @@ Feedback, questions, suggestions, etc. are welcome and encouraged.
 
 When applicable, please use the bitbucket [issues page](/agaric/agave/issues) so that everyone can better track *agave*'s progress.
 
-You could also [contact](http://an.erki.net/~b/info) *type agaric* by email,  
+You could also [contact](http://an.erki.net:88/~b/info) *type agaric* by email,  
 or visit the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
 
 ## thanks
