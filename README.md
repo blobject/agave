@@ -1,8 +1,8 @@
 # agave
 
-[1]: /agaric/agave/downloads/agave-008-src.tar.gz "get agave with source"
-[2]: /agaric/agave/downloads/agave-008a.tar.gz "get agave"
-[3]: /agaric/agave/downloads/agave-008-just.tar.gz "get agave, small gap version"
+[1]: http://bitbucket.org/agaric/agave/downloads/agave-008-src.tar.gz "get agave with source"
+[2]: http://bitbucket.org/agaric/agave/downloads/agave-008a.tar.gz "get agave"
+[3]: http://bitbucket.org/agaric/agave/downloads/agave-008-just.tar.gz "get agave, small gap version"
 [4]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
 
 ----
@@ -13,11 +13,13 @@
 
 ## about
 
-*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net:88/~b/type)*, that is primarily aimed at freetype/X environments.
+*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net/~b/type)*, that is primarily aimed at freetype/X environments.
 
-Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net:88/~b/agave/license).
+Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/agave/license).
 
-For more details, visit the [designer's page](http://an.erki.net:88/~b/agave/).
+For more details, visit the [designer's page](http://an.erki.net/~b/agave/).
+
+**notice:** an.erki.net, *type agaric's* website, is down at the moment.
 
 ## status (rev. 008)
 
@@ -33,14 +35,14 @@ For more details, visit the [designer's page](http://an.erki.net:88/~b/agave/).
 
 ## distribution
 
-On the [downloads page](/agaric/agave/downloads) you will find:
+On the bitbucket [downloads page](http://bitbucket.org/agaric/agave/downloads) you will find:
 
 * [agave-*REV*-src.tar.gz][1]
     * contains font files, glyphs source, FontForge file, changelog, and license document
 * [agave-*REV*.tar.gz][2]
     * contains only the font files
 * [agave-*REV*-just.tar.gz][3]
-    * same as preceding but the font has smaller line height; intended for users who prefer vertical space efficiency over the ability to see highly positioned accents (cf. [issue #3](/agaric/agave/issue/3/006-big-line-height)).
+    * same as preceding but the font has smaller line height; intended for users who prefer vertical space efficiency over the ability to see highly positioned accents (cf. [bitbucket issue #3](https://bitbucket.org/agaric/agave/issue/3/006-big-line-height)).
 
 **(unofficial) packages:**
 
@@ -61,13 +63,13 @@ At every revision, the original font files are backed up, but the "-src" and "-j
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
-When applicable, please use the bitbucket [issues page](/agaric/agave/issues) so that everyone can better track *agave*'s progress.
+When applicable, please use the [issues page](https://github.com/agarick/agave/issues) so that everyone can better track *agave*'s progress.
 
-You could also [contact](http://an.erki.net:88/~b/info) *type agaric* by email,  
+You could also [contact](http://an.erki.net/~b/info) *type agaric* by email,  
 or visit the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
 
 ## thanks
 
 ... to the people behind FontForge and Inkscape, as I relied on the two programs to design, draw, and generate *agave*,
 
-and to Bitbucket for hosting the files.
+and to GitHub & Bitbucket for hosting the files.
