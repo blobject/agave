@@ -1,25 +1,31 @@
 # agave
 
-[1]: http://bitbucket.org/agaric/agave/downloads/agave-008-src.tar.gz "get agave with source"
-[2]: http://bitbucket.org/agaric/agave/downloads/agave-008a.tar.gz "get agave"
-[3]: http://bitbucket.org/agaric/agave/downloads/agave-008-just.tar.gz "get agave, small gap version"
-[4]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
+[mail]: mailto:agaric@protonmail.com
+[home]: https://baikal.io/agaric/agave
+[userhome]: https://baikal.io/agaric
+[aur]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
+[arch]: https://bbs.archlinux.org/viewtopic.php?id=160106
 
 ----
 
-**notice:** Progress in designing *agave* has somewhat slowed for the moment. The designer will get back to it whole-heartedly when favorable conditions arise.
+**notice:**
+
+Due to work-related reasons, I have decided to close off *agave's* license. It's totally not ideal, but I'm afraid it can't be helped. Please visit the font's new homepage at [baikal.io/agaric/agave][home].
+
+After switching to a closed license, I want to express my sincere apologies to those who tried out, want to try, or are currently using *agave*. Please do use and share *agave* in its current state, but if you want updates or direct support, I urge you to visit its new landing at [baikal][home], where my support and updates are available.
+
+(05 Feb 2016)
 
 ----
 
 ## about
 
-*agave* is a fixed-width outline font, designed by *[type agaric](http://an.erki.net/~b/type)*, that is primarily aimed at freetype/X environments.
+*agave* is a fixed-width outline font, designed by *[type agaric][userhome]*, that is primarily aimed at freetype/X environments.
 
-Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT X license](http://an.erki.net/~b/agave/license).
+~~Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the MIT X license.~~
+(Please see the notice above.)
 
-For more details, visit the [designer's page](http://an.erki.net/~b/agave/).
-
-**notice:** an.erki.net, *type agaric's* website, is down at the moment.
+For more details, visit the [font's homepage][home].
 
 ## status (rev. 008)
 
@@ -35,41 +41,22 @@ For more details, visit the [designer's page](http://an.erki.net/~b/agave/).
 
 ## distribution
 
-On the bitbucket [downloads page](http://bitbucket.org/agaric/agave/downloads) you will find:
+~~Cloning this repository will download the tarball distributions.~~
+(All distribution will be done at [baikal][home].)
 
-* [agave-*REV*-src.tar.gz][1]
-    * contains font files, glyphs source, FontForge file, changelog, and license document
-* [agave-*REV*.tar.gz][2]
-    * contains only the font files
-* [agave-*REV*-just.tar.gz][3]
-    * same as preceding but the font has smaller line height; intended for users who prefer vertical space efficiency over the ability to see highly positioned accents (cf. [bitbucket issue #3](https://bitbucket.org/agaric/agave/issue/3/006-big-line-height)).
-
-**(unofficial) packages:**
-
-*note:* the following package(s) install the "agave-*REV*.tar.gz" version of the font rather than the "-just" version.
-
-* pacman: [ttf-agave][4] (AUR)
-
-**distribution files:**
+**files:**
 
 In each form of distribution, the actual font files are named `agave-?.ttf`,  
 where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
-
-**archiving:**
-
-At every revision, the original font files are backed up, but the "-src" and "-just" are not. Only the latest revision of the latter files are uploaded on Bitbucket.
 
 ## discussion
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
-When applicable, please use the [issues page](https://github.com/agarick/agave/issues) so that everyone can better track *agave*'s progress.
-
-You could also [contact](http://an.erki.net/~b/info) *type agaric* by email,  
-or visit the [thread](https://bbs.archlinux.org/viewtopic.php?id=160106) on ArchLinux forums.
+Please [contact *type agaric*][mail] by email.
 
 ## thanks
 
-... to the people behind FontForge and Inkscape, as I relied on the two programs to design, draw, and generate *agave*,
+... foremost to the people behind FontForge and Inkscape, as I relied on the two programs to design, draw, and generate *agave*,
 
-and to GitHub & Bitbucket for hosting the files.
+and to GitHub for hosting this repo.

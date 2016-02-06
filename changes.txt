@@ -6,6 +6,10 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+05 Feb 2016
+- [*] baikal upload
+- [*] switched to closed license
+
 009 (ongoing)
 - [*] now provide a version without line gap (ie. one that ignores
       vertical outliers, ie. accents): *-just.tar.gz
