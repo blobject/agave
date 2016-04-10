@@ -1,6 +1,5 @@
 # agave
 
-[mail]: mailto:agaric@protonmail.com
 [home]: https://baikal.io/agaric/agave
 [userhome]: https://baikal.io/agaric
 [aur]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
@@ -49,11 +48,29 @@ For more details, visit the [font's homepage][home].
 In each form of distribution, the actual font files are named `agave-?.ttf`,  
 where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
 
+## preview
+
+**xterm**, sampling `uname` and `lua`:
+
+![xterm](https://raw.githubusercontent.com/agarick/agave/master/preview-xterm.png)
+
+**glyph distinction**, in ASCII:
+
+![ascii](https://raw.githubusercontent.com/agarick/agave/master/preview-ascii.png)
+
+**geometric rationale**, sampling the Latin letter "b":
+
+![metric](https://raw.githubusercontent.com/agarick/agave/master/preview-metric.png)
+
+**literary text**, sampling ASCII, Greek, and Cyrillic:
+
+![text](https://raw.githubusercontent.com/agarick/agave/master/preview-text.png)
+
 ## discussion
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
-Please [contact *type agaric*][mail] by email.
+Please contact *type agaric* via email at `agaric@protonmail.com`.
 
 ## thanks
 
