@@ -1,3 +1,5 @@
+[![Baikal](https://baikal.io/badges/agaric/agave)](https://baikal.io/agaric/agave)
+
 # agave
 
 [home]: https://baikal.io/agaric/agave
@@ -11,7 +13,7 @@
 
 Due to work-related reasons, I have decided to close off *agave's* license. It's totally not ideal, but I'm afraid it can't be helped. Please visit the font's new homepage at [baikal.io/agaric/agave][home].
 
-After switching to a closed license, I want to express my sincere apologies to those who tried out, want to try, or are currently using *agave*. Please do use and share *agave* in its current state, but if you want updates or direct support, I urge you to visit its new landing at [baikal][home], where my support and updates are available.
+After switching to a closed license, I want to apologise to those who tried out, want to try, or are currently using *agave*. Please do use and share the font in its current state, but if you want updates or direct support, I urge you to visit its new landing at [baikal][home], where my support and updates are available.
 
 (05 Feb 2016)
 
@@ -41,7 +43,10 @@ For more details, visit the [font's homepage][home].
 ## distribution
 
 ~~Cloning this repository will download the tarball distributions.~~
+
 (All distribution will be done at [baikal][home].)
+
+[![agaric/agave at Baikal](https://s3-us-west-2.amazonaws.com/nerpa-static/brand/baikal-banner.svg)](https://baikal.io/agaric/agave)
 
 **files:**
 
