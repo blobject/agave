@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="1024"
+   height="2048"
+   id="svg3355">
+  <defs
+     id="defs3357" />
+  <metadata
+     id="metadata3360">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 694,512 0,839 c 0,0 -82.00269,44 -214,44 -131.99731,0 -214,-55.9984 -214,-225 l -170,0 c 0,286.9995 147.00097,382 384,382 87.58979,0 162.87311,-14.0895 223,-32 29.60632,207.1762 130.832,280 280,280 42.9974,0 73,-16 73,-16 l 0,-149 -73,0 c -74.0032,0 -119,-64.0032 -119,-256 l 0,-867 z"
+     id="path3157-2-7-7-2-8-2-1"
+     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+</svg>

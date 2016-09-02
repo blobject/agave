@@ -6,6 +6,9 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+02 Sep 2016
+- [*] reopen license
+
 05 Feb 2016
 - [*] baikal upload
 - [*] switched to closed license
