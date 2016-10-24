@@ -1,5 +1,3 @@
-[![Baikal](https://baikal.io/badges/agaric/agave)](https://baikal.io/agaric/agave)
-
 # agave
 
 [aur]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
