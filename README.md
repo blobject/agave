@@ -1,6 +1,6 @@
 # agave
 
-[aur]: https://aur.archlinux.org/packages/ttf-agave/ "agave @ AUR"
+[about]: https://alocy.be/page/agave
 [arch]: https://bbs.archlinux.org/viewtopic.php?id=160106
 [license]: https://raw.githubusercontent.com/agarick/agave/master/license.txt
 
@@ -9,6 +9,8 @@
 **agave** is a fixed-width outline font, designed by **type agaric**, that is primarily aimed at freetype/X environments.
 
 Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT license][license].
+
+**more info:** [alocy.be/page/agave][about]
 
 ### status (rev. 008)
 
@@ -62,3 +64,5 @@ Please contact *type agaric* via email at `agaric@protonmail.com`.
 ... foremost to the respective persons/teams behind FontForge and Inkscape, as I relied on the two programs to design, draw, and generate **agave**,
 
 and to GitHub for hosting this repo.
+
+Also, to all those who starred this project. Thank you. I'll get to extending and improving this font as soon as time and attention allows.
