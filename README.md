@@ -10,9 +10,11 @@
 
 Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT license][license].
 
-**more info:** [alocy.be/page/agave][about]
+**more about:** [alocy.be/page/agave][about]
 
 ### status (rev. 008)
+
+*Development of **agave** has halted, though small refinements and additions may occur in the future.*
 
 * regular:
     * **done:** ascii; latin ext; greek; cyrillic; ipa; arrows; box; *some others*
@@ -30,7 +32,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 Source templates, designs, and databases can be found in `src/`.
 
-**files:**
+**font files:**
 
 In each form of packaged distribution, the actual font files are named `agave-?.ttf`,  
 where `?` stands for `r`, `b`, `i`, or `z`, representing the *regular*, *bold*, *italic*, and *bold+italic* variants respectively.
@@ -63,6 +65,4 @@ Please contact *type agaric* via email at `agaric@protonmail.com`.
 
 ... foremost to the respective persons/teams behind FontForge and Inkscape, as I relied on the two programs to design, draw, and generate **agave**,
 
-and to GitHub for hosting this repo.
-
-Also, to all those who starred this project. Thank you. I'll get to extending and improving this font as soon as time and attention allows.
+to GitHub for hosting this repo, and to everyone who starred this project.
