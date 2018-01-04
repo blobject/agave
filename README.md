@@ -6,7 +6,7 @@
 
 ### about
 
-**agave** is a fixed-width outline font, designed by **type agaric**, that is primarily aimed at freetype/X environments.
+**agave** is a fixed-width outline typeface, designed by **type agaric**, that is primarily aimed at freetype/X environments.
 
 Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT license][license].
 
