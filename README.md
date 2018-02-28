@@ -1,6 +1,6 @@
 # agave
 
-[about]: https://alocy.be/page/agave
+[about]: https://agaric.net/page/agave
 [arch]: https://bbs.archlinux.org/viewtopic.php?id=160106
 [license]: https://raw.githubusercontent.com/agarick/agave/master/license.txt
 
@@ -10,7 +10,7 @@
 
 Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [MIT license][license].
 
-**more about:** [alocy.be/page/agave][about]
+**more about:** [agaric.net/page/agave][about]
 
 ### status (rev. 008)
 
