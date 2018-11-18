@@ -53,6 +53,12 @@ where =?= stands for =r=, =b=, =i=, or =z=, representing the =regular=, =bold=, 
 
 [[https://raw.githubusercontent.com/agarick/agave/master/sample/text.png]]
 
+*** naming
+
+- "agave" refers either to the green plant or to the daughter of Kadmos in mythology.
+- *type agaric* opted for a slightly eponymic name for their first typeface.
+- Agave is sister to [[https://github.com/agarick/autonoe][autonoe]] and [[https://github.com/agarick/ino][ino]].
+
 *** discussion
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
