@@ -3,41 +3,41 @@ FontName: agave
 FullName: agave
 FamilyName: agave
 Weight: Regular
-Copyright: Copyright 2013 type agaric
+Copyright: Copyright 2013-2019 type agaric
 Version: 009
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
+InvalidEm: 0
 sfntRevision: 0x00090000
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 439 1587787360 15607671]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1368797729
-ModificationTime: 1371254116
+ModificationTime: 1549546360
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 11 5 9 2 4 4 3 2 4
-OS2TypoAscent: 64
+OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: 64
+OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
 OS2WinDOffset: 1
-HheadAscent: 64
+HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
@@ -55,14 +55,14 @@ OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "type agaric: agave" "" "" "" "" "" "type agaric" "" "https://bitbucket.org/agaric/agave" "http://an.erki.net/+AH4A-b/type/" "MIT X" "http://an.erki.net/+AH4A-b/type/agave_license" 
+LangName: 1033 "" "" "" "type agaric: agave" "" "" "" "" "" "type agaric" "" "https://github.com/agarick/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/agarick/agave/blob/master/LICENSE"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 16
+WinInfo: 0 76 22
 BeginPrivate: 0
 EndPrivate
 TeXData: 2 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -335,6 +335,8 @@ Width: 1024
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: exclam
@@ -492,6 +494,7 @@ SplineSet
  685 0 l 1
  685 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -1219,6 +1222,7 @@ SplineSet
  669 141 766 266 766 640 c 0
  766 1014 669 1139 512 1139 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: P
@@ -1231,19 +1235,20 @@ Fore
 SplineSet
 160 1280 m 1
  604 1280 l 2
- 813.998 1280 944 1133 944 896 c 0
- 944 659.002 773.998 512 500 512 c 2
- 450 512 l 1
- 450 669 l 1
- 500 669 l 2
- 669.001 669 774 756.002 774 896 c 0
- 774 1036 709.002 1123 604 1123 c 2
- 330 1123 l 1
+ 813.998046875 1280 944 1132.99804688 944 896 c 0
+ 944 659.001953125 773.998046875 512 500 512 c 2
+ 330 512 l 1
  330 0 l 1
  160 0 l 1
  160 1280 l 1
+330 1123 m 5
+ 330 669 l 5
+ 500 669 l 6
+ 669.000976562 669 774 756.001953125 774 896 c 4
+ 774 1035.99804688 709.001953125 1123 604 1123 c 6
+ 330 1123 l 5
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: Q
@@ -1385,10 +1390,7 @@ SplineSet
  482 354 l 1
  512 177 l 1
  542 354 l 1
- 710 924 l 1
- 789 1152 l 1
- 661 1152 l 1
- 661 1280 l 1
+ 815 1280 l 1
  992 1280 l 1
  614 0 l 1
  410 0 l 1
@@ -2576,6 +2578,8 @@ Width: 1024
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: cent
@@ -4152,6 +4156,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 172 900 N 1 0 0 1 -512 0 2
+Validated: 1
 EndChar
 
 StartChar: Upsilontonos
@@ -5265,6 +5270,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Rho
@@ -6296,6 +6302,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: afii10034
@@ -12236,6 +12243,7 @@ LayerCount: 2
 Fore
 Refer: 286 1054 N 1 0 0 1 0 0 2
 Refer: 128 776 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni04E7
@@ -12744,6 +12752,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 442 768 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: Ugrave
@@ -12887,6 +12896,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 443 769 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: Uacute
@@ -13150,6 +13160,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 445 770 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: Ucircumflex
@@ -13449,6 +13460,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 128 776 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: Udieresis
@@ -13544,6 +13556,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 446 771 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: ntilde
@@ -13807,6 +13820,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 130 772 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: omacron
@@ -13950,6 +13964,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 447 774 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: obreve
@@ -14476,6 +14491,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 450 779 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: ohungarumlaut
@@ -18912,6 +18928,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 451 780 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni01D2
@@ -19207,6 +19224,7 @@ Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 457 808 N 1 0 0 1 -226 0 2
 Refer: 130 772 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni01ED
@@ -19553,6 +19571,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 487 783 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni020D
@@ -19696,6 +19715,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 452 785 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni020F
@@ -19841,6 +19861,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 457 808 N 1 0 0 1 -226 0 2
+Validated: 1
 EndChar
 
 StartChar: uni01EB
@@ -19888,6 +19909,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 448 775 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni022F
@@ -23666,6 +23688,7 @@ Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 445 770 N 1 0 0 1 0 256 2
 Refer: 443 769 N 1 0 0 1 288 384 2
+Validated: 5
 EndChar
 
 StartChar: uni1ED1
@@ -23893,6 +23916,7 @@ Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 445 770 N 1 0 0 1 0 256 2
 Refer: 442 768 N 1 0 0 1 -288 384 2
+Validated: 5
 EndChar
 
 StartChar: uni1ED3
@@ -24603,6 +24627,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 444 777 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1ECF
@@ -24723,6 +24748,7 @@ Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 445 770 N 1 0 0 1 0 256 2
 Refer: 444 777 N 1 0 0 1 320 384 2
+Validated: 1
 EndChar
 
 StartChar: uni1ED5
@@ -24886,6 +24912,7 @@ Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 461 803 N 1 0 0 1 0 0 2
 Refer: 445 770 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1ED9
@@ -25354,6 +25381,7 @@ LayerCount: 2
 Fore
 Refer: 45 79 N 1 0 0 1 0 0 2
 Refer: 461 803 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni1ECD
@@ -26636,6 +26664,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1361 8127 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1F50
@@ -26856,6 +26885,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1362 8190 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1F51
@@ -27101,6 +27131,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1372 8141 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1F52
@@ -27321,6 +27352,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1369 8157 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1F53
@@ -27553,6 +27585,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1373 8142 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1F54
@@ -27773,6 +27806,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1370 8158 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1F55
@@ -28105,6 +28139,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1364 8175 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1FFA
@@ -28335,6 +28370,7 @@ LayerCount: 2
 Fore
 Refer: 232 927 N 1 0 0 1 0 0 2
 Refer: 1363 8189 N 1 0 0 1 0 256 2
+Validated: 1
 EndChar
 
 StartChar: uni1FFB

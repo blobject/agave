@@ -6,7 +6,9 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
-009 (ongoing)
+009
+- [*] 07 Feb 2019: no longer provide version without line gap (*-just)
+- [imp] u0050,u0056 ("PV") remove decorations
 - [*] 02 Sep 2016: re-opened license
 - [*] 05 Feb 2016: baikal upload, closed license
 - [*] now provide a version without line gap (ie. one that ignores

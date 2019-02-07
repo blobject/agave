@@ -7,10 +7,34 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="1024"
    height="2048"
-   id="svg3355">
+   id="svg3355"
+   sodipodi:docname="_P.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1912"
+     inkscape:window-height="1052"
+     id="namedview5245"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="512"
+     inkscape:cy="1197.5593"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3355" />
   <defs
      id="defs3357" />
   <metadata
@@ -21,12 +45,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <path
-     d="m 160,256 0,1280 170,0 0,-1123 274,0 c 105.0016,0 170,87.00215 170,227 0,139.99785 -104.9992,227 -274,227 l -50,0 0,157 50,0 C 773.9979,1024 944,876.9982 944,640 944,403.00176 813.9984,256 604,256 z"
-     id="path3157-2-7-7-2-8-2-3-1-1-3-33-4-3-6-5"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     d="M 160 256 L 160 1536 L 330 1536 L 330 1024 L 500 1024 C 773.9979 1024 944 876.9982 944 640 C 944 403.00176 813.9984 256 604 256 L 160 256 z M 330 413 L 604 413 C 709.0016 413 774 500.00215 774 640 C 774 779.99785 669.0008 867 500 867 L 330 867 L 330 413 z "
+     id="path3157-2-7-7-2-8-2-3-1-1-3-33-4-3-6-5" />
 </svg>

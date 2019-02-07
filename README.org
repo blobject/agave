@@ -8,7 +8,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
-*** status (rev. 008)
+*** status (rev. 009)
 
 /Development of agave has halted, though small refinements and additions may occur in the future./
 
@@ -26,14 +26,13 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *** distribution
 
-=ttf= files are packaged in =dist/agave-<ver>.tar.gz=.
+=ttf= files are placed in =dist/=.
 
 Source templates, designs, and databases can be found in =src/=.
 
 *font files:*
 
-In each form of packaged distribution, the actual font files are named =agave-?.ttf=,  
-where =?= stands for =r=, =b=, =i=, or =z=, representing the =regular=, =bold=, =italic=, and =bold+italic= variants respectively.
+In each form of packaged distribution, the actual font files are named =agave-?.ttf=, where =?= stands for =r=, =b=, =i=, or =z=, representing the =regular=, =bold=, =italic=, and =bold+italic= variants respectively. Only the =r= variant exists as of yet.
 
 *** preview
 
@@ -41,7 +40,7 @@ where =?= stands for =r=, =b=, =i=, or =z=, representing the =regular=, =bold=, 
 
 [[https://raw.githubusercontent.com/agarick/agave/master/sample/xterm.png]]
 
-*glyph distinction*, in ASCII:
+*glyph distinction*, in ASCII: /(slightly outdated)/
 
 [[https://raw.githubusercontent.com/agarick/agave/master/sample/ascii.png]]
 
@@ -49,7 +48,7 @@ where =?= stands for =r=, =b=, =i=, or =z=, representing the =regular=, =bold=, 
 
 [[https://raw.githubusercontent.com/agarick/agave/master/sample/metric.png]]
 
-*literary text*, sampling ASCII, Greek, and Cyrillic:
+*literary text*, sampling ASCII, Greek, and Cyrillic: /(slightly outdated)/
 
 [[https://raw.githubusercontent.com/agarick/agave/master/sample/text.png]]
 
