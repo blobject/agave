@@ -4,14 +4,14 @@ FullName: agave
 FamilyName: agave
 Weight: Regular
 Copyright: Copyright 2013-2019 type agaric
-Version: 009
+Version: 010a
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00090000
+sfntRevision: 0x000a0000
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1368797729
-ModificationTime: 1549546360
+ModificationTime: 1552253464
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -62,11 +62,11 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 76 22
+WinInfo: 57000 76 22
 BeginPrivate: 0
 EndPrivate
 TeXData: 2 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65543 1956
+BeginChars: 65543 1963
 
 StartChar: zero
 Encoding: 48 48 0
@@ -1248,7 +1248,7 @@ SplineSet
  774 1035.99804688 709.001953125 1123 604 1123 c 6
  330 1123 l 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -37561,6 +37561,174 @@ LayerCount: 2
 Fore
 Refer: 1954 884 N -1 0 0 -1 1024 1043 2
 Validated: 1
+EndChar
+
+StartChar: uniE0A1
+Encoding: 57505 57505 1956
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+256 1344 m 1
+ 402 1344 l 1
+ 402 712 l 1
+ 768 712 l 1
+ 768 576 l 1
+ 256 576 l 1
+ 256 1344 l 1
+256 448 m 1
+ 402 448 l 1
+ 678 -174 l 1
+ 622 155 l 1
+ 622 448 l 1
+ 768 448 l 1
+ 768 -320 l 1
+ 622 -320 l 1
+ 346 302 l 1
+ 402 -27 l 1
+ 402 -320 l 1
+ 256 -320 l 1
+ 256 448 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniE0B0
+Encoding: 57520 57520 1957
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1792 m 1
+ 1024 640 l 1
+ 0 -512 l 1
+ 0 1792 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE0B2
+Encoding: 57522 57522 1958
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+1024 1792 m 1
+ 1024 -512 l 1
+ 0 640 l 1
+ 1024 1792 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE0B1
+Encoding: 57521 57521 1959
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1792 m 1
+ 1024 640 l 1
+ 0 -512 l 1
+ -256 -512 l 1
+ 768 640 l 1
+ -256 1792 l 1
+ 0 1792 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE0B3
+Encoding: 57523 57523 1960
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+1024 1792 m 1
+ 1280 1792 l 1
+ 256 640 l 1
+ 1280 -512 l 1
+ 1024 -512 l 1
+ 0 640 l 1
+ 1024 1792 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE0A0
+Encoding: 57504 57504 1961
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+807 441.580078125 m 1
+ 362 -3.419921875 l 1
+ 362 -512 l 1
+ 192 -512 l 1
+ 192 67 l 1
+ 637 512 l 1
+ 637 896 l 1
+ 484 896 l 1
+ 722 1308.23046875 l 1
+ 960 896 l 1
+ 807 896 l 1
+ 807 441.580078125 l 1
+192 1536 m 1
+ 362 1536 l 1
+ 362 512 l 1
+ 192 342 l 1
+ 192 1536 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniE0A2
+Encoding: 57506 57506 1962
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+512 1280 m 0
+ 653.37890625 1280 768 1165.38378906 768 1024 c 2
+ 768 768 l 1
+ 832 768 l 1
+ 896 704 l 1
+ 896 -192 l 1
+ 832 -256 l 1
+ 192 -256 l 1
+ 128 -192 l 1
+ 128 704 l 1
+ 192 768 l 1
+ 256 768 l 1
+ 256 1024 l 2
+ 256 1165.37792969 370.62109375 1280 512 1280 c 0
+512 1152 m 0
+ 441.313476562 1152 384 1094.68554688 384 1024 c 2
+ 384 768 l 1
+ 640 768 l 1
+ 640 1024 l 2
+ 640 1094.69433594 582.686523438 1152 512 1152 c 0
+512 512 m 0
+ 423.634765625 512 352 440.365234375 352 352 c 0
+ 352.036132812 288.4140625 389.72265625 230.883789062 448 205.44921875 c 1
+ 416 0 l 1
+ 480 -64 l 1
+ 544 -64 l 1
+ 608 0 l 1
+ 576 205.568359375 l 1
+ 634.23828125 230.985351562 671.916015625 288.45703125 672 352 c 0
+ 672 440.365234375 600.365234375 512 512 512 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

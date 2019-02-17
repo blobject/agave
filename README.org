@@ -8,14 +8,14 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
-*** status (rev. 009)
+*** status (rev. 010 beta)
 
 /Development of agave has halted, though small refinements and additions may occur in the future./
 
 /(Check out [[https://github.com/agarick/ino][ino]] for my current typogenic interests.)/
 
 - regular:
-  - *done:* ascii; latin ext; greek; cyrillic; ipa; arrows; box; *some others*
+  - *done:* ascii; latin ext; greek; cyrillic; ipa; arrows; box; powerline; *some others*
   - *todo:* more glyphs here and there
 
 - bold:
@@ -62,7 +62,7 @@ In each form of packaged distribution, the actual font files are named =agave-?.
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
-Please contact *type agaric* via email at =agaric@protonmail.com=.
+Feel free to use the [[https://github.com/agarick/agave/issues][issue tracker]] or contact *type agaric* via email at =agaric@protonmail.com=.
 
 *** thanks
 

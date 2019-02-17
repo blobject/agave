@@ -6,6 +6,9 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+010 (ongoing)
+- [add] ue0a0-ue0a2,ue0b0-ue0b3 (powerline)
+
 009
 - [*] 07 Feb 2019: no longer provide version without line gap (*-just)
 - [imp] u0050,u0056 ("PV") remove decorations
