@@ -7,10 +7,34 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="1024"
    height="2048"
-   id="svg3355">
+   id="svg3355"
+   sodipodi:docname="_Q.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1912"
+     inkscape:window-height="1052"
+     id="namedview877"
+     showgrid="false"
+     inkscape:zoom="0.42236328"
+     inkscape:cx="512"
+     inkscape:cy="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3355" />
   <defs
      id="defs3357" />
   <metadata
@@ -21,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -29,7 +53,9 @@
      transform="matrix(-0.85882353,0,0,-1,978.53437,808.70946)"
      id="layer1-4" />
   <path
-     d="m 512,239.99997 c -348.00336,0 -464,156.0011 -464,599 0,404.76323 96.8354,566.57983 379,591.50003 l 0,262.5 170,0 0,-262.5 c 282.1646,-24.9197 378.99997,-186.7335 378.99997,-591.50003 0,-443.00259 -115.99661,-599 -463.99997,-599 z m 0,157 c 221.00169,0 294,109.99733 294,442 0,297.59893 -58.67289,410.38193 -230,430.56253 l 0,-430.56253 -128,0 0,430.53123 C 276.99196,1249.3337 219.59423,1136.5665 218,838.99997 c -1.77871,-331.9999 72.99831,-442 294,-442 z"
+     d="M 512,240 C 163.99664,240 48,396.00107 48,838.99997 48,1243.7632 144.8354,1405.0798 427,1430 v 263 H 597 V 1430 C 879.1646,1405.0803 975.99997,1243.7665 975.99997,838.99997 975.99997,395.99738 860.00336,240 512,240 Z m 0,156.99997 c 221.00169,0 294,109.99733 294,442 C 806,1136.5989 747.32711,1249.8194 576,1270 V 838.99997 H 448 V 1270 C 276.99196,1249.8025 219.59423,1136.5665 218,838.99997 c -1.77871,-331.9999 72.99831,-442 294,-442 z"
      id="path3127-7-70"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ssccccssssccccss" />
 </svg>

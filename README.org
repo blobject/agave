@@ -10,10 +10,6 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *** status (rev. 010 beta)
 
-/Development of agave has halted, though small refinements and additions may occur in the future./
-
-/(Check out [[https://github.com/agarick/ino][ino]] for my current typogenic interests.)/
-
 - regular:
   - *done:* ascii; latin ext; greek; cyrillic; ipa; arrows; box; powerline; *some others*
   - *todo:* more glyphs here and there

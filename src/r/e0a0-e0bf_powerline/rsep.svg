@@ -27,7 +27,7 @@
      id="namedview1523"
      showgrid="false"
      inkscape:zoom="0.11523438"
-     inkscape:cx="-997.96608"
+     inkscape:cx="-2507.9322"
      inkscape:cy="1024"
      inkscape:window-x="0"
      inkscape:window-y="20"
@@ -50,7 +50,7 @@
   <path
      style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
      id="path3157-2-7-0-7"
-     d="M 1024,-256 V 2048 L 0,896 Z"
+     d="M 1088,-256 V 2048 L -64,896 Z"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
 </svg>
