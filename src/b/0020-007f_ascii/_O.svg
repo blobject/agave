@@ -13,7 +13,7 @@
    width="1024"
    height="2048"
    id="svg3355"
-   sodipodi:docname="_o.svg"
+   sodipodi:docname="_O.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -26,7 +26,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1912"
      inkscape:window-height="1052"
-     id="namedview877"
+     id="namedview956"
      showgrid="false"
      inkscape:zoom="0.42236328"
      inkscape:cx="512"
@@ -34,8 +34,7 @@
      inkscape:window-x="0"
      inkscape:window-y="20"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     showguides="true" />
+     inkscape:current-layer="svg3355" />
   <defs
      id="defs3357" />
   <metadata
@@ -46,18 +45,14 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     transform="translate(0,995.63782)"
-     id="layer1">
-    <path
-       d="m 80,28.36218 c 0,395.9954 164.99629,528 432,528 267.00371,0 432,-131.9992 432,-528 0,-396.0008 -165.00403,-528.002 -432,-528.002 -266.99597,0 -432,132.00661 -432,528.002 z m 432,-301 c 108.78635,0 176,74.92099 176,301 0,226.07901 -67.23108,300 -176,300 -108.76892,0 -176,-73.91572 -176,-300 0,-226.08428 67.21365,-301 176,-301 z"
-       id="path3127"
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="zzzzzzzzzz" />
-  </g>
+  <path
+     d="m 80,896 c 0,491.9983 164.99607,656 432,656 267.00393,0 432.00002,-164.0019 432.00002,-656 C 944.00002,404.0019 779.00151,240 512,240 244.99849,240 80,404.0017 80,896 Z M 512,467 c 109.00357,0 176,106.99752 176,429 0,322.0025 -67.00143,429 -176,429 -108.99857,0 -176,-107.0028 -176,-429 0,-321.99719 66.99643,-429 176,-429 z"
+     id="path3127-7"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ssssszzzzz" />
 </svg>

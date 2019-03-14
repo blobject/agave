@@ -1,0 +1,172 @@
+SplineFontDB: 3.0
+FontName: agave-b
+FullName: agave bold
+FamilyName: agave
+Weight: Bold
+Copyright: Copyright 2013-2019 type agaric
+Version: 010a
+ItalicAngle: 0
+UnderlinePosition: -786.432
+UnderlineWidth: 262.144
+Ascent: 1536
+Descent: 512
+InvalidEm: 0
+sfntRevision: 0x000a0000
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 841 -1229886061 12932176]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1552578602
+ModificationTime: 1552580516
+PfmFamily: 49
+TTFWeight: 700
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 11 8 9 2 4 9 3 2 4
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2SubXSize: 2726
+OS2SubYSize: 2935
+OS2SubXOff: 0
+OS2SubYOff: 586
+OS2SupXSize: 2726
+OS2SupYSize: 2935
+OS2SupXOff: 0
+OS2SupYOff: 2013
+OS2StrikeYSize: 262
+OS2StrikeYPos: 1049
+OS2FamilyClass: 2057
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "type agaric: agave bold" "" "" "" "" "" "type agaric" "" "https://github.com/agarick/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/agarick/agave/blob/master/LICENSE"
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: Adobe Glyph List
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 38 14
+BeginPrivate: 0
+EndPrivate
+TeXData: 1 0 0 1073742 536871 357913 1342177 -2147484 357913 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+BeginChars: 65536 6
+
+StartChar: o
+Encoding: 111 111 0
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+80 512 m 0
+ 80 907.995117188 245.00390625 1040.00195312 512 1040.00195312 c 0
+ 778.99609375 1040.00195312 944 908.000976562 944 512 c 0
+ 944 115.999023438 779.00390625 -16 512 -16 c 0
+ 244.99609375 -16 80 116.004882812 80 512 c 0
+512 813.444335938 m 0
+ 403.213867188 813.444335938 336 738.083984375 336 512 c 0
+ 336 285.916015625 403.231445312 211.555664062 512 211.555664062 c 0
+ 620.768554688 211.555664062 688 285.920898438 688 512 c 0
+ 688 738.079101562 620.786132812 813.444335938 512 813.444335938 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: O
+Encoding: 79 79 1
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+80 640 m 0
+ 80 1131.99804688 244.998046875 1296 512 1296 c 0
+ 779.001953125 1296 944 1131.99804688 944 640 c 0
+ 944 148.001953125 779.00390625 -16 512 -16 c 0
+ 244.99609375 -16 80 148.001953125 80 640 c 0
+512 1069 m 0
+ 402.99609375 1069 336 961.997070312 336 640 c 0
+ 336 318.002929688 403.000976562 211 512 211 c 0
+ 620.999023438 211 688 317.997070312 688 640 c 0
+ 688 962.002929688 621.00390625 1069 512 1069 c 0
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: space
+Encoding: 32 32 2
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: zero
+Encoding: 48 48 3
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+512 1296 m 0
+ 778.997070312 1296 944 1045.00390625 944 640 c 0
+ 944 234.99609375 779.004882812 -16 512 -16 c 0
+ 244.995117188 -16 80 235.001953125 80 640 c 0
+ 80 1044.99804688 245.002929688 1296 512 1296 c 0
+512 1069 m 0
+ 403.002929688 1069 336 905 336 640 c 0
+ 336 375.000976562 402.995117188 211 512 211 c 0
+ 621.004882812 211 668 375.020507812 668 640 c 0
+ 668 904.979492188 620.997070312 1069 512 1069 c 0
+427 768 m 1
+ 597 768 l 1
+ 597 512 l 1
+ 427 512 l 1
+ 427 768 l 1
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: asciitilde
+Encoding: 126 126 4
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 5
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+EndChars
+EndSplineFont

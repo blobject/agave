@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
-FontName: agave
-FullName: agave
+FontName: agave-r
+FullName: agave regular
 FamilyName: agave
 Weight: Regular
 Copyright: Copyright 2013-2019 type agaric
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1368797729
-ModificationTime: 1552573329
+ModificationTime: 1552579175
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,7 @@ OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "type agaric: agave" "" "" "" "" "" "type agaric" "" "https://github.com/agarick/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/agarick/agave/blob/master/LICENSE"
+LangName: 1033 "" "" "" "type agaric: agave regular" "" "" "" "" "" "type agaric" "" "https://github.com/agarick/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/agarick/agave/blob/master/LICENSE"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -65,7 +65,7 @@ FitToEm: 1
 WinInfo: 0 76 22
 BeginPrivate: 0
 EndPrivate
-TeXData: 2 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+TeXData: 1 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65543 1963
 
 StartChar: zero
@@ -1278,7 +1278,7 @@ SplineSet
  747.327148438 286.180664062 806 399.401367188 806 697 c 0
  806 1029.00292969 733.001953125 1139 512 1139 c 0
 EndSplineSet
-Validated: 8912929
+Validated: 33
 EndChar
 
 StartChar: R
@@ -37730,7 +37730,7 @@ SplineSet
  634.23828125 230.985351562 671.916015625 288.45703125 672 352 c 0
  672 440.365234375 600.365234375 512 512 512 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

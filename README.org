@@ -15,7 +15,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
   - *todo:* more glyphs here and there
 
 - bold:
-  - /yet to be designed/
+  - /in progress/
 
 - italic:
   - /yet to be designed/
