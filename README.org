@@ -2,7 +2,7 @@
 
 *** about
 
-*agave* is a fixed-width outline typeface, designed by [[https://b.agaric.net/about][type agaric]], that is primarily aimed at freetype/X environments.
+*agave* is a fixed-width outline typeface, designed by [[https://b.agaric.net/about][type agaric]].
 
 Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [[https://raw.githubusercontent.com/agarick/agave/master/LICENSE][MIT license]].
 
@@ -11,48 +11,47 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 *** status (rev. 010 beta)
 
 - regular:
-  - *done:* ascii; latin ext; greek; cyrillic; ipa; arrows; box; powerline; *some others*
+  - *done:* ascii; latin ext; greek; cyrillic; math; ipa; arrows; box; powerline; etc.
   - *todo:* more glyphs here and there
 
 - bold:
-  - /in progress/
+  - /in progress (agave-b.ttf not ready for regular use)/
 
 - italic:
   - /yet to be designed/
 
 *** distribution
 
-=ttf= files are placed in =dist/=.
+The =ttf= font files are placed in =dist/=.
+
+- Variants are named =agave-?.ttf=, where =?= stands for =r=, =b=, =i=, or =z=, representing =regular=, =bold=, =italic=, and =bold+italic= respectively.
+- Only the =r= variant is usable as of yet.
 
 Source templates, designs, and databases can be found in =src/=.
 
-*font files:*
-
-In each form of packaged distribution, the actual font files are named =agave-?.ttf=, where =?= stands for =r=, =b=, =i=, or =z=, representing the =regular=, =bold=, =italic=, and =bold+italic= variants respectively. Only the =r= variant exists as of yet.
-
 *** preview
 
-*xterm*, sampling =uname= and =lua=:
+*glyph distinction*, in ASCII:
 
-[[https://raw.githubusercontent.com/agarick/agave/master/sample/xterm.png]]
+[[https://raw.githubusercontent.com/agarick/agave/master/img/ascii.png]]
 
-*glyph distinction*, in ASCII: /(slightly outdated)/
+*geometric rationale*, sampling the regular Latin letter "b":
 
-[[https://raw.githubusercontent.com/agarick/agave/master/sample/ascii.png]]
+[[https://raw.githubusercontent.com/agarick/agave/master/img/metric.png]]
 
-*geometric rationale*, sampling the Latin letter "b":
+*terminal*:
 
-[[https://raw.githubusercontent.com/agarick/agave/master/sample/metric.png]]
+[[https://raw.githubusercontent.com/agarick/agave/master/img/term.png]]
 
-*literary text*, sampling ASCII, Greek, and Cyrillic: /(slightly outdated)/
+*literary text*, sampling ASCII, Greek, and Cyrillic:
 
-[[https://raw.githubusercontent.com/agarick/agave/master/sample/text.png]]
+[[https://raw.githubusercontent.com/agarick/agave/master/img/text.png]]
 
 *** naming
 
-- "agave" refers either to the green plant or to the daughter of Kadmos in mythology.
-- *type agaric* opted for a slightly eponymic name for their first typeface.
+- "Agave" refers either to the green plant or to the daughter of Kadmos in mythology.
 - Agave is sister to [[https://github.com/agarick/autonoe][autonoe]] and [[https://github.com/agarick/ino][ino]].
+- *type agaric* opted for a slightly eponymic name for their first typeface.
 
 *** discussion
 
