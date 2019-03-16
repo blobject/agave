@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1552578602
-ModificationTime: 1552580516
+ModificationTime: 1552755574
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -62,11 +62,11 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 14
+WinInfo: 38 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 1073742 536871 357913 1342177 -2147484 357913 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 6
+BeginChars: 65536 7
 
 StartChar: o
 Encoding: 111 111 0
@@ -87,7 +87,7 @@ SplineSet
  620.768554688 211.555664062 688 285.920898438 688 512 c 0
  688 738.079101562 620.786132812 813.444335938 512 813.444335938 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: O
@@ -109,7 +109,7 @@ SplineSet
  620.999023438 211 688 317.997070312 688 640 c 0
  688 962.002929688 621.00390625 1069 512 1069 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: space
@@ -146,7 +146,7 @@ SplineSet
  427 512 l 1
  427 768 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: asciitilde
@@ -167,6 +167,25 @@ Flags: HW
 LayerCount: 2
 Fore
 Validated: 1
+EndChar
+
+StartChar: one
+Encoding: 49 49 6
+Width: 1024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+512 1280 m 1
+ 768 1280 l 1
+ 768 0 l 1
+ 512 0 l 1
+ 512 959 l 1
+ 320 767 l 1
+ 160 928 l 1
+ 512 1280 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
