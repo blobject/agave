@@ -8,7 +8,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
-*** status (ver. 10)
+*** status (ver. 11)
 
 - regular:
   - *done:* ascii; latin ext; greek; cyrillic; math; ipa; arrows; box; powerline; etc.
@@ -22,10 +22,9 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *** distribution
 
-The =ttf= font files are placed in =dist/=.
+The =Agave-*.ttf= font files are placed in =dist/=.
 
-- Variants are named =agave-?.ttf=, where =?= stands for =r=, =b=, =i=, or =z=, representing =regular=, =bold=, =italic=, and =bold+italic= respectively.
-- Only the =r= variant is usable as of yet.
+- Only the =Regular= variant is usable as of yet.
 
 Source templates, designs, and databases can be found in =src/=.
 
