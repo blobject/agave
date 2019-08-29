@@ -1,6 +1,6 @@
 * agave
 
-*** about
+** about
 
 *agave* is a fixed-width outline typeface, designed by [[https://b.agaric.net/about][type agaric]].
 
@@ -8,15 +8,15 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
-*** use
+** use
 
 The font file(s) =Agave-*.ttf= reside in =dist/=.
 
-On Windows, right-click on each font file and select "Install font". On Linux, place each font file into a detected folder, like =~/.fonts=.
+On Windows, right-click on each font file and select "Install font". On Linux, place each font file into a proper folder, like =~/.fonts=.
 
 *NOTE:* Font naming and identification changed in version 11. Before installing a recent version of agave, *please remove any older versions of agave first*.
 
-*** status (ver. 11)
+** status (ver. 12)
 
 - regular:
   - *done:* ascii; latin ext; greek; cyrillic; math; ipa; arrows; box; powerline; etc.
@@ -28,7 +28,7 @@ On Windows, right-click on each font file and select "Install font". On Linux, p
 - italic:
   - /yet to be designed/
 
-*** preview
+** preview
 
 *glyph distinction*, in ASCII:
 
@@ -46,19 +46,19 @@ On Windows, right-click on each font file and select "Install font". On Linux, p
 
 [[https://raw.githubusercontent.com/agarick/agave/master/img/text.png]]
 
-*** naming
+** naming
 
 - "Agave" refers either to the green plant or to the daughter of Kadmos in mythology.
 - Agave is sister to [[https://github.com/agarick/autonoe][autonoe]] and [[https://github.com/agarick/ino][ino]].
 - *type agaric* opted for a slightly eponymic name for their first typeface.
 
-*** discussion
+** discussion
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
 Feel free to use the [[https://github.com/agarick/agave/issues][issue tracker]] or contact *type agaric* via email at =agaric@protonmail.com=.
 
-*** thanks
+** thanks
 
 ... foremost to the respective persons/teams behind FontForge and Inkscape, as I relied on the two programs to design, draw, and generate *agave*,
 
