@@ -8,6 +8,14 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
+*** use
+
+The font file(s) =Agave-*.ttf= reside in =dist/=.
+
+On Windows, right-click on each font file and select "Install font". On Linux, place each font file into a detected folder, like =~/.fonts=.
+
+*NOTE:* Font naming and identification changed in version 11. Before installing a recent version of agave, *please remove any older versions of agave first*.
+
 *** status (ver. 11)
 
 - regular:
@@ -19,14 +27,6 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 - italic:
   - /yet to be designed/
-
-*** distribution
-
-The =Agave-*.ttf= font files are placed in =dist/=.
-
-- Only the =Regular= variant is usable as of yet.
-
-Source templates, designs, and databases can be found in =src/=.
 
 *** preview
 
