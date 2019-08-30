@@ -8,14 +8,6 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
-** use
-
-The font file(s) =Agave-*.ttf= reside in =dist/=.
-
-On Windows, right-click on each font file and select "Install font". On Linux, place each font file into a proper folder, like =~/.fonts=.
-
-*NOTE:* Font naming and identification changed in version 11. Before installing a recent version of agave, *please remove any older versions of agave first*.
-
 ** status (ver. 12)
 
 - regular:
@@ -23,10 +15,27 @@ On Windows, right-click on each font file and select "Install font". On Linux, p
   - *todo:* more glyphs here and there
 
 - bold:
-  - /in progress (agave-b.ttf not ready for regular use)/
+  - /in progress (not ready for use)/
 
 - italic:
   - /yet to be designed/
+
+** use
+
+The =Agave-*.ttf= font file(s) can be found on the [[https://github.com/agarick/agave/releases][releases]] page or in the =dist/= [[https://github.com/agarick/agave/tree/master/dist][folder]] in the source.
+
+Install [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][per platform-specific procedures (howtogeek.com)]].
+
+*NOTE:* Font naming and identification changed in version 11. Before installing a recent version, *please remove any older versions of agave first*.
+
+** build
+
+(For example, with the regular variant)
+
+- open =src/r/agave-r-hint.sfd= in FontForge
+  - there is also =agave-r.sfd= that does not include autohinting
+  - the =.sfd= files are FontForge templates that have imported all the =.svg= glyphs under =src/r/=
+- click File --> Generate Fonts --> pick TrueType, No Bitmap Fonts, No Rename --> Generate
 
 ** preview
 
