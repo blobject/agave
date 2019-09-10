@@ -8,7 +8,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
-** status (ver. 13)
+** status (ver. 14)
 
 - regular:
   - *done:* ascii; latin ext; greek; cyrillic; math; ipa; arrows; box; powerline; etc.
