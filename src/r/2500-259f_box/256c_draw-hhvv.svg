@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="1024"
+   id="svg3355"
    height="2048"
-   id="svg3355">
+   width="1024"
+   version="1.1">
   <defs
      id="defs3357" />
   <metadata
@@ -26,10 +24,10 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(-0.85882353,0,0,-1,978.53437,808.70946)"
-     id="layer1-4" />
+     id="layer1-4"
+     transform="matrix(-0.85882353,0,0,-1,978.53437,808.70946)" />
   <path
-     d="m 293,0 0,805 -293,0 0,146 439,0 0,-951 -146,0 z m 292,0 0,951 439,0 0,-146 -293,0 L 731,0 585,0 z M 0,1097 l 0,146 293,0 0,805 146,0 0,-951 -439,0 z m 585,0 0,951 146,0 0,-805 293,0 0,-146 -439,0 z"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
      id="path6817"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     d="M 293,-256 V 677 H -64 V 823 H 439 V -256 Z m 292,0 V 823 h 503 V 677 H 731 V -256 Z M -64,969 v 146 h 357 v 933 H 439 V 969 Z m 649,0 v 1079 h 146 v -933 h 357 V 969 Z" />
 </svg>

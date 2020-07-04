@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="1024"
+   id="svg3355"
    height="2048"
-   id="svg3355">
+   width="1024"
+   version="1.1">
   <defs
      id="defs3357" />
   <metadata
@@ -26,13 +24,13 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0,-1.140625,1.328125,0,1561.9327,3641.616)"
-     id="layer1-4" />
+     id="layer1-4"
+     transform="matrix(0,-1.140625,1.328125,0,1561.9327,3641.616)" />
   <path
-     d="m 256,640 0,512 512,0 0,-512 z"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
      id="path6934"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     d="m 192,576 v 640 H 832 V 576 Z" />
   <g
-     transform="matrix(0,-0.85882353,1,0,1252.1328,2983.9838)"
-     id="layer1-4-9" />
+     id="layer1-4-9"
+     transform="matrix(0,-0.85882353,1,0,1252.1328,2983.9838)" />
 </svg>
