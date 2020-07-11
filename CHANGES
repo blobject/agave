@@ -6,7 +6,35 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
-010 (ongoing)
+16
+- [fix] box-drawing gaps
+- [fix] set os/2 ascent,descent,linegap,x-/em-height,sub,super metrics
+
+15
+- [prt] box-drawing gaps
+- [fix] box-drawing alignment
+- [add] u2501,u2503-u250b,u250d-u250f,u2511-u2513,u2515-u2517,u2519-u251b,u251d-u2523,u2525-u252b,u252d-u2533,u2535-u253b,u253d-u256c (box-drawing)
+
+14
+- [fix] brace alignment
+- [*] prepend unicode id to source files
+- [imp] glyph 65537 (Aduck) shape
+
+13
+- [*] use ttfautohint for hinting
+
+12
+- [*] use fontforge's autohint, autoinst for hinting
+
+11
+- [*] change file name from agave-r to Agave-Regular
+- [*] change style name to Regular and other metadata
+- [*] change cubic layers to quadratic layers
+
+10
+- [*] change version naming: remove the prepended 0's
+
+010
 - [imp] u0041,u00c6 ("AÆ") shape
 - [*] accommodate variants in src/
 - [add] ue0a0-ue0a2,ue0b0-ue0b3 (powerline)

@@ -10,11 +10,11 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- *version 15*
+- *version 16*
 
 - regular:
   - glyph count: 2029
-  - ascii; latin ext; greek; cyrillic; math; ipa; arrows; box drawing; powerline; etc.
+  - ascii; latin ext; greek; cyrillic; math; ipa; arrows; box-drawing; powerline; etc.
 
 - bold:
   - /in progress, not ready for use/
