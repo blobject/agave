@@ -6,19 +6,22 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+17
+- [fix] box-drawing gaps: overshoot more top and bottom (64)
+- [add] u256d-u257f (box-drawing)
+
 16
-- [fix] box-drawing gaps
-- [fix] set os/2 ascent,descent,linegap,x-/em-height,sub,super metrics
+- [fix] box-drawing gaps: set os/2 ascent,descent,linegap,x-/em-height,sub,super metrics
 
 15
-- [prt] box-drawing gaps
+- [fix] box-drawing gaps: overshoot top (256) and sides (64)
 - [fix] box-drawing alignment
 - [add] u2501,u2503-u250b,u250d-u250f,u2511-u2513,u2515-u2517,u2519-u251b,u251d-u2523,u2525-u252b,u252d-u2533,u2535-u253b,u253d-u256c (box-drawing)
 
 14
 - [fix] brace alignment
 - [*] prepend unicode id to source files
-- [imp] glyph 65537 (Aduck) shape
+- [imp] 65537 (Aduck) shape
 
 13
 - [*] use ttfautohint for hinting
