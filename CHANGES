@@ -6,6 +6,9 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+19
+- [*] use ttfautohint for hinting
+
 18
 - [fix] box-drawing alignment: do not hint
 - [*] do not use any hinting
