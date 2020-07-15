@@ -4,14 +4,14 @@ FullName: Agave Regular
 FamilyName: Agave
 Weight: Regular
 Copyright: Copyright 2013-2020 type agaric
-Version: 19
+Version: 20
 ItalicAngle: 0
 UnderlinePosition: -234
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00130000
+sfntRevision: 0x00140000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1368797729
-ModificationTime: 1594779358
+ModificationTime: 1594806100
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -37514,11 +37514,10 @@ Fore
 SplineSet
 -64 640 m 1,0,-1
  512 640 l 1,1,-1
- 512 64 l 1,2,-1
- -64 64 l 1,3,-1
+ 512 -640 l 1,2,-1
+ -64 -640 l 1,3,-1
  -64 640 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2597
@@ -37530,11 +37529,10 @@ Fore
 SplineSet
 512 640 m 1,0,-1
  1088 640 l 1,1,-1
- 1088 64 l 1,2,-1
- 512 64 l 1,3,-1
+ 1088 -640 l 1,2,-1
+ 512 -640 l 1,3,-1
  512 640 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2598
@@ -37544,13 +37542,12 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
--64 1216 m 1,0,-1
- 512 1216 l 1,1,-1
+-64 1920 m 1,0,-1
+ 512 1920 l 1,1,-1
  512 640 l 1,2,-1
  -64 640 l 1,3,-1
- -64 1216 l 1,0,-1
+ -64 1920 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2599
@@ -37560,15 +37557,14 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
--64 1216 m 1,0,-1
- 512 1216 l 1,1,-1
+-64 1920 m 1,0,-1
+ 512 1920 l 1,1,-1
  512 640 l 1,2,-1
  1088 640 l 1,3,-1
- 1088 64 l 1,4,-1
- -64 64 l 1,5,-1
- -64 1216 l 1,0,-1
+ 1088 -640 l 1,4,-1
+ -64 -640 l 1,5,-1
+ -64 1920 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni259A
@@ -37578,18 +37574,17 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
--64 1216 m 1,0,-1
- 512 1216 l 1,1,-1
+-64 1920 m 1,0,-1
+ 512 1920 l 1,1,-1
  512 640 l 1,2,-1
  -64 640 l 1,3,-1
- -64 1216 l 1,0,-1
+ -64 1920 l 1,0,-1
 512 640 m 1,4,-1
  1088 640 l 1,5,-1
- 1088 64 l 1,6,-1
- 512 64 l 1,7,-1
+ 1088 -640 l 1,6,-1
+ 512 -640 l 1,7,-1
  512 640 l 1,4,-1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: uni259B
@@ -37599,15 +37594,14 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
-1088 1216 m 1,0,-1
+1088 1920 m 1,0,-1
  1088 640 l 1,1,-1
  512 640 l 1,2,-1
- 512 64 l 1,3,-1
- -64 64 l 1,4,-1
- -64 1216 l 1,5,-1
- 1088 1216 l 1,0,-1
+ 512 -640 l 1,3,-1
+ -64 -640 l 1,4,-1
+ -64 1920 l 1,5,-1
+ 1088 1920 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni259C
@@ -37617,15 +37611,14 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
--64 1216 m 1,0,-1
- 1088 1216 l 1,1,-1
- 1088 64 l 1,2,-1
- 512 64 l 1,3,-1
+-64 1920 m 1,0,-1
+ 1088 1920 l 1,1,-1
+ 1088 -640 l 1,2,-1
+ 512 -640 l 1,3,-1
  512 640 l 1,4,-1
  -64 640 l 1,5,-1
- -64 1216 l 1,0,-1
+ -64 1920 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni259D
@@ -37635,13 +37628,12 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
-512 1216 m 1,0,-1
- 1088 1216 l 1,1,-1
+512 1920 m 1,0,-1
+ 1088 1920 l 1,1,-1
  1088 640 l 1,2,-1
  512 640 l 1,3,-1
- 512 1216 l 1,0,-1
+ 512 1920 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni259E
@@ -37651,18 +37643,17 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
-1088 1216 m 1,0,-1
+1088 1920 m 1,0,-1
  1088 640 l 1,1,-1
  512 640 l 1,2,-1
- 512 1216 l 1,3,-1
- 1088 1216 l 1,0,-1
+ 512 1920 l 1,3,-1
+ 1088 1920 l 1,0,-1
 512 640 m 1,4,-1
- 512 64 l 1,5,-1
- -64 64 l 1,6,-1
+ 512 -640 l 1,5,-1
+ -64 -640 l 1,6,-1
  -64 640 l 1,7,-1
  512 640 l 1,4,-1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: uni259F
@@ -37672,15 +37663,14 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
-1088 1216 m 1,0,-1
- 1088 64 l 1,1,-1
- -64 64 l 1,2,-1
+1088 1920 m 1,0,-1
+ 1088 -640 l 1,1,-1
+ -64 -640 l 1,2,-1
  -64 640 l 1,3,-1
  512 640 l 1,4,-1
- 512 1216 l 1,5,-1
- 1088 1216 l 1,0,-1
+ 512 1920 l 1,5,-1
+ 1088 1920 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: filledbox

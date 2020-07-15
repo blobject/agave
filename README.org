@@ -10,7 +10,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- *version 19*
+- *version 20*
 
 - regular:
   - glyph count: 2048
@@ -33,7 +33,7 @@ The =Agave-*.ttf= font file(s) can be found on the [[https://github.com/agarick/
 
 Please install according to common procedures specified by your platform. This [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][page from howtogeek.com]] might be a starting point.
 
-** preview
+** preview (v20)
 
 *glyph distinction*, in ASCII:
 
@@ -49,7 +49,11 @@ Please install according to common procedures specified by your platform. This [
 
 *literary text*, sampling ASCII, Greek, and Cyrillic:
 
-[[https://raw.githubusercontent.com/agarick/agave/master/img/text.png]]
+[[https://raw.githubusercontent.com/agarick/agave/master/img/lit.png]]
+
+*box drawing*:
+
+[[https://raw.githubusercontent.com/agarick/agave/master/img/box.png]]
 
 ** build
 

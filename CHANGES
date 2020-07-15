@@ -6,6 +6,9 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+20
+- [fix] geometry of box-drawing quad glyphs
+
 19
 - [*] use ttfautohint for hinting
 
