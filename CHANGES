@@ -6,9 +6,14 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+18
+- [fix] box-drawing alignment: do not hint
+- [*] do not use any hinting
+
 17
 - [fix] box-drawing gaps: overshoot more top and bottom (64)
 - [add] u256d-u257f (box-drawing)
+- [*] use fontforge's autohint, autoinst for hinting
 
 16
 - [fix] box-drawing gaps: set os/2 ascent,descent,linegap,x-/em-height,sub,super metrics
