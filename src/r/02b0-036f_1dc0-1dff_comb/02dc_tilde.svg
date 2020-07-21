@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="1024"
+   id="svg3355"
    height="2048"
-   id="svg3355">
+   width="1024"
+   version="1.1">
   <defs
      id="defs3357" />
   <metadata
@@ -26,63 +24,63 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0,-1,1,0,995.63782,3337.098)"
-     id="layer1-6" />
+     id="layer1-6"
+     transform="matrix(0,-1,1,0,995.63782,3337.098)" />
   <g
-     transform="matrix(0,1,-1,0,1052.3622,2313.098)"
-     id="layer1-1" />
+     id="layer1-1"
+     transform="matrix(0,1,-1,0,1052.3622,2313.098)" />
   <g
-     transform="matrix(0,-1,-1,0,1052.3622,4337.098)"
-     id="layer1-5-2" />
+     id="layer1-5-2"
+     transform="matrix(0,-1,-1,0,1052.3622,4337.098)" />
   <g
-     transform="matrix(0,1,-1,0,1052.3622,4030.4313)"
-     id="layer1-7" />
+     id="layer1-7"
+     transform="matrix(0,1,-1,0,1052.3622,4030.4313)" />
   <g
-     transform="matrix(0,1,-1,0,1052.3622,2135.5817)"
-     id="layer1-3" />
+     id="layer1-3"
+     transform="matrix(0,1,-1,0,1052.3622,2135.5817)" />
   <g
-     transform="translate(0,995.6378)"
-     id="layer1-0" />
+     id="layer1-0"
+     transform="translate(0,995.6378)" />
   <g
-     transform="translate(1000,995.6378)"
-     id="layer1-38" />
+     id="layer1-38"
+     transform="translate(1000,995.6378)" />
   <g
-     transform="translate(224.20915,792.3437)"
-     id="layer1-8-6" />
+     id="layer1-8-6"
+     transform="translate(224.20915,792.3437)" />
   <g
-     transform="translate(0,739.6378)"
-     id="layer1-04" />
+     id="layer1-04"
+     transform="translate(0,739.6378)" />
   <g
-     transform="translate(0,995.6378)"
-     id="layer1-30" />
+     id="layer1-30"
+     transform="translate(0,995.6378)" />
   <g
-     transform="translate(0,995.6378)"
+     style="display:inline"
      id="layer1-5-4"
-     style="display:inline" />
+     transform="translate(0,995.6378)" />
   <g
-     transform="translate(0,995.6378)"
+     style="display:inline"
      id="layer1-6-7"
-     style="display:inline" />
+     transform="translate(0,995.6378)" />
   <g
-     id="g6270-1"
-     style="display:inline" />
+     style="display:inline"
+     id="g6270-1" />
   <g
-     transform="translate(1000,995.6378)"
-     id="layer1-8" />
+     id="layer1-8"
+     transform="translate(1000,995.6378)" />
   <g
-     transform="translate(0,995.6378)"
-     id="layer1-301" />
+     id="layer1-301"
+     transform="translate(0,995.6378)" />
   <g
-     transform="translate(528.73203,668.5267)"
-     id="layer1-8-2" />
+     id="layer1-8-2"
+     transform="translate(528.73203,668.5267)" />
   <g
-     transform="matrix(0.9188379,0.39463517,-0.39463517,0.9188379,306.86113,936.2323)"
-     id="layer1-2" />
+     id="layer1-2"
+     transform="matrix(0.9188379,0.39463517,-0.39463517,0.9188379,306.86113,936.2323)" />
   <g
-     transform="translate(0,995.6378)"
-     id="layer1-84" />
+     id="layer1-84"
+     transform="translate(0,995.6378)" />
   <path
-     d="m 800,226 -96,-54 c 0,0 -22.00138,84 -87,84 C 537.99571,256 511.99849,144 407,144 269.99903,144 224,286 224,286 l 96,54 c 0,0 22.00021,-84 87,-84 79.00305,0 104.99832,112 210,112 136.99931,0 183,-142 183,-142 z"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
      id="path3705-44-9-7-2-6-5"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     d="M 800,128 H 698 c 0,95.00093 -31.00485,154 -81,154 -82.99615,0 -33.0031,-154 -218,-154 -108.00317,0 -175,98.00213 -175,256 h 102 c 0,-95.00247 31.00191,-154 81,-154 83.00047,0 32.99583,154 218,154 107.99615,0 175,-98.00469 175,-256 z" />
 </svg>

@@ -5,10 +5,10 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg3355"
-   height="2048"
+   version="1.1"
    width="1024"
-   version="1.1">
+   height="2048"
+   id="svg3355">
   <defs
      id="defs3357" />
   <metadata
@@ -24,22 +24,18 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
-     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)">
+     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)"
+     id="layer1">
     <path
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       id="path5114-5-3"
-       d="m 461.9315,604.36219 h -170 V -1406.3199 h 170 z" />
+       transform="matrix(0,-3.9973798,1.1643836,0,-666.35617,348.52988)"
+       d="M -64,950.99996 V 1097 H 439 V 950.99996 Z m 649,0 V 1097 h 503 V 950.99996 Z"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.463515"
+       id="path5114-5-3" />
   </g>
   <g
-     transform="matrix(0,0.85882353,-0.27910319,0,943.04912,572.28236)"
-     id="layer1-3">
-    <path
-       d="m 461.9315,1282.8557 h -170 V -519.34512 h 170 z"
-       id="path5114-5-3-6"
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
-  </g>
+     id="layer1-3"
+     transform="matrix(0,0.85882353,-0.27910319,0,943.04912,572.28236)" />
   <g
-     transform="matrix(0,0.85882353,-0.37069929,0,512.98051,572.28236)"
-     id="layer1-7" />
+     id="layer1-7"
+     transform="matrix(0,0.85882353,-0.37069929,0,512.98051,572.28236)" />
 </svg>

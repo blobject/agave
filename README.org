@@ -10,10 +10,10 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- *version 21*
+- *version 22*
 
 - regular:
-  - glyph count: 2064
+  - glyph count: 2059
   - ascii; latin ext; greek; cyrillic; ipa; math; ipa; arrows; box-drawing; powerline; misc.
 
 - bold:
@@ -31,9 +31,9 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 The =Agave-*.ttf= font file(s) can be found on the [[https://github.com/agarick/agave/releases][releases]] page or in the =dist/= [[https://github.com/agarick/agave/tree/master/dist][folder]] in the source.
 
-Please install according to common procedures specified by your platform. This [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][page from howtogeek.com]] might be a starting point.
+Please install according to common procedures specified by your platform. Maybe this [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][page from howtogeek.com]] might help.
 
-** preview (v20)
+** preview (v22)
 
 *glyph distinction*, in ASCII:
 

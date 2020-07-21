@@ -1,98 +1,39 @@
-@ arm asm
-.global main
-message:
-  .asciz "Hello world!\n"
-  .align 4
-main:
-  ldr r0, =message
-  bl printf
-  mov r7, #1
-  swi 0
+/* openbsd's bin/echo/echo.c
+ *
+ * Copyright (c) 1989, 1993
+ *   The Regents of the University of California.
+ *   All rights reserved.
+ */
 
--- haskell
-class Monad m where
-  return :: a -> m a
-  (>>=) :: m a -> (a -> m b) -> m b
-  (>>)  :: m a -> m b -> m b
-  m1 >> m2 = m1 >>= \_ -> m2
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <err.h>
 
-/* c */
-/* Copyright (c) 1982, 1986, 1990, 1991, 1993
- *	The Regents of the University of California.  All rights reserved. */
-struct sio_hdl *
-sio_open(const char *str, unsigned int mode, int nbio)
+/* ARGSUSED */
+int
+main(int argc, char *argv[])
 {
-	static char devany[] = SIO_DEVANY;
-	struct sio_hdl *hdl;
-#ifdef DEBUG
-	_sndio_debug_init();
-#endif
-	if ((mode & (SIO_PLAY | SIO_REC)) == 0)
-		return NULL;
-	if (str == NULL) /* backward compat */
-		str = devany;
-	if (strcmp(str, devany) == 0 && !issetugid()) {
-		str = getenv("AUDIODEVICE");
-		if (str == NULL)
-			str = devany;
+	int nflag;
+
+	if (pledge("stdio", NULL) == -1)
+		err(1, "pledge");
+
+	/* This utility may NOT do getopt(3) option parsing. */
+	if (*++argv && !strcmp(*argv, "-n")) {
+		++argv;
+		nflag = 1;
 	}
-	if (strcmp(str, devany) == 0) {
-		hdl = _sio_aucat_open("snd/0", mode, nbio);
-		if (hdl != NULL)
-			return hdl;
-		return _sio_sun_open("rsnd/0", mode, nbio);
+	else
+		nflag = 0;
+
+	while (*argv) {
+		(void)fputs(*argv, stdout);
+		if (*++argv)
+			putchar(' ');
 	}
-	if (_sndio_parsetype(str, "snd"))
-		return _sio_aucat_open(str, mode, nbio);
-	if (_sndio_parsetype(str, "rsnd"))
-		return _sio_sun_open(str, mode, nbio);
-	DPRINTF("sio_open: %s: unknown device type\n", str);
-	return NULL;
-}
+	if (!nflag)
+		putchar('\n');
 
-# elixir
-# Copyright Ericsson AB 1996-2015
-normalize_binding([{Key, Value} | Binding], Vars, Acc) when is_atom(Key) ->
-  normalize_binding(Binding, [{Key, nil} | Vars], [{{Key, nil}, Value} | Acc]);
-normalize_binding([{Pair, Value} | Binding], Vars, Acc) ->
-  normalize_binding(Binding, [Pair | Vars], [{Pair, Value} | Acc]);
-normalize_binding([], Vars, Acc) ->
-  {Vars, Acc}.
-
-% latex
-\documentclass{article}
-\usepackage{amsmath}
-\begin{document}
-\begin{equation*}
-  1 + 2 = 3
-\end{equation*}
-\begin{equation*}
-  1 = 3 - 2
-\end{equation*}
-\begin{align*}
-  1 + 2 &= 3\\
-  1 &= 3 - 2
-\end{align*}
-\end{document}
-
-# tcl
-package require Tk
-wm title . "Feet to Meters"
-grid [ttk::frame .c -padding "3 3 12 12"] -column 0 -row 0 -sticky nwes
-grid columnconfigure . 0 -weight 1; grid rowconfigure . 0 -weight 1
-grid [ttk::entry .c.feet -width 7 -textvariable feet] -column 2 -row 1 -sticky we
-grid [ttk::label .c.meters -textvariable meters] -column 2 -row 2 -sticky we
-grid [ttk::button .c.calc -text "Calculate" -command calculate] -column 3 -row 3 -sticky w
-grid [ttk::label .c.flbl -text "feet"] -column 3 -row 1 -sticky w
-grid [ttk::label .c.islbl -text "is equivalent to"] -column 1 -row 2 -sticky e
-grid [ttk::label .c.mlbl -text "meters"] -column 3 -row 2 -sticky w
-foreach w [winfo children .c] {grid configure $w -padx 5 -pady 5}
-focus .c.feet
-bind . <Return> {calculate}
-proc calculate {} {
-  if {[catch {
-    set ::meters [expr {round($::feet*0.3048*10000.0)/10000.0}]
-  }]!=0} {
-    set ::meters ""
-  }
+	return 0;
 }

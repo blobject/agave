@@ -5,10 +5,10 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="1024"
+   id="svg3355"
    height="2048"
-   id="svg3355">
+   width="1024"
+   version="1.1">
   <defs
      id="defs3357" />
   <metadata
@@ -24,27 +24,18 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)"
-     id="layer1">
+     id="layer1"
+     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)">
     <path
-       d="m 461.9315,604.36219 h -170 V -538.88844 h 170 z"
-       id="path5114-5-3"
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
+       transform="matrix(0,-3.9973798,1.1643836,0,-666.35617,348.52988)"
+       d="M -64,950.99996 V 1097 H 222 V 950.99996 Z m 432,0 V 1097 H 656 V 950.99996 Z m 434,0 V 1097 h 286 V 950.99996 Z"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.463515"
+       id="path5114-5-3" />
   </g>
   <g
-     id="layer1-3"
-     transform="matrix(0,0.85882353,-0.27910319,0,943.04912,572.28236)">
-    <path
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       id="path5114-5-3-6"
-       d="m 461.9315,505.36549 h -170 V -519.34512 h 170 z" />
-  </g>
+     transform="matrix(0,0.85882353,-0.27910319,0,943.04912,572.28236)"
+     id="layer1-3" />
   <g
-     id="layer1-7"
-     transform="matrix(0,0.85882353,-0.37069929,0,512.98051,572.28236)">
-    <path
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       id="path5114-5-3-5"
-       d="m 461.9315,391.10005 h -170 v -776.91004 h 170 z" />
-  </g>
+     transform="matrix(0,0.85882353,-0.37069929,0,512.98051,572.28236)"
+     id="layer1-7" />
 </svg>

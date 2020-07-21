@@ -5,10 +5,10 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg3355"
-   height="2048"
+   version="1.1"
    width="1024"
-   version="1.1">
+   height="2048"
+   id="svg3355">
   <defs
      id="defs3357" />
   <metadata
@@ -24,7 +24,7 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="M 0,-256 V 176 H 128 V 320 H 0 V 752 H 128 V 896 H 0 v 432 h 128 v 144 H 0 v 432 h 128 v 144 h 128 v -144 h 128 v 144 h 128 v -144 h 128 v 144 h 128 v -144 h 128 v 144 h 128 V 1760 H 896 v -144 h 128 V 1184 H 896 v -144 h 128 V 608 H 896 V 464 h 128 V 32 H 896 v -144 h 128 v -144 z m 128,144 H 256 V 32 H 128 Z m 256,0 H 512 V 32 H 384 Z m 256,0 H 768 V 32 H 640 Z M 256,176 H 384 V 320 H 256 Z m 256,0 H 640 V 320 H 512 Z m 256,0 H 896 V 320 H 768 Z M 128,464 H 256 V 608 H 128 Z m 256,0 H 512 V 608 H 384 Z m 256,0 H 768 V 608 H 640 Z M 256,752 H 384 V 896 H 256 Z m 256,0 H 640 V 896 H 512 Z m 256,0 H 896 V 896 H 768 Z m -640,288 h 128 v 144 H 128 Z m 256,0 h 128 v 144 H 384 Z m 256,0 h 128 v 144 H 640 Z m -384,288 h 128 v 144 H 256 Z m 256,0 h 128 v 144 H 512 Z m 256,0 h 128 v 144 H 768 Z m -640,288 h 128 v 144 H 128 Z m 256,0 h 128 v 144 H 384 Z m 256,0 h 128 v 144 H 640 Z"
-     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.942809"
-     id="path4759" />
+     id="path4759"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.888889"
+     d="M 0,0 V 384 H 128 V 512 H 0 v 384 h 128 v 128 H 0 v 384 h 128 v 128 H 0 v 384 h 128 v 128 h 128 v -128 h 128 v 128 h 128 v -128 h 128 v 128 h 128 v -128 h 128 v 128 h 128 V 1792 H 896 v -128 h 128 V 1280 H 896 v -128 h 128 V 768 H 896 V 640 h 128 V 256 H 896 V 128 h 128 V 0 Z M 128,128 H 256 V 256 H 128 Z m 256,0 H 512 V 256 H 384 Z m 256,0 H 768 V 256 H 640 Z M 256,384 H 384 V 512 H 256 Z m 256,0 H 640 V 512 H 512 Z m 256,0 H 896 V 512 H 768 Z M 128,640 H 256 V 768 H 128 Z m 256,0 H 512 V 768 H 384 Z m 256,0 H 768 V 768 H 640 Z M 256,896 h 128 v 128 H 256 Z m 256,0 h 128 v 128 H 512 Z m 256,0 h 128 v 128 H 768 Z m -640,256 h 128 v 128 H 128 Z m 256,0 h 128 v 128 H 384 Z m 256,0 h 128 v 128 H 640 Z m -384,256 h 128 v 128 H 256 Z m 256,0 h 128 v 128 H 512 Z m 256,0 h 128 v 128 H 768 Z m -640,256 h 128 v 128 H 128 Z m 256,0 h 128 v 128 H 384 Z m 256,0 h 128 v 128 H 640 Z" />
 </svg>

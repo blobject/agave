@@ -6,6 +6,11 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+22
+- [imp] tighter top bound on capitals with diacritics (extended cyrillic, greek, latin) with maximum overshoot of 128
+- [imp] tighter side bounds on all glyphs (except box-drawing) with no overshoot
+- [fix] geometry of box-drawing glyphs: respect global dimensions and with side overshoot of 64 and top/bottom overshoot of 128
+
 21
 - [add] u25e7-u25eb,u2610-u2612,u2639,u263a,u2680-u2685,u2713,u2715 (misc)
 

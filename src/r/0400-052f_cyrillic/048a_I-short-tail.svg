@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="1024"
+   id="svg3355"
    height="2048"
-   id="svg3355">
+   width="1024"
+   version="1.1">
   <defs
      id="defs3357" />
   <metadata
@@ -26,7 +24,7 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="m 256,-128 c 0,157.99878 97.99634,256 256,256 158.00366,0 256,-97.99942 256,-256 l -102,0 C 666,-33.0019 607.00263,26 512,26 416.99737,26 358,-32.9967 358,-128 l -102,0 z m -160,384 0,1280 205,0 350,-768 111,-256 -4,256 0,768 73,0 -63,256 157,0 99,-413 -96,0 0,-1123 -204,0 -351,768 -111,256 4,-256 0,-768 -170,0 z"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
      id="path11472"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     d="m 256,0 c 0,157.99878 97.99634,256 256,256 158.00366,0 256,-97.99942 256,-256 H 666 C 666,94.9981 607.00263,154 512,154 416.99737,154 358,95.0033 358,0 Z M 96,256 V 1536 H 301 L 651,768 762,512 758,768 v 768 h 73 l -63,256 h 157 l 99,-413 H 928 V 256 H 724 l -351,768 -111,256 4,-256 V 256 Z" />
 </svg>
