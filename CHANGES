@@ -6,6 +6,10 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+24
+- [imp] u0041 ("A") shape
+- [fix] u0263 ("ɣ") height
+
 23
 - [fix] u0281,u1d1a (small capital inverted/turned R) direction
 - [imp] u211e,u2221 (prescription, angle-measure) shape
