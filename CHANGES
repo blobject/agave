@@ -6,10 +6,18 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+23
+- [fix] u0281,u1d1a (small capital inverted/turned R) direction
+- [imp] u211e,u2221 (prescription, angle-measure) shape
+- [imp] math tilde shape
+- [add] u215f,u224c (numerator one, all equal to)
+- [*] move fontforge sfd file into parent directory
+
 22
-- [imp] tighter top bound on capitals with diacritics (extended cyrillic, greek, latin) with maximum overshoot of 128
-- [imp] tighter side bounds on all glyphs (except box-drawing) with no overshoot
+- [imp] shorter capitals to allow tighter top bound on capitals with diacritics (extended cyrillic, greek, latin) with maximum overshoot of 128
+- [imp] strict side bounds on all glyphs (except box-drawing), ie. no overshoot
 - [fix] geometry of box-drawing glyphs: respect global dimensions and with side overshoot of 64 and top/bottom overshoot of 128
+- [imp] u1d01 (small "Æ") shape
 
 21
 - [add] u25e7-u25eb,u2610-u2612,u2639,u263a,u2680-u2685,u2713,u2715 (misc)
