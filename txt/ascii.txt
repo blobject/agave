@@ -4,6 +4,6 @@ b6&B80 bee-six-et-Bee-eight-zero
 sS5$S  ess-Ess-five-dollar-Ess
 abcdefghijklmnopqrstuvwxyz @#$%^&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ ()[]{}
-0123456789 '"`~_-=+*\/|!?,.:<>
+0123456789 '"`~_-=+*\/|!?,.;:<>
 
 

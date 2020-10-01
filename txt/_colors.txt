@@ -1,4 +1,0 @@
-kitty -o font_size=11 -o font_family=Agave -o bold_font=Agave -o foreground='#c7c7c7' -o background='#282a36' # light on dark, ascii
-kitty -o font_size=11 -o font_family=Agave -o bold_font=Agave -o foreground='#fefdc5' -o background='#1427b1' # light on blue, term
-kitty -o font_size=11 -o font_family=Agave -o bold_font=Agave -o foreground='#444444' -o background='#eeeeee' # dark on light, lit
-kitty -o font_size=11 -o font_family=Agave -o bold_font=Agave -o foreground='#234d20' -o background='#f0f7da' # green, box

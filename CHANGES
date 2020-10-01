@@ -6,6 +6,13 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+25
+- [*] change vendor id from PfEd to agrc (which is not officially registered anywhere)
+- [fix] u021c,u021d ("Ȝȝ") shape
+- [imp] u027f ("ɿ") add descender according to unicode recommendation
+- [fix] u02ac ("ʬ") use actual "w"s
+- [fix] u0500-u050f (komi glyphs) remove due to incorrectness and historical disuse
+
 24
 - [imp] u0041 ("A") shape
 - [fix] u0263 ("ɣ") height
