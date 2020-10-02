@@ -4,14 +4,14 @@ FullName: Agave Regular
 FamilyName: Agave
 Weight: Regular
 Copyright: Copyright 2013-2020 type agaric
-Version: 25
+Version: 26
 ItalicAngle: 0
 UnderlinePosition: -234
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00190000
+sfntRevision: 0x001a0000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1368797729
-ModificationTime: 1601584634
+ModificationTime: 1601596797
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -65,11 +65,11 @@ NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 28
+WinInfo: 7686 42 28
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65578 2089
+BeginChars: 65579 2090
 
 StartChar: zero
 Encoding: 48 48 0
@@ -4926,26 +4926,25 @@ SplineSet
  425 1280 l 1,4,-1
  425 1312 l 1,5,-1
  535 1536 l 1,0,-1
-240 1392 m 128,-1,7
- 286 1392 286 1392 319 1359 c 128,-1,8
- 352 1326 352 1326 352 1280 c 128,-1,9
- 352 1234 352 1234 319 1201 c 128,-1,10
- 286 1168 286 1168 240 1168 c 128,-1,11
- 194 1168 194 1168 161 1201 c 128,-1,12
- 128 1234 128 1234 128 1280 c 128,-1,13
- 128 1326 128 1326 161 1359 c 128,-1,6
- 194 1392 194 1392 240 1392 c 128,-1,7
-784 1392 m 128,-1,15
- 830 1392 830 1392 863 1359 c 128,-1,16
- 896 1326 896 1326 896 1280 c 128,-1,17
- 896 1234 896 1234 863 1201 c 128,-1,18
- 830 1168 830 1168 784 1168 c 128,-1,19
- 738 1168 738 1168 705 1201 c 128,-1,20
- 672 1234 672 1234 672 1280 c 128,-1,21
- 672 1326 672 1326 705 1359 c 128,-1,14
- 738 1392 738 1392 784 1392 c 128,-1,15
+112 1392 m 128,-1,7
+ 158 1392 158 1392 191 1359 c 128,-1,8
+ 224 1326 224 1326 224 1280 c 128,-1,9
+ 224 1234 224 1234 191 1201 c 128,-1,10
+ 158 1168 158 1168 112 1168 c 128,-1,11
+ 66 1168 66 1168 33 1201 c 128,-1,12
+ 0 1234 0 1234 0 1280 c 128,-1,13
+ 0 1326 0 1326 33 1359 c 128,-1,6
+ 66 1392 66 1392 112 1392 c 128,-1,7
+912 1392 m 128,-1,15
+ 958 1392 958 1392 991 1359 c 128,-1,16
+ 1024 1326 1024 1326 1024 1280 c 128,-1,17
+ 1024 1234 1024 1234 991 1201 c 128,-1,18
+ 958 1168 958 1168 912 1168 c 128,-1,19
+ 866 1168 866 1168 833 1201 c 128,-1,20
+ 800 1234 800 1234 800 1280 c 128,-1,21
+ 800 1326 800 1326 833 1359 c 128,-1,14
+ 866 1392 866 1392 912 1392 c 128,-1,15
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Alphatonos
@@ -5124,7 +5123,6 @@ LayerCount: 2
 Fore
 Refer: 208 953 N 1 0 0 1 0 0 2
 Refer: 173 901 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: upsilondieresistonos
@@ -5136,7 +5134,6 @@ LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
 Refer: 173 901 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Gamma
@@ -12748,7 +12745,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2075 -1 N 1 0 0 1 0 0 2
-Refer: 487 783 S 1 0 0 1 0 128 2
+Refer: 487 783 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni0477
@@ -21410,10 +21407,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 128 2
 Refer: 2053 -1 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 0 2
 Refer: 451 780 N 1 0 0 1 0 128 2
-Validated: 1
 EndChar
 
 StartChar: uni01DA
@@ -21423,10 +21419,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 0 2
 Refer: 81 117 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 -64 2
 Refer: 451 780 N 1 0 0 1 0 128 2
-Validated: 1
 EndChar
 
 StartChar: Gcaron
@@ -21555,10 +21550,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 128 2
 Refer: 2053 -1 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 0 2
-Refer: 130 772 N 1 0 0 1 0 192 2
-Validated: 1
+Refer: 130 772 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni01D6
@@ -21569,7 +21563,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 81 117 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 -64 2
+Refer: 128 776 S 1 0 0 1 0 -64 2
 Refer: 130 772 N 1 0 0 1 0 192 2
 Validated: 1
 EndChar
@@ -21581,10 +21575,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 -128 2
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 0 2
 Refer: 130 772 N 1 0 0 1 0 192 2
-Validated: 1
 EndChar
 
 StartChar: uni01DF
@@ -21683,10 +21676,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 0 2
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 0 2
 Refer: 130 772 N 1 0 0 1 0 192 2
-Validated: 1
 EndChar
 
 StartChar: uni022B
@@ -21783,10 +21775,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 128 2
 Refer: 2053 -1 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 0 2
-Refer: 443 769 N 1 0 0 1 0 256 2
-Validated: 1
+Refer: 443 769 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni01D8
@@ -21796,10 +21787,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 0 2
 Refer: 81 117 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 -64 2
-Refer: 443 769 N 1 0 0 1 0 192 2
-Validated: 1
+Refer: 443 769 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: Aringacute
@@ -22217,10 +22207,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 128 2
 Refer: 2053 -1 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 0 2
-Refer: 442 768 N 1 0 0 1 0 256 2
-Validated: 1
+Refer: 442 768 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni01DC
@@ -22230,10 +22219,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 0 2
 Refer: 81 117 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 -64 2
-Refer: 442 768 N 1 0 0 1 0 192 2
-Validated: 1
+Refer: 442 768 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni0218
@@ -23805,7 +23793,21 @@ Width: 1024
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1007 636 N -1 0 0 1 1024 0 2
+SplineSet
+480 1040 m 128,-1,1
+ 668 1040 668 1040 766 952 c 128,-1,2
+ 864 864 864 864 864 658 c 2,3,-1
+ 864 -256 l 1,4,-1
+ 694 -256 l 1,5,-1
+ 694 658 l 2,6,7
+ 694 779 694 779 639.5 831 c 128,-1,8
+ 585 883 585 883 480 883 c 128,-1,9
+ 375 883 375 883 320.5 831 c 128,-1,10
+ 266 779 266 779 266 658 c 1,11,-1
+ 96 658 l 1,12,13
+ 96 864 96 864 194 952 c 128,-1,0
+ 292 1040 292 1040 480 1040 c 128,-1,1
+EndSplineSet
 EndChar
 
 StartChar: uni0280
@@ -26402,8 +26404,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2052 -1 N 1 0 0 1 0 0 2
-Refer: 451 780 N 1 0 0 1 0 0 2
-Refer: 448 775 N 1 0 0 1 0 192 2
+Refer: 451 780 N 1 0 0 1 128 128 2
+Refer: 448 775 N 1 0 0 1 -256 128 2
 EndChar
 
 StartChar: uni1E67
@@ -26414,8 +26416,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 79 115 N 1 0 0 1 0 0 2
-Refer: 451 780 N 1 0 0 1 0 -64 2
-Refer: 448 775 N 1 0 0 1 0 128 2
+Refer: 451 780 N 1 0 0 1 128 0 2
+Refer: 448 775 N 1 0 0 1 -256 0 2
 EndChar
 
 StartChar: uni1E68
@@ -26566,7 +26568,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 130 772 S 1 0 0 1 128 64 2
+Refer: 130 772 S 1 0 0 1 192 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -26589,9 +26591,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 128 2
 Refer: 2056 -1 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 0 2
-Refer: 443 769 N 1 0 0 1 0 256 2
+Refer: 443 769 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1E2F
@@ -26603,7 +26605,7 @@ LayerCount: 2
 Fore
 Refer: 707 305 N 1 0 0 1 0 0 2
 Refer: 128 776 N 1 0 0 1 0 -128 2
-Refer: 443 769 S 1 0 0 1 0 128 2
+Refer: 443 769 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1E30
@@ -26614,7 +26616,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2057 -1 N 1 0 0 1 0 0 2
-Refer: 443 769 S 1 0 0 1 0 128 2
+Refer: 443 769 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1E31
@@ -26659,7 +26661,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 130 772 S 1 0 0 1 128 64 2
+Refer: 130 772 N 1 0 0 1 192 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -26729,7 +26731,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 64 2
+Refer: 445 770 N 1 0 0 1 128 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -26741,7 +26743,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
+Refer: 445 770 N 1 0 0 1 128 0 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -26753,7 +26755,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 447 774 S 1 0 0 1 128 64 2
+Refer: 447 774 N 1 0 0 1 256 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -26765,8 +26767,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
-Refer: 447 774 N 1 0 0 1 128 -64 2
-Refer: 443 769 S 1 0 0 1 -342 128 2
+Refer: 447 774 N 1 0 0 1 256 0 2
+Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
 StartChar: uni1EBE
@@ -26777,7 +26779,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 128 64 2
+Refer: 445 770 S 1 0 0 1 128 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -26789,9 +26791,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 65 101 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
+Refer: 445 770 S 1 0 0 1 -128 0 2
 Refer: 443 769 N 1 0 0 1 288 128 2
-Validated: 5
 EndChar
 
 StartChar: uni1ED0
@@ -26802,7 +26803,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 S 1 0 0 1 0 64 2
+Refer: 445 770 N 1 0 0 1 128 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -26814,8 +26815,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 75 111 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
-Refer: 443 769 S 1 0 0 1 -342 128 2
+Refer: 445 770 N 1 0 0 1 128 0 2
+Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
 StartChar: uni1EDA
@@ -26871,7 +26872,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 130 772 N 1 0 0 1 128 64 2
+Refer: 130 772 N 1 0 0 1 192 128 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
@@ -26895,7 +26896,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 130 772 S 1 0 0 1 128 64 2
+Refer: 130 772 S 1 0 0 1 192 128 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
@@ -26942,8 +26943,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
-Refer: 442 768 S 1 0 0 1 -288 128 2
+Refer: 445 770 N 1 0 0 1 128 128 2
+Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
 StartChar: uni1EA7
@@ -26954,9 +26955,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
+Refer: 445 770 S 1 0 0 1 128 0 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
-Validated: 5
 EndChar
 
 StartChar: uni1EB0
@@ -26967,7 +26967,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 447 774 S 1 0 0 1 128 64 2
+Refer: 447 774 N 1 0 0 1 256 128 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
@@ -26979,7 +26979,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
-Refer: 447 774 N 1 0 0 1 128 -64 2
+Refer: 447 774 N 1 0 0 1 256 0 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
@@ -26991,7 +26991,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 S 1 0 0 1 128 64 2
+Refer: 445 770 N 1 0 0 1 128 128 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
@@ -27003,9 +27003,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 65 101 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
+Refer: 445 770 S 1 0 0 1 128 0 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
-Validated: 5
 EndChar
 
 StartChar: uni1ED2
@@ -27016,7 +27015,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 S 1 0 0 1 128 64 2
+Refer: 445 770 N 1 0 0 1 128 128 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
@@ -27028,7 +27027,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 75 111 N 1 0 0 1 0 0 2
-Refer: 445 770 S 1 0 0 1 128 0 2
+Refer: 445 770 N 1 0 0 1 128 0 2
 Refer: 442 768 N 1 0 0 1 -288 128 2
 EndChar
 
@@ -27171,9 +27170,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
+Refer: 2089 -1 N 1 0 0 1 0 -64 2
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 446 771 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 0 256 2
+Refer: 446 771 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1E4F
@@ -27209,7 +27208,7 @@ LayerCount: 2
 Fore
 Refer: 81 117 N 1 0 0 1 0 0 2
 Refer: 130 772 N 1 0 0 1 0 -128 2
-Refer: 128 776 S 1 0 0 1 0 128 2
+Refer: 128 776 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1E8C
@@ -27266,7 +27265,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 80 116 N 1 0 0 1 0 0 2
-Refer: 128 776 N 1 0 0 1 -64 128 2
+Refer: 128 776 N 1 0 0 1 -92 128 2
 EndChar
 
 StartChar: uni1E20
@@ -27346,7 +27345,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2064 -1 N 1 0 0 1 0 0 2
-Refer: 446 771 S 1 0 0 1 0 128 2
+Refer: 446 771 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1E7D
@@ -27368,8 +27367,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 447 774 N 1 0 0 1 0 0 2
-Refer: 446 771 S 1 0 0 1 0 256 2
+Refer: 447 774 N 1 0 0 1 -256 128 2
+Refer: 446 771 N 1 0 0 1 224 64 2
 EndChar
 
 StartChar: uni1EB5
@@ -27381,7 +27380,7 @@ LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
 Refer: 447 774 N 1 0 0 1 0 -128 2
-Refer: 446 771 S 1 0 0 1 0 128 2
+Refer: 446 771 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1EBC
@@ -27414,8 +27413,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
-Refer: 446 771 N 1 0 0 1 0 256 2
+Refer: 445 770 N 1 0 0 1 -256 128 2
+Refer: 446 771 N 1 0 0 1 224 128 2
 EndChar
 
 StartChar: uni1EC5
@@ -27426,8 +27425,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 65 101 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 -128 2
-Refer: 446 771 S 1 0 0 1 0 128 2
+Refer: 445 770 S 1 0 0 1 0 -128 2
+Refer: 446 771 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1ED6
@@ -27438,8 +27437,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
-Refer: 446 771 N 1 0 0 1 0 256 2
+Refer: 445 770 N 1 0 0 1 -256 128 2
+Refer: 446 771 N 1 0 0 1 224 128 2
 EndChar
 
 StartChar: uni1ED7
@@ -27450,8 +27449,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 75 111 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
-Refer: 446 771 N 1 0 0 1 0 256 2
+Refer: 445 770 N 1 0 0 1 -256 0 2
+Refer: 446 771 S 1 0 0 1 224 128 2
 EndChar
 
 StartChar: uni1EE0
@@ -27506,7 +27505,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2053 -1 N 1 0 0 1 0 0 2
-Refer: 446 771 N 1 0 0 1 128 0 2
+Refer: 446 771 N 1 0 0 1 192 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -27519,7 +27518,7 @@ LayerCount: 2
 Fore
 Refer: 81 117 N 1 0 0 1 0 0 2
 Refer: 446 771 N 1 0 0 1 128 0 2
-Refer: 443 769 S 1 0 0 1 -342 128 2
+Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
 StartChar: uni1E4C
@@ -27530,7 +27529,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 446 771 S 1 0 0 1 128 64 2
+Refer: 446 771 N 1 0 0 1 192 128 2
 Refer: 443 769 N 1 0 0 1 -342 128 2
 EndChar
 
@@ -27577,8 +27576,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
-Refer: 444 777 S 1 0 0 1 320 128 2
+Refer: 445 770 N 1 0 0 1 -128 128 2
+Refer: 444 777 N 1 0 0 1 320 128 2
 EndChar
 
 StartChar: uni1EA9
@@ -27589,9 +27588,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
+Refer: 445 770 S 1 0 0 1 -128 0 2
 Refer: 444 777 N 1 0 0 1 320 128 2
-Validated: 1
 EndChar
 
 StartChar: uni1EB2
@@ -27602,8 +27600,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 447 774 N 1 0 0 1 0 0 2
-Refer: 444 777 S 1 0 0 1 0 256 2
+Refer: 447 774 N 1 0 0 1 -256 128 2
+Refer: 444 777 N 1 0 0 1 320 128 2
 EndChar
 
 StartChar: uni1EB3
@@ -27614,8 +27612,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
-Refer: 447 774 N 1 0 0 1 0 -128 2
-Refer: 444 777 S 1 0 0 1 0 128 2
+Refer: 447 774 N 1 0 0 1 -256 0 2
+Refer: 444 777 N 1 0 0 1 320 0 2
 EndChar
 
 StartChar: uni1EBA
@@ -27649,7 +27647,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 S 1 0 0 1 0 64 2
+Refer: 445 770 N 1 0 0 1 -128 128 2
 Refer: 444 777 N 1 0 0 1 320 128 2
 EndChar
 
@@ -27788,7 +27786,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 S 1 0 0 1 -64 64 2
+Refer: 445 770 S 1 0 0 1 -128 128 2
 Refer: 444 777 N 1 0 0 1 320 128 2
 EndChar
 
@@ -27800,9 +27798,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 75 111 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
+Refer: 445 770 N 1 0 0 1 -128 128 2
 Refer: 444 777 N 1 0 0 1 320 128 2
-Validated: 1
 EndChar
 
 StartChar: uni1E98
@@ -27849,7 +27846,7 @@ LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
 Refer: 461 803 N 1 0 0 1 0 0 2
-Refer: 445 770 S 1 0 0 1 0 128 2
+Refer: 445 770 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1EC7
@@ -27872,8 +27869,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 0 2
-Refer: 446 771 S 1 0 0 1 0 256 2
+Refer: 445 770 N 1 0 0 1 -256 64 2
+Refer: 446 771 N 1 0 0 1 224 128 2
 EndChar
 
 StartChar: uni1EAB
@@ -27884,8 +27881,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 61 97 N 1 0 0 1 0 0 2
-Refer: 445 770 N 1 0 0 1 0 -128 2
-Refer: 446 771 S 1 0 0 1 0 128 2
+Refer: 445 770 N 1 0 0 1 -256 0 2
+Refer: 446 771 N 1 0 0 1 224 128 2
 EndChar
 
 StartChar: uni1E90
@@ -28997,8 +28994,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 128 776 N 1 0 0 1 0 0 2
-Refer: 1343 8128 N 1 0 0 1 0 256 2
+Refer: 2089 -1 S 1 0 0 1 0 -64 2
+Refer: 1343 8128 N 1 0 0 1 0 128 2
 EndChar
 
 StartChar: uni1FBF
@@ -29069,7 +29066,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 173 901 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1FED
@@ -29086,26 +29082,25 @@ SplineSet
  343 1504 l 1,4,-1
  343 1536 l 1,5,-1
  489 1536 l 1,0,-1
-784 1392 m 128,-1,7
- 830 1392 830 1392 863 1359 c 128,-1,8
- 896 1326 896 1326 896 1280 c 128,-1,9
- 896 1234 896 1234 863 1201 c 128,-1,10
- 830 1168 830 1168 784 1168 c 128,-1,11
- 738 1168 738 1168 705 1201 c 128,-1,12
- 672 1234 672 1234 672 1280 c 128,-1,13
- 672 1326 672 1326 705 1359 c 128,-1,6
- 738 1392 738 1392 784 1392 c 128,-1,7
-240 1392 m 128,-1,15
- 286 1392 286 1392 319 1359 c 128,-1,16
- 352 1326 352 1326 352 1280 c 128,-1,17
- 352 1234 352 1234 319 1201 c 128,-1,18
- 286 1168 286 1168 240 1168 c 128,-1,19
- 194 1168 194 1168 161 1201 c 128,-1,20
- 128 1234 128 1234 128 1280 c 128,-1,21
- 128 1326 128 1326 161 1359 c 128,-1,14
- 194 1392 194 1392 240 1392 c 128,-1,15
+912 1392 m 128,-1,7
+ 958 1392 958 1392 991 1359 c 128,-1,8
+ 1024 1326 1024 1326 1024 1280 c 128,-1,9
+ 1024 1234 1024 1234 991 1201 c 128,-1,10
+ 958 1168 958 1168 912 1168 c 128,-1,11
+ 866 1168 866 1168 833 1201 c 128,-1,12
+ 800 1234 800 1234 800 1280 c 128,-1,13
+ 800 1326 800 1326 833 1359 c 128,-1,6
+ 866 1392 866 1392 912 1392 c 128,-1,7
+112 1392 m 128,-1,15
+ 158 1392 158 1392 191 1359 c 128,-1,16
+ 224 1326 224 1326 224 1280 c 128,-1,17
+ 224 1234 224 1234 191 1201 c 128,-1,18
+ 158 1168 158 1168 112 1168 c 128,-1,19
+ 66 1168 66 1168 33 1201 c 128,-1,20
+ 0 1234 0 1234 0 1280 c 128,-1,21
+ 0 1326 0 1326 33 1359 c 128,-1,14
+ 66 1392 66 1392 112 1392 c 128,-1,15
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni1FBE
@@ -29137,8 +29132,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1348 8175 N 1 0 0 1 246 0 2
-Refer: 1346 8190 N 1 0 0 1 -192 0 2
+Refer: 1348 8175 N 1 0 0 1 128 128 2
+Refer: 1346 8190 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1FDE
@@ -29148,9 +29143,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1347 8189 N 1 0 0 1 192 0 2
-Refer: 1346 8190 N 1 0 0 1 -192 0 2
-Validated: 1
+Refer: 1347 8189 N 1 0 0 1 128 128 2
+Refer: 1346 8190 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1FDF
@@ -29160,8 +29154,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1346 8190 N 1 0 0 1 0 0 2
-Refer: 1343 8128 N 1 0 0 1 0 384 2
+Refer: 1346 8190 N 1 0 0 1 -416 0 2
+Refer: 1343 8128 S 1 0 0 1 128 128 2
 EndChar
 
 StartChar: uni1FCD
@@ -29171,8 +29165,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1348 8175 S 1 0 0 1 246 0 2
-Refer: 1345 8127 N 1 0 0 1 -192 0 2
+Refer: 1348 8175 N 1 0 0 1 128 128 2
+Refer: 1345 8127 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1FCE
@@ -29182,9 +29176,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1347 8189 S 1 0 0 1 192 0 2
-Refer: 1345 8127 N 1 0 0 1 -192 0 2
-Validated: 1
+Refer: 1347 8189 S 1 0 0 1 128 128 2
+Refer: 1345 8127 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1FCF
@@ -29194,8 +29187,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1345 8127 N 1 0 0 1 0 0 2
-Refer: 1343 8128 N 1 0 0 1 0 384 2
+Refer: 1345 8127 N 1 0 0 1 -416 0 2
+Refer: 1343 8128 N 1 0 0 1 128 128 2
 EndChar
 
 StartChar: uni1F0E
@@ -29206,7 +29199,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1358 8143 S 1 0 0 1 -224 -128 2
+Refer: 1358 8143 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F26
@@ -29217,7 +29210,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 206 951 N 1 0 0 1 0 0 2
-Refer: 1358 8143 S 1 0 0 1 0 -128 2
+Refer: 1358 8143 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F2E
@@ -29228,7 +29221,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1358 8143 N 1 0 0 1 0 -128 2
+Refer: 1358 8143 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F36
@@ -29239,7 +29232,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 208 953 N 1 0 0 1 0 0 2
-Refer: 1358 8143 S 1 0 0 1 0 -128 2
+Refer: 1358 8143 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F3E
@@ -29249,8 +29242,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 2056 -1 N 1 0 0 1 160 0 2
-Refer: 1358 8143 N 1 0 0 1 -224 -128 2
+Refer: 2056 -1 N 1 0 0 1 0 0 2
+Refer: 1358 8143 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F56
@@ -29261,7 +29254,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
-Refer: 1358 8143 S 1 0 0 1 0 -256 2
+Refer: 1358 8143 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F66
@@ -29272,7 +29265,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 222 969 N 1 0 0 1 0 0 2
-Refer: 1358 8143 S 1 0 0 1 0 -256 2
+Refer: 1358 8143 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F6E
@@ -29283,7 +29276,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1358 8143 N 1 0 0 1 -224 -128 2
+Refer: 1358 8143 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F8E
@@ -29338,7 +29331,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 200 945 N 1 0 0 1 0 0 2
-Refer: 1358 8143 S 1 0 0 1 0 -128 2
+Refer: 1358 8143 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F07
@@ -29349,7 +29342,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 200 945 N 1 0 0 1 0 0 2
-Refer: 1355 8159 S 1 0 0 1 0 -128 2
+Refer: 1355 8159 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F0F
@@ -29360,7 +29353,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1355 8159 S 1 0 0 1 -224 -128 2
+Refer: 1355 8159 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F27
@@ -29371,7 +29364,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 206 951 N 1 0 0 1 0 0 2
-Refer: 1355 8159 S 1 0 0 1 0 -128 2
+Refer: 1355 8159 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F2F
@@ -29382,7 +29375,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1355 8159 S 1 0 0 1 0 -128 2
+Refer: 1355 8159 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F37
@@ -29393,7 +29386,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 208 953 N 1 0 0 1 0 0 2
-Refer: 1355 8159 S 1 0 0 1 0 -128 2
+Refer: 1355 8159 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F3F
@@ -29403,8 +29396,8 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 2056 -1 N 1 0 0 1 160 0 2
-Refer: 1355 8159 N 1 0 0 1 -224 -128 2
+Refer: 2056 -1 N 1 0 0 1 0 0 2
+Refer: 1355 8159 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F57
@@ -29415,7 +29408,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
-Refer: 1355 8159 S 1 0 0 1 0 -256 2
+Refer: 1355 8159 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F67
@@ -29426,7 +29419,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 222 969 N 1 0 0 1 0 0 2
-Refer: 1355 8159 N 1 0 0 1 0 -256 2
+Refer: 1355 8159 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F6F
@@ -29437,7 +29430,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1355 8159 N 1 0 0 1 -224 -128 2
+Refer: 1355 8159 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F8F
@@ -29504,7 +29497,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1345 8127 N 1 0 0 1 0 128 2
+Refer: 1345 8127 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F10
@@ -29527,7 +29520,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 1345 8127 S 1 0 0 1 0 128 2
+Refer: 1345 8127 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F20
@@ -29550,7 +29543,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1345 8127 S 1 0 0 1 0 128 2
+Refer: 1345 8127 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F30
@@ -29573,7 +29566,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2056 -1 N 1 0 0 1 0 0 2
-Refer: 1345 8127 S 1 0 0 1 0 128 2
+Refer: 1345 8127 S 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F40
@@ -29596,7 +29589,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 1345 8127 S 1 0 0 1 0 128 2
+Refer: 1345 8127 S 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F50
@@ -29631,7 +29624,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1345 8127 S 1 0 0 1 0 128 2
+Refer: 1345 8127 S 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F80
@@ -29713,7 +29706,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 S 1 0 0 1 0 128 2
+Refer: 1346 8190 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F11
@@ -29736,7 +29729,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 N 1 0 0 1 0 128 2
+Refer: 1346 8190 N 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F21
@@ -29759,7 +29752,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 N 1 0 0 1 0 128 2
+Refer: 1346 8190 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F31
@@ -29782,7 +29775,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2056 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 S 1 0 0 1 0 128 2
+Refer: 1346 8190 S 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F41
@@ -29805,7 +29798,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 S 1 0 0 1 0 128 2
+Refer: 1346 8190 S 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F51
@@ -29828,7 +29821,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2067 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 S 1 0 0 1 0 128 2
+Refer: 1346 8190 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F61
@@ -29851,7 +29844,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 S 1 0 0 1 0 128 2
+Refer: 1346 8190 S 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1F81
@@ -29944,7 +29937,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1356 8141 S 1 0 0 1 0 128 2
+Refer: 1356 8141 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F12
@@ -29966,7 +29959,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 1356 8141 S 1 0 0 1 0 128 2
+Refer: 1356 8141 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F22
@@ -29988,7 +29981,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1356 8141 S 1 0 0 1 0 128 2
+Refer: 1356 8141 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F32
@@ -30010,7 +30003,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2056 -1 N 1 0 0 1 0 0 2
-Refer: 1356 8141 S 1 0 0 1 0 128 2
+Refer: 1356 8141 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F42
@@ -30032,7 +30025,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 1356 8141 S 1 0 0 1 0 128 2
+Refer: 1356 8141 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F52
@@ -30065,7 +30058,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1356 8141 N 1 0 0 1 -64 128 2
+Refer: 1356 8141 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F82
@@ -30144,7 +30137,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1353 8157 S 1 0 0 1 0 128 2
+Refer: 1353 8157 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F13
@@ -30166,7 +30159,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 1353 8157 S 1 0 0 1 0 128 2
+Refer: 1353 8157 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F23
@@ -30188,7 +30181,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1353 8157 N 1 0 0 1 0 128 2
+Refer: 1353 8157 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F33
@@ -30210,7 +30203,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2056 -1 N 1 0 0 1 0 0 2
-Refer: 1353 8157 S 1 0 0 1 0 128 2
+Refer: 1353 8157 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F43
@@ -30232,7 +30225,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 1353 8157 S 1 0 0 1 0 128 2
+Refer: 1353 8157 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F53
@@ -30254,7 +30247,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2067 -1 N 1 0 0 1 0 0 2
-Refer: 1353 8157 N 1 0 0 1 0 128 2
+Refer: 1353 8157 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F63
@@ -30276,7 +30269,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1353 8157 S 1 0 0 1 -64 128 2
+Refer: 1353 8157 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F83
@@ -30345,7 +30338,6 @@ LayerCount: 2
 Fore
 Refer: 200 945 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F0C
@@ -30356,7 +30348,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1357 8142 N 1 0 0 1 0 128 2
+Refer: 1357 8142 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F14
@@ -30368,7 +30360,6 @@ LayerCount: 2
 Fore
 Refer: 204 949 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F1C
@@ -30379,7 +30370,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 1357 8142 S 1 0 0 1 0 128 2
+Refer: 1357 8142 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F24
@@ -30391,7 +30382,6 @@ LayerCount: 2
 Fore
 Refer: 206 951 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F2C
@@ -30402,7 +30392,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1357 8142 S 1 0 0 1 0 128 2
+Refer: 1357 8142 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F34
@@ -30414,7 +30404,6 @@ LayerCount: 2
 Fore
 Refer: 208 953 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F3C
@@ -30425,7 +30414,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2056 -1 N 1 0 0 1 0 0 2
-Refer: 1357 8142 S 1 0 0 1 0 128 2
+Refer: 1357 8142 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F44
@@ -30437,7 +30426,6 @@ LayerCount: 2
 Fore
 Refer: 241 959 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F4C
@@ -30448,7 +30436,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 1357 8142 S 1 0 0 1 0 128 2
+Refer: 1357 8142 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F54
@@ -30460,7 +30448,6 @@ LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F64
@@ -30472,7 +30459,6 @@ LayerCount: 2
 Fore
 Refer: 222 969 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F6C
@@ -30483,7 +30469,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1357 8142 S 1 0 0 1 -64 128 2
+Refer: 1357 8142 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F84
@@ -30496,7 +30482,6 @@ Fore
 Refer: 200 945 N 1 0 0 1 0 0 2
 Refer: 1351 8126 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F8C
@@ -30531,7 +30516,6 @@ Fore
 Refer: 222 969 N 1 0 0 1 0 0 2
 Refer: 1351 8126 N 1 0 0 1 0 0 2
 Refer: 1357 8142 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1FAC
@@ -30554,7 +30538,6 @@ LayerCount: 2
 Fore
 Refer: 200 945 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F0D
@@ -30565,7 +30548,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 91 -1 N 1 0 0 1 0 0 2
-Refer: 1354 8158 S 1 0 0 1 0 128 2
+Refer: 1354 8158 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F15
@@ -30577,7 +30560,6 @@ LayerCount: 2
 Fore
 Refer: 204 949 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F1D
@@ -30588,7 +30570,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 1354 8158 S 1 0 0 1 0 128 2
+Refer: 1354 8158 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F25
@@ -30600,7 +30582,6 @@ LayerCount: 2
 Fore
 Refer: 206 951 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F2D
@@ -30611,7 +30592,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2055 -1 N 1 0 0 1 0 0 2
-Refer: 1354 8158 S 1 0 0 1 0 128 2
+Refer: 1354 8158 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F35
@@ -30623,7 +30604,6 @@ LayerCount: 2
 Fore
 Refer: 208 953 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F3D
@@ -30634,7 +30614,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2056 -1 N 1 0 0 1 0 0 2
-Refer: 1354 8158 S 1 0 0 1 0 128 2
+Refer: 1354 8158 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F45
@@ -30646,7 +30626,6 @@ LayerCount: 2
 Fore
 Refer: 241 959 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F4D
@@ -30657,7 +30636,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2051 -1 N 1 0 0 1 0 0 2
-Refer: 1354 8158 S 1 0 0 1 0 128 2
+Refer: 1354 8158 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F55
@@ -30669,7 +30648,6 @@ LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F5D
@@ -30680,7 +30658,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2067 -1 N 1 0 0 1 0 0 2
-Refer: 1354 8158 S 1 0 0 1 0 128 2
+Refer: 1354 8158 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F65
@@ -30692,7 +30670,6 @@ LayerCount: 2
 Fore
 Refer: 222 969 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F6D
@@ -30703,7 +30680,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2082 -1 N 1 0 0 1 0 0 2
-Refer: 1354 8158 S 1 0 0 1 -64 128 2
+Refer: 1354 8158 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F85
@@ -30716,7 +30693,6 @@ Fore
 Refer: 200 945 N 1 0 0 1 0 0 2
 Refer: 1351 8126 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F8D
@@ -30751,7 +30727,6 @@ Fore
 Refer: 222 969 N 1 0 0 1 0 0 2
 Refer: 1351 8126 N 1 0 0 1 0 0 2
 Refer: 1354 8158 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1FAD
@@ -30773,7 +30748,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2067 -1 N 1 0 0 1 0 0 2
-Refer: 1355 8159 N 1 0 0 1 0 -128 2
+Refer: 1355 8159 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1F87
@@ -31220,7 +31195,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2049 -1 N 1 0 0 1 0 0 2
-Refer: 1346 8190 S 1 0 0 1 0 128 2
+Refer: 1346 8190 S 1 0 0 1 -416 0 2
 EndChar
 
 StartChar: uni1FB6
@@ -31323,7 +31298,6 @@ LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
 Refer: 1349 8174 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1FE2
@@ -31335,7 +31309,6 @@ LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
 Refer: 1350 8173 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1FD3
@@ -31347,7 +31320,6 @@ LayerCount: 2
 Fore
 Refer: 208 953 N 1 0 0 1 0 0 2
 Refer: 1349 8174 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1FD2
@@ -31359,7 +31331,6 @@ LayerCount: 2
 Fore
 Refer: 208 953 N 1 0 0 1 0 0 2
 Refer: 1350 8173 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1FD7
@@ -31381,7 +31352,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 218 965 N 1 0 0 1 0 0 2
-Refer: 1344 8129 S 1 0 0 1 0 0 2
+Refer: 1344 8129 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1FB1
@@ -32552,7 +32523,6 @@ Fore
 Refer: 1357 8142 N 1 0 0 1 0 0 2
 Refer: 206 951 N 1 0 0 1 0 0 2
 Refer: 1059 890 N 1 0 0 1 -299 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F95
@@ -32564,7 +32534,6 @@ Fore
 Refer: 1354 8158 N 1 0 0 1 0 0 2
 Refer: 206 951 N 1 0 0 1 0 0 2
 Refer: 1059 890 N 1 0 0 1 -299 0 2
-Validated: 1
 EndChar
 
 StartChar: uni1F96
@@ -32574,7 +32543,7 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1358 8143 S 1 0 0 1 0 -128 2
+Refer: 1358 8143 S 1 0 0 1 0 0 2
 Refer: 206 951 N 1 0 0 1 0 0 2
 Refer: 1351 8126 N 1 0 0 1 -299 0 2
 EndChar
@@ -32586,7 +32555,7 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1355 8159 S 1 0 0 1 0 -128 2
+Refer: 1355 8159 S 1 0 0 1 0 0 2
 Refer: 206 951 N 1 0 0 1 0 0 2
 Refer: 1351 8126 N 1 0 0 1 -299 0 2
 EndChar
@@ -44778,6 +44747,33 @@ SplineSet
  221 0 l 1,9,-1
  64 0 l 1,10,-1
  803 1280 l 1,7,-1
+EndSplineSet
+EndChar
+
+StartChar: agave.diaresisduck
+Encoding: 65578 -1 2089
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+112 1392 m 128,-1,1
+ 158 1392 158 1392 191 1359 c 128,-1,2
+ 224 1326 224 1326 224 1280 c 128,-1,3
+ 224 1234 224 1234 191 1201 c 128,-1,4
+ 158 1168 158 1168 112 1168 c 128,-1,5
+ 66 1168 66 1168 33 1201 c 128,-1,6
+ 0 1234 0 1234 0 1280 c 128,-1,7
+ 0 1326 0 1326 33 1359 c 128,-1,0
+ 66 1392 66 1392 112 1392 c 128,-1,1
+912 1392 m 128,-1,9
+ 958 1392 958 1392 991 1359 c 128,-1,10
+ 1024 1326 1024 1326 1024 1280 c 128,-1,11
+ 1024 1234 1024 1234 991 1201 c 128,-1,12
+ 958 1168 958 1168 912 1168 c 128,-1,13
+ 866 1168 866 1168 833 1201 c 128,-1,14
+ 800 1234 800 1234 800 1280 c 128,-1,15
+ 800 1326 800 1326 833 1359 c 128,-1,8
+ 866 1392 866 1392 912 1392 c 128,-1,9
 EndSplineSet
 EndChar
 EndChars

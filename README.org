@@ -2,7 +2,7 @@
 
 ** about
 
-*agave* is a fixed-width outline typeface, designed by [[https://b.agaric.net/about][type agaric]].
+*agave* is a fixed-width outline typeface, designed and produced by [[https://b.agaric.net/about][type agaric]].
 
 Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [[https://raw.githubusercontent.com/agarick/agave/master/LICENSE][MIT license]].
 
@@ -10,10 +10,10 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- *version 25*
+- *version 26*
 
 - regular:
-  - glyph count: 2063
+  - glyph count: 2047
   - ascii; latin ext; greek; cyrillic; ipa; math; ipa; arrows; box-drawing; powerline; misc.
 
 - bold:
@@ -35,7 +35,8 @@ Please install according to common procedures specified by your platform. Maybe 
 
 ** preview
 
-- images are *version 24*
+- images are *version 26*
+  - size 10, 2160x1440 screen resolution, 120 dpi, libXft v2.3.3, freetype v2.10.2, xterm v360, emacs v27.1 ("code" & "box drawing")
 
 *glyph distinction*, in ASCII:
 
@@ -45,7 +46,7 @@ Please install according to common procedures specified by your platform. Maybe 
 
 [[https://raw.githubusercontent.com/agarick/agave/master/img/code.png]]
 
-*geometric rationale*, sampling the regular Latin letter "b":
+*geometric rationale*, sampling the ascii letter "b":
 
 [[https://raw.githubusercontent.com/agarick/agave/master/img/metric.png]]
 

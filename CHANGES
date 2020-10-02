@@ -6,6 +6,11 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+26
+- [*] remove redundant glyph source tarball (src/r/agave-r_glyphs.tar.gz)
+- [imp] u01d5-u01de,u1e14-u1fe3,etc. (glyphs with overshooting diacritics) strictly respect bounds
+- [fix] u027f ("ɿ") shape
+
 25
 - [*] change vendor id from PfEd to agrc (which is not officially registered anywhere)
 - [fix] u021c,u021d ("Ȝȝ") shape
