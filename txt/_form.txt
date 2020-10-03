@@ -1,4 +1,4 @@
-xterm -fa Agave -fs 10 -bg '#282a36' -fg '#c7c7c7' # [ascii] light on dark
-xterm -fa Agave -fs 10 -bg '#1427b1' -fg '#fefdc5' # [term] light on blue
-xterm -fa Agave -fs 10 -bg '#eeeeee' -fg '#444444' # [lit] dark on light
+xterm -fa Agave -fs 9 -bg '#282a36' -fg '#c7c7c7' # [ascii] light on dark
+xterm -fa Agave -fs 9 -bg '#1427b1' -fg '#fefdc5' # [term] light on blue
+xterm -fa Agave -fs 9 -bg '#eeeeee' -fg '#444444' # [lit] dark on light
 # [box] greens: bg #f0f7da, fg #234d20

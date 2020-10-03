@@ -6,6 +6,16 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+27
+- [imp] u005f ("_") larger bearing
+- [imp] u0061 ("a") shape
+- [imp] u0066 ("f") shape
+- [imp] u021c ("Ȝ") shape
+- [imp] u002c,u003b (",;") more definite
+- [imp] u1fbf,u1ffe (psili,dasia) more definite
+- [imp] u2201,u2203,u2204 (complement,existential) shape
+- [fix] u220f-u2211,u2308-u230b (n-ary product,coproduct,summation, floor,ceiling) height
+
 26
 - [*] remove redundant glyph source tarball (src/r/agave-r_glyphs.tar.gz)
 - [imp] u01d5-u01de,u1e14-u1fe3,etc. (glyphs with overshooting diacritics) strictly respect bounds
@@ -20,7 +30,7 @@ legend:
 
 24
 - [imp] u0041 ("A") shape
-- [fix] u0263 ("ɣ") height
+- [fix] u0263 ("ɣ") shorter height
 
 23
 - [fix] u0281,u1d1a (small capital inverted/turned R) direction

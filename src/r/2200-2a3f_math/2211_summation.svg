@@ -23,8 +23,11 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     transform="translate(0,995.63782)"
+     id="layer1" />
   <path
-     d="M 384,352 V 672 H 640 V 352 Z m 0,768 v 256 h 128 c 0,0 0,44 -128,172 l -128,128 128,116 128,-128 C 640.00104,1535.999 640,1376.0054 640,1376.0054 V 1120 Z"
-     id="path5970"
-     style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
+     id="path5594"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     d="m 96,99 0,157 416,643 -416,736 v 157 H 928 V 1635 H 276 L 695,893 283,255.99967 928,256 V 99 Z" />
 </svg>
