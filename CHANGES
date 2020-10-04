@@ -6,6 +6,16 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+28
+- [imp] u0061 ("a") shape
+- [imp] u0066 ("f") shape
+- [imp] u00aa ("ª") shape
+- [imp] u0192 ("ƒ") shape
+- [imp] u02a9 ("ʩ") shape
+- [imp] u2090 ("ₐ") shape
+- [imp] u2201 (complement) stroke thickness
+- [imp] u2211 (summation) stroke thickness
+
 27
 - [imp] u005f ("_") larger bearing
 - [imp] u0061 ("a") shape
