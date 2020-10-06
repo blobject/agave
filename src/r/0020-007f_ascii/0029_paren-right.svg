@@ -27,7 +27,7 @@
      id="layer1"
      transform="translate(0,995.63782)" />
   <path
-     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     d="m 362,99 c 0,0 352,211.00055 352,846 0,634.9994 -352,847 -352,847 H 170 c 0,0 358,-212.0011 358,-847 C 528,310.00115 170,99 170,99 Z"
      id="path5114-5-2-4-1"
-     d="m 362,99 c 0,0 342,322.999 342,846 0,523.001 -342,847 -342,847 H 192 c 0,0 320,-323.9976 320,-847 C 512,421.9976 192,99 192,99 Z" />
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1" />
 </svg>

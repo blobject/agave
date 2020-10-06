@@ -6,6 +6,11 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+29
+- [*] update copyright notice in license
+- [imp] u0028,u0029 ("()") shape
+- [imp] u0462,u0463,u048c,u048d (Yat,yat,semisofts) shape
+
 28
 - [imp] u0061 ("a") shape
 - [imp] u0066 ("f") shape
