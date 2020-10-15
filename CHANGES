@@ -6,6 +6,12 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+30
+- [imp] u0062,u0064,etc. ("bd") round corners
+- [imp] u0062,u0064,u0068 ("bdh") raise x-height
+- [imp] u0028,u0029 ("()") shape
+- [add] u2102,u2115,u211a,u211d,u2124,u2217,u2222,u2249,u2262,u2318,u231c-u2320,u239b-u23af,u23b0-u23b3,u2801,u28ff (math,braille,misc)
+
 29
 - [*] update copyright notice in license
 - [imp] u0028,u0029 ("()") shape

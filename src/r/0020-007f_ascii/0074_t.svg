@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -26,7 +24,7 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="m 863.99995,1528 c 0,0 -61.0013,16 -159.99995,16 -223.99649,0 -362.00003,-79.9992 -362.00003,-322 l 0,-454 L 64,768 l 0,-157 278.00002,0 0,-355 169.99999,0 0,355 415.99993,0 0,157 -415.99997,0 0,454 c 0,117.996 72.9987,157 192.00004,157 l 159.99993,0 z"
+     d="m 863.99995,1528 c 0,0 -61.0013,16 -159.99995,16 -223.99649,0 -362.00003,-79.9992 -362.00003,-322 V 768 H 64 V 611 H 342.00002 V 256 H 512.00001 V 611 H 927.99994 V 768 H 511.99997 v 454 c 0,117.996 72.9987,157 192.00004,157 h 159.99993 z"
      id="path3157-3-3"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
 </svg>
