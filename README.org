@@ -59,14 +59,14 @@ images are *version 30*
 
 [[/pub/lit.png]]
 
-*box drawing* (size *6.0*, alacritty v0.5.0)
+*unicode* (size *6.0*, alacritty v0.5.0)
 
-[[/pub/box.png]]
+[[/pub/unicode.png]]
 
 *in the wild*:
 - https://www.programmingfonts.org/#agave
 - https://www.reddit.com/r/unixporn/comments/hb4ib9/i3gaps_pywal_is_a_blessing/
-- https://k1ss.org/screenshots (Mike Emanuelli)
+- https://k1ss.org/screenshots (Mike Emanuelli's)
 - https://github.com/chrissimpkins/codeface/issues/120
 
 ** build
