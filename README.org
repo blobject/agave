@@ -10,17 +10,17 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- regular: *version 31*
+- regular, *version 31*
   - glyph count: 2347
   - ascii; latin ext; greek; cyrillic; ipa; math; arrows; box-drawing; braille; powerline; misc.
 
-- bold: /version 0/
-  - /in progress, not ready for use/
+- bold, /version 0/
   - glyph count: 5
+  - /in progress, not ready for use/
 
-- italic: /version ?/
+- italic, /version ?/
 
-- bold & italic: /version ?/
+- bold & italic, /version ?/
 
 ** use
 
@@ -32,7 +32,7 @@ Please install according to common procedures specified by your platform. Maybe 
 
 ** preview
 
-images are of **Regular, version 31**
+images are of *Regular, version 31*
 - 2160x1440 screen resolution, 200 dpi, freetype v2.10.2, libXft v2.3.3, gimp v2.10.20
 
 ASCII (size *5.5*, alacritty v0.5.0)
@@ -43,7 +43,7 @@ ASCII (size *5.5*, alacritty v0.5.0)
 
 [[/pub/code.png]]
 
-*geometric rationale*, sampling the ascii letter "b":
+*geometric rationale*, sampling the ascii letter "c":
 
 [[/pub/metric.png]]
 
