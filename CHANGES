@@ -6,6 +6,12 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+31
+- [imp] u002f ("/") dimensions
+- [imp] u005f ("_") larger bearing
+- [imp] "bdhk" shapes and of their latin/phonetic counterparts
+- [imp] u01bf,u00f7 ("ƿǷ") shape
+
 30
 - [imp] u0062,u0064,etc. ("bd") round corners
 - [imp] u0062,u0064,u0068 ("bdh") raise x-height

@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="1024"
    height="2048"
-   id="svg3355">
+   id="svg3355"
+   sodipodi:docname="0184_Tone-six.svg"
+   inkscape:version="1.0.1 (unknown)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1189"
+     inkscape:window-height="1406"
+     id="namedview151"
+     showgrid="false"
+     inkscape:zoom="0.35888672"
+     inkscape:cx="512"
+     inkscape:cy="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3355" />
   <defs
      id="defs3357" />
   <metadata
@@ -26,7 +48,8 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="m 160,512 0,1024 340,0 c 274.0021,0 444,-167.0037 444,-438 C 944,894.0008 813.99791,768 604,768 l -274,0 0,-512 -298,142 0,32 z m 170,413 274,0 c 104.99694,0 170,65.9981 170,173 0,173.9993 -105.00391,281 -274,281 l -170,0 z"
      id="path3157-2-3-8-1-5-3-8"
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     d="M 330,256 32,398 v 32 l 128,82 v 1024 h 352 c 267.00377,0 432,-146.9991 432,-384 C 944,914.9991 779.00227,768 512,768 H 330 Z m 0,669 h 182 c 161.99679,0 262,87.0032 262,227 0,139.9968 -100.00131,227 -262,227 H 330 Z"
+     sodipodi:nodetypes="cccccssscccssscc" />
 </svg>

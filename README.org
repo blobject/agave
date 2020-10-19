@@ -10,21 +10,17 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- *version 30*
-
-- regular:
+- regular: *version 31*
   - glyph count: 2347
   - ascii; latin ext; greek; cyrillic; ipa; math; arrows; box-drawing; braille; powerline; misc.
 
-- bold:
+- bold: /version 0/
   - /in progress, not ready for use/
   - glyph count: 5
 
-- italic:
-  - /yet to be designed/
+- italic: /version ?/
 
-- bold & italic:
-  - /yet to be designed/
+- bold & italic: /version ?/
 
 ** use
 
@@ -36,14 +32,14 @@ Please install according to common procedures specified by your platform. Maybe 
 
 ** preview
 
-images are *version 30*
+images are of **Regular, version 31**
 - 2160x1440 screen resolution, 200 dpi, freetype v2.10.2, libXft v2.3.3, gimp v2.10.20
 
-*glyph distinction*, in ASCII (size *6.0*, alacritty v0.5.0)
+ASCII (size *5.5*, alacritty v0.5.0)
 
 [[/pub/ascii.png]]
 
-*code*, sampling C (height *60*, emacs v27.1)
+*code*, sampling C (height *55*, emacs v27.1)
 
 [[/pub/code.png]]
 
@@ -51,15 +47,15 @@ images are *version 30*
 
 [[/pub/metric.png]]
 
-*terminal* (size *6.0*, alacritty v0.5.0)
+*terminal* (size *5.5*, alacritty v0.5.0)
 
 [[/pub/term.png]]
 
-*literary text*, sampling ASCII, Greek, and Cyrillic (size *6.0*, alacritty v0.5.0)
+*literary text*, sampling ASCII, Greek, and Cyrillic (size *5.5*, alacritty v0.5.0)
 
 [[/pub/lit.png]]
 
-*unicode* (size *6.0*, alacritty v0.5.0)
+*unicode* (size *5.5*, alacritty v0.5.0)
 
 [[/pub/unicode.png]]
 
@@ -67,7 +63,8 @@ images are *version 30*
 - https://www.programmingfonts.org/#agave
 - https://www.reddit.com/r/unixporn/comments/hb4ib9/i3gaps_pywal_is_a_blessing/
 - https://k1ss.org/screenshots (Mike Emanuelli's)
-- https://github.com/chrissimpkins/codeface/issues/120
+- https://www.reddit.com/r/unixporn/comments/ft1iu5/stumpwm_preparing_for_the_end_times/
+- https://www.reddit.com/r/unixporn/comments/a1hia1/i3gaps_oblivion/
 
 ** build
 
@@ -93,7 +90,7 @@ Feel free to use the [[https://github.com/agarick/agave/issues][issue tracker]] 
 
 ** thanks
 
-... foremost to the respective persons/teams behind Inkscape, ttfautohint, and FontForge as I relied on them to respectively draw, hint, and generate *agave*,
+... foremost to Inkscape, ttfautohint, and FontForge as I relied on them to respectively draw, hint, and generate *agave*,
 
 to GitHub for hosting this repo,
 
