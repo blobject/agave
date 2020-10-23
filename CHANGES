@@ -6,6 +6,19 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+32
+- [add] u20a0-u20bf (currency)
+- [add] u2209,u22ab,u22ac,u2224,u2226,u2263-u226b,u226e-u2271,u227a-u227d,u2280-u2281,u2284-u228b,u228f-u2294,u22a2-u22af,u22b2-u22b5,u2329-u232a,u27e6-u27eb (math)
+- [add] u2600,u2601,u2605,u2669-u266c,u26a1 (misc)
+- [imp] u0065,u00e6,u018f,u0247,u04bc-u04bf (e-like) shape
+- [imp] u0067,u01e5,u0260 (g-like) shape
+- [imp] u0070,u00fe,u01a5,u0239,u048f (p-like) shape
+- [imp] u0071,u024a,u024b,u02a0 (q-like) shape
+- [imp] u03c1,u03f1,u03fc (rho-like) shape
+- [imp] u2320-u2321,u239b-23b1 (multiline braces) dimensions
+- [fix] u2801-u28ff (braille) shape and dimensions
+#43 - u03b7 (eta), u1fc3 (eta with ypogegrammeni) u0271 (m with hook)
+
 31
 - [imp] u002f ("/") dimensions
 - [imp] u005f ("_") larger bearing

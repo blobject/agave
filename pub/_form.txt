@@ -1,4 +1,0 @@
-# [ascii] light on dark: bg #282a36 fg #c7c7c7
-# [term]  light on blue: bg #1427b1 fg #fefdc5
-# [lit]   dark on light: bg #eeeeee fg #444444
-# [unicode] greens:      bg #f0f7da fg #234d20

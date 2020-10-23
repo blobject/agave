@@ -1,4 +1,4 @@
-[[https://raw.githubusercontent.com/agarick/agave/master/pub/title.png]]
+[[https://raw.githubusercontent.com/blobject/agave/master/pub/title.png]]
 
 ** about
 
@@ -10,7 +10,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- regular, *version 31*
+- regular, *version 32*
   - glyph count: 2347
   - ascii; latin ext; greek; cyrillic; ipa; math; arrows; box-drawing; braille; powerline; misc.
 
@@ -26,36 +26,36 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *IMPORTANT:* Font naming and identification changed in version 11. If you have an older version installed, please remove it before installing a more recent one.
 
-The ~Agave-*.ttf~ font file(s) can be found on the [[https://github.com/agarick/agave/releases][releases]] page or in the ~dist/~ [[https://github.com/agarick/agave/tree/master/dist][folder]] in the source.
+The ~Agave-*.ttf~ font file(s) can be found on the [[https://github.com/blobject/agave/releases][releases]] page or in the ~dist/~ [[https://github.com/blobject/agave/tree/master/dist][folder]] in the source.
 
 Please install according to common procedures specified by your platform. Maybe this [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][page from howtogeek.com]] might help.
 
 ** preview
 
-images are of *Regular, version 31*
-- 2160x1440 screen resolution, 200 dpi, freetype v2.10.2, libXft v2.3.3, gimp v2.10.20
+images are of *Regular, version 32*
+- 2160x1440 screen resolution, 200 dpi, freetype v2.10.4, libXft v2.3.3, gimp v2.10.20
 
-ASCII (size *5.5*, alacritty v0.5.0)
+ASCII (alacritty v0.5.0, size *5.5*)
 
 [[/pub/ascii.png]]
 
-*code*, sampling C (height *55*, emacs v27.1)
+*code*, sampling C syntax (emacs v27.1, height *55*)
 
 [[/pub/code.png]]
 
-*geometric rationale*, sampling the ascii letter "c":
+*geometric rationale*, sampling the ascii "c":
 
 [[/pub/metric.png]]
 
-*terminal* (size *5.5*, alacritty v0.5.0)
+*terminal* (alacritty v0.5.0, size *5.5*)
 
 [[/pub/term.png]]
 
-*literary text*, sampling ASCII, Greek, and Cyrillic (size *5.5*, alacritty v0.5.0)
+*literary text*, sampling ascii, Greek, and Cyrillic (alacritty v0.5.0, size *5.5*)
 
 [[/pub/lit.png]]
 
-*unicode* (size *5.5*, alacritty v0.5.0)
+*unicode* (alacritty v0.5.0, size *5.5*)
 
 [[/pub/unicode.png]]
 
@@ -72,21 +72,21 @@ ASCII (size *5.5*, alacritty v0.5.0)
 
 - Open ~src/agave-r.sfd~ in FontForge.
 - Click *File* --> *Generate Fonts* --> pick *TrueType*, *No Bitmap Fonts*, *No Rename* --> *Generate*.
-  - You might see (and can ignore, I think) a few warnings about non-integral coordinates, etc.
+  - You might see (and can ignore, I think) some warnings about non-integral coordinates, etc.
 - Hint the generated font file using ttfautohint.
   - Assuming the generated file is ~raw.ttf~, run ~ttfautohint -v -t raw.ttf Agave-Regular.ttf~
 
 ** naming
 
 - "Agave" refers either to the green plant or to the daughter of Kadmos in mythology.
-- *agave* is sister to [[https://github.com/agarick/autonoe][autonoe]] and [[https://github.com/agarick/ino][ino]].
+- *agave* is sister to [[https://github.com/blobject/autonoe][autonoe]] and [[https://github.com/blobject/ino][ino]].
 - *type agaric* opted for a slightly eponymic name for their first typeface.
 
 ** discussion
 
 Feedback, questions, suggestions, etc. are welcome and encouraged.
 
-Feel free to use the [[https://github.com/agarick/agave/issues][issue tracker]] or contact *type agaric* via email at =agaric@protonmail.com=.
+Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] or contact *type agaric* via email at =agaric@protonmail.com=.
 
 ** thanks
 
