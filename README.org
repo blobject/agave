@@ -11,7 +11,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 ** status
 
 - regular, *version 32*
-  - glyph count: 2347
+  - glyph count: 2440
   - ascii; latin ext; greek; cyrillic; ipa; math; arrows; box-drawing; braille; powerline; misc.
 
 - bold, /version 0/
