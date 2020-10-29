@@ -2,6 +2,8 @@
 
 [[/pub/ascii.png]]
 
+*NOTICE:* github namespace changed from /agarick/ to *blobject*.
+
 ** about
 
 *agave* is a fixed-width outline typeface, designed and produced by [[https://b.agaric.net/about][type agaric]].
@@ -12,7 +14,7 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 ** status
 
-- regular, *version 33*
+- regular, *version 34*
   - glyph count: 2440
   - ascii; latin ext; greek; cyrillic; ipa; math; arrows; box-drawing; braille; powerline; misc.
 
@@ -20,7 +22,9 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
   - glyph count: 5
   - /in progress, not ready for use/
 
-- italic, /version ?/
+- italic, /version 0/
+  - glyph count: 5
+  - /in progress, not ready for use/
 
 - bold & italic, /version ?/
 
@@ -34,7 +38,7 @@ Please install according to common procedures specified by your platform. Maybe 
 
 ** preview
 
-images are of *Regular, version 33*
+images are of *Regular, version 34*
 - 2160x1440 screen resolution, 200 dpi, freetype v2.10.4, libXft v2.3.3, gimp v2.10.20
 
 *code*, sampling C syntax (emacs v27.1, height *55*)
@@ -63,7 +67,6 @@ images are of *Regular, version 33*
 - https://k1ss.org/screenshots (Mike Emanuelli's)
 - https://www.reddit.com/r/unixporn/comments/ft1iu5/stumpwm_preparing_for_the_end_times/
 - https://bbs.archlinux.org/viewtopic.php?pid=1266904#p1266904
-- https://www.reddit.com/r/unixporn/comments/a1hia1/i3gaps_oblivion/
 
 ** build
 
@@ -89,7 +92,7 @@ Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]]
 
 ** thanks
 
-... foremost to Inkscape, ttfautohint, and FontForge as I relied on them to respectively draw, hint, and generate *agave*,
+... foremost to [[https://inkscape.org/][Inkscape]], [[http://ttfautohint.com/][ttfautohint]], and [[https://fontforge.org/][FontForge]] as I relied on them to respectively draw, hint, and generate *agave*,
 
 to GitHub for hosting this repo,
 

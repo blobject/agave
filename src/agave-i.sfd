@@ -1,0 +1,180 @@
+SplineFontDB: 3.2
+FontName: Agave-Italic
+FullName: Agave Italic
+FamilyName: Agave
+Weight: Regular
+Copyright: Copyright (c) 2020 type agaric <agaric@protonmail.com>
+Version: 0
+ItalicAngle: -10
+UnderlinePosition: -234
+UnderlineWidth: 128
+Ascent: 1536
+Descent: 512
+InvalidEm: 0
+sfntRevision: 0x00000000
+LayerCount: 2
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
+XUID: [1021 584 1762956521 3909442]
+StyleMap: 0x0001
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1603808863
+ModificationTime: 1604007910
+PfmFamily: 49
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 11 5 9 4 6 4 2 2 3
+OS2TypoAscent: 1536
+OS2TypoAOffset: 0
+OS2TypoDescent: -512
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1536
+OS2WinAOffset: 0
+OS2WinDescent: 512
+OS2WinDOffset: 0
+HheadAscent: 1536
+HheadAOffset: 0
+HheadDescent: -512
+HheadDOffset: 0
+OS2SubXSize: 1403
+OS2SubYSize: 1224
+OS2SubXOff: 0
+OS2SubYOff: 120
+OS2SupXSize: 1403
+OS2SupYSize: 1224
+OS2SupXOff: 0
+OS2SupYOff: 648
+OS2StrikeYSize: 128
+OS2StrikeYPos: 512
+OS2CapHeight: 1280
+OS2XHeight: 1024
+OS2FamilyClass: 1285
+OS2Vendor: 'agrc'
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "Agave Italic" "" "" "" "" "" "type agaric" "" "https://github.com/blobject/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/blobject/agave/blob/master/LICENSE"
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -24
+AntiAlias: 0
+FitToEm: 0
+WinInfo: 0 41 21
+BeginPrivate: 0
+EndPrivate
+TeXData: 3 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+BeginChars: 65536 5
+
+StartChar: one
+Encoding: 49 49 0
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+609 1280 m 1,0,-1
+ 782 1280 l 1,1,-1
+ 556 0 l 1,2,-1
+ 383 0 l 1,3,-1
+ 567 1044 l 1,4,-1
+ 341 885 l 1,5,-1
+ 243 1024 l 1,6,-1
+ 609 1280 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: i
+Encoding: 105 105 1
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+512 1365 m 1,0,-1
+ 791 1365 l 1,1,-1
+ 761 1195 l 1,2,-1
+ 482 1195 l 1,3,-1
+ 512 1365 l 1,0,-1
+269 925 m 1,4,-1
+ 666 925 l 1,5,-1
+ 547 254 l 2,6,7
+ 538 202 538 202 593.5 179.5 c 128,-1,8
+ 649 157 649 157 764 157 c 2,9,-1
+ 909 157 l 1,10,-1
+ 883 8 l 1,11,12
+ 825 -8 825 -8 735 -8 c 0,13,14
+ 536 -8 536 -8 443 52.5 c 128,-1,15
+ 350 113 350 113 375 254 c 2,16,-1
+ 466 768 l 1,17,-1
+ 242 768 l 1,18,-1
+ 269 925 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: I
+Encoding: 73 73 2
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+309 1280 m 1,0,-1
+ 942 1280 l 1,1,-1
+ 914 1123 l 1,2,-1
+ 684 1125 l 1,3,-1
+ 513 157 l 1,4,-1
+ 744 157 l 1,5,-1
+ 716 0 l 1,6,-1
+ 82 0 l 1,7,-1
+ 110 157 l 1,8,-1
+ 341 157 l 1,9,-1
+ 511 1125 l 1,10,-1
+ 281 1123 l 1,11,-1
+ 309 1280 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: l
+Encoding: 108 108 3
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+269 1280 m 1,0,-1
+ 711 1280 l 1,1,-1
+ 529.7578125 254 l 2,2,3
+ 520.49866395 201.585478713 520.49866395 201.585478713 578.974124769 179.292739356 c 128,-1,4
+ 637.449585587 157 637.449585587 157 758 157 c 2,5,-1
+ 909 157 l 1,6,-1
+ 883 8 l 1,7,8
+ 822 -8 822 -8 729 -8 c 0,9,10
+ 628.839367616 -8 628.839367616 -8 556.641623906 5.465336886 c 128,-1,11
+ 484.443880196 18.930673772 484.443880196 18.930673772 433.822044917 48.8942669958 c 128,-1,12
+ 383.200209637 78.8578602197 383.200209637 78.8578602197 363.777701787 130.183568087 c 128,-1,13
+ 344.355193937 181.509275955 344.355193937 181.509275955 357.13671875 253.998046875 c 2,14,-1
+ 510.36328125 1123 l 1,15,-1
+ 242 1123 l 1,16,-1
+ 269 1280 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 4
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+178 561 m 1,0,-1
+ 206 719 l 1,1,-1
+ 846 719 l 1,2,-1
+ 818 561 l 1,3,-1
+ 178 561 l 1,0,-1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

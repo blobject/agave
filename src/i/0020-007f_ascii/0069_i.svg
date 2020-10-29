@@ -24,7 +24,7 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="M 1024,823 V 969 H 0 V 823 Z"
-     id="path3671-6-1-9"
-     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.917886" />
+     id="path261"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     d="M 527,171 497,341 H 753 L 783,171 Z M 269,611 242,768 h 238 l -91,514 c -34.87816,197.0041 105.99794,262 352,262 85.996,0 142,-16 142,-16 l 26,-149 H 770 c -139.99656,0 -220.46228,-23.7506 -209,-97 L 680,611 Z" />
 </svg>

@@ -6,6 +6,10 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+34
+- [fix] u23af (horizontal extension) placement
+- [add]i u002d,u0031,u0049,u0069,u006c ("-1Iil")
+
 33
 - [imp] u0065 ("e") right bearing
 - [imp] u0153,u025a,u04da,u1d14,u2091,u2094 (e-like) reflect "e" shape
@@ -40,6 +44,7 @@ legend:
 - [*] update copyright notice in license
 - [imp] u0028,u0029 ("()") shape
 - [imp] u0462,u0463,u048c,u048d (Yat,yat,semisofts) shape
+- [add]b u0030,u0031,u004f,u0061,u006f ("01Oao")
 
 28
 - [imp] u0061 ("a") shape

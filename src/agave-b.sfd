@@ -3,7 +3,7 @@ FontName: Agave-Bold
 FullName: Agave Bold
 FamilyName: Agave
 Weight: Bold
-Copyright: Copyright 2013-2020 type agaric <agaric@protonmail.com>
+Copyright: Copyright 2019-2020 type agaric <agaric@protonmail.com>
 Version: 0
 ItalicAngle: 0
 UnderlinePosition: -234
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1552578602
-ModificationTime: 1603060578
+ModificationTime: 1603809678
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -58,7 +58,7 @@ OS2FamilyClass: 2057
 OS2Vendor: 'agrc'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Agave Bold" "" "" "" "" "" "type agaric" "" "https://github.com/agarick/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/agarick/agave/blob/master/LICENSE"
+LangName: 1033 "" "" "" "Agave Bold" "" "" "" "" "" "type agaric" "" "https://github.com/blobject/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/blobject/agave/blob/master/LICENSE"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts

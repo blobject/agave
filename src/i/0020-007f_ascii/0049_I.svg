@@ -23,8 +23,13 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     d="M 1024,823 V 969 H 0 V 823 Z"
-     id="path3671-6-1-9"
-     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.917886" />
+  <g
+     transform="rotate(10,-5178.0962,484.01699)"
+     id="layer1">
+    <path
+       id="path3157-2"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 309,256 -28,157 230,-2 -170,968 H 110 l -28,157 h 634 l 28,-157 H 513 l 171,-968 230,2 28,-157 z"
+       transform="rotate(-10,-5178.0962,484.01699)" />
+  </g>
 </svg>

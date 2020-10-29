@@ -4,14 +4,14 @@ FullName: Agave Regular
 FamilyName: Agave
 Weight: Regular
 Copyright: Copyright 2013-2020 type agaric <agaric@protonmail.com>
-Version: 33
+Version: 34
 ItalicAngle: 0
 UnderlinePosition: -234
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00210000
+sfntRevision: 0x00220000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1368797729
-ModificationTime: 1603530338
+ModificationTime: 1603809565
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -58,14 +58,14 @@ OS2FamilyClass: 2057
 OS2Vendor: 'agrc'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Agave Regular" "" "" "" "" "" "type agaric" "" "https://github.com/agarick/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/agarick/agave/blob/master/LICENSE"
+LangName: 1033 "" "" "" "Agave Regular" "" "" "" "" "" "type agaric" "" "https://github.com/blobject/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/blobject/agave/blob/master/LICENSE"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 328 41 21
+WinInfo: 41 41 21
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -57290,11 +57290,11 @@ Width: 1024
 LayerCount: 2
 Fore
 SplineSet
-1024 585 m 1,0,-1
- 1024 439 l 1,1,-1
- 0 439 l 1,2,-1
- 0 585 l 1,3,-1
- 1024 585 l 1,0,-1
+1024 713 m 1,0,-1
+ 1024 567 l 1,1,-1
+ 0 567 l 1,2,-1
+ 0 713 l 1,3,-1
+ 1024 713 l 1,0,-1
 EndSplineSet
 EndChar
 
