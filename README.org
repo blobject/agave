@@ -1,8 +1,8 @@
+*NOTICE:* github namespace changed from /agarick/ to *blobject*.
+
 [[https://raw.githubusercontent.com/blobject/agave/master/pub/title.png]]
 
 [[/pub/ascii.png]]
-
-*NOTICE:* github namespace changed from /agarick/ to *blobject*.
 
 ** about
 
