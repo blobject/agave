@@ -1,0 +1,108 @@
+SplineFontDB: 3.2
+FontName: Agave-BoldItalic
+FullName: Agave Bold Italic
+FamilyName: Agave
+Weight: Bold
+Copyright: (c) 2013-2020 type agaric <agaric@protonmail.com>
+Version: 35
+ItalicAngle: -10
+UnderlinePosition: -384
+UnderlineWidth: 128
+Ascent: 1536
+Descent: 512
+InvalidEm: 0
+sfntRevision: 0x00230000
+LayerCount: 2
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
+XUID: [1021 584 1762956521 11297310]
+StyleMap: 0x0021
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1604070579
+ModificationTime: 1604895046
+PfmFamily: 49
+TTFWeight: 700
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 11 8 9 4 6 4 2 2 3
+OS2TypoAscent: 1536
+OS2TypoAOffset: 0
+OS2TypoDescent: -512
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1536
+OS2WinAOffset: 0
+OS2WinDescent: 512
+OS2WinDOffset: 0
+HheadAscent: 1536
+HheadAOffset: 0
+HheadDescent: -512
+HheadDOffset: 0
+OS2SubXSize: 1403
+OS2SubYSize: 1224
+OS2SubXOff: 0
+OS2SubYOff: 120
+OS2SupXSize: 1403
+OS2SupYSize: 1224
+OS2SupXOff: 0
+OS2SupYOff: 648
+OS2StrikeYSize: 128
+OS2StrikeYPos: 512
+OS2CapHeight: 1280
+OS2XHeight: 1024
+OS2FamilyClass: 1285
+OS2Vendor: 'agrc'
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "Agave Bold Italic" "" "" "" "" "" "type agaric" "" "https://github.com/blobject/agave" "https://b.agaric.net/page/agave" "Agave typeface+AAoA(c) 2013-2020, type agaric <agaric@protonmail.com>+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the +ACIA-Software+ACIA), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.+AAoA" "https://github.com/blobject/agave/blob/master/LICENSE" "" "Agave" "Bold Italic" "" "" "" "Agave" "Bold Italic"
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -24
+AntiAlias: 0
+FitToEm: 0
+WinInfo: 41 41 9
+BeginPrivate: 0
+EndPrivate
+TeXData: 1 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+BeginChars: 65536 3
+
+StartChar: hyphen
+Encoding: 45 45 0
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+175 547 m 1,0,-1
+ 208 733 l 1,1,-1
+ 849 733 l 1,2,-1
+ 816 547 l 1,3,-1
+ 175 547 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: space
+Encoding: 32 32 1
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 2
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+EndChars
+EndSplineFont

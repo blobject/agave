@@ -29,5 +29,5 @@
   <path
      id="path3157-22-8"
      style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-     d="M 721,512 298.00003,880 V 256 h -170 v 1280 h 170 V 912 l 466,624 h 196 L 497,915 960,512 Z" />
+     d="M 128,256 V 1536 H 298 V 912 l 466,624 H 960 L 492,909 896,512 H 672 L 298,880 V 256 Z" />
 </svg>

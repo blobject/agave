@@ -6,9 +6,31 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+35
+- [*] new bold-italic variant
+- [*] proper ttf-names properties
+r:
+- [add] u22c5 (dot op) ref to u00b7
+- [add] u22c6 (star op)
+- [imp] u0032,u0036,u0039,u0040,u0066,u0069,u006a,u0074 ("269@fijt") shape
+- [imp] u006b,u0079,u00b7,u01b4,u024f ("k", centered period, "y"-like) dimensions
+- [imp] u026e (lezh) vertical stem
+- [imp] u25e6->u2218 (outlined bullet -> ring op)
+- [imp] u2571-u2573 (box diagonals) fit together
+b:
+- [*] thicker vertical stroke
+- [add] u0021-u002f,u0032-u004e,u0050-u0057,u0059-u0060,u0062-u0068,u006a-u006b,u006d-u007e ("!"#$%&'()*+,-./23456789:;<=>?@ABCDEFGHIJKLMNPQRSTUVWXYZ[\]^_`bcdefghjkmnopqrstuvwxyz{|}~")
+i:
+- [add] u006f,u007c ("o|")
+z:
+- [add] u002d ("-")
+
 34
+- [*] new italic variant
+r:
 - [fix] u23af (horizontal extension) placement
-- [add]i u002d,u0031,u0049,u0069,u006c ("-1Iil")
+i:
+- [add] u002d,u0031,u0049,u0069,u006c ("-1Iil")
 
 33
 - [imp] u0065 ("e") right bearing
@@ -42,9 +64,11 @@ legend:
 
 29
 - [*] update copyright notice in license
+r:
 - [imp] u0028,u0029 ("()") shape
 - [imp] u0462,u0463,u048c,u048d (Yat,yat,semisofts) shape
-- [add]b u0030,u0031,u004f,u0061,u006f ("01Oao")
+b:
+- [add] u0030,u0031,u004f,u0061,u006f ("01Oao")
 
 28
 - [imp] u0061 ("a") shape

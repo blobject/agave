@@ -3,15 +3,15 @@ FontName: Agave-Italic
 FullName: Agave Italic
 FamilyName: Agave
 Weight: Regular
-Copyright: Copyright (c) 2020 type agaric <agaric@protonmail.com>
-Version: 0
+Copyright: (c) 2013-2020 type agaric <agaric@protonmail.com>
+Version: 35
 ItalicAngle: -10
-UnderlinePosition: -234
+UnderlinePosition: -384
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00000000
+sfntRevision: 0x00230000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,13 +22,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1603808863
-ModificationTime: 1604007910
+ModificationTime: 1604895005
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
-Panose: 2 11 5 9 4 6 4 2 2 3
+Panose: 2 11 5 9 3 6 4 2 2 3
 OS2TypoAscent: 1536
 OS2TypoAOffset: 0
 OS2TypoDescent: -512
@@ -58,18 +58,18 @@ OS2FamilyClass: 1285
 OS2Vendor: 'agrc'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Agave Italic" "" "" "" "" "" "type agaric" "" "https://github.com/blobject/agave" "https://b.agaric.net/page/agave" "MIT" "https://github.com/blobject/agave/blob/master/LICENSE"
+LangName: 1033 "" "" "" "Agave Italic" "" "" "" "" "" "type agaric" "" "https://github.com/blobject/agave" "https://b.agaric.net/page/agave" "Agave typeface+AAoA(c) 2013-2020, type agaric <agaric@protonmail.com>+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the +ACIA-Software+ACIA), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.+AAoA" "https://github.com/blobject/agave/blob/master/LICENSE" "" "Agave" "Italic" "" "" "" "Agave" "Italic"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 0 41 21
+WinInfo: 41 41 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 3 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 5
+BeginChars: 65536 9
 
 StartChar: one
 Encoding: 49 49 0
@@ -175,6 +175,67 @@ SplineSet
  818 561 l 1,3,-1
  178 561 l 1,0,-1
 EndSplineSet
+EndChar
+
+StartChar: o
+Encoding: 111 111 5
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+87 587 m 0,0,1
+ 106 697 106 697 139.5 777 c 128,-1,2
+ 173 857 173 857 216 907.5 c 128,-1,3
+ 259 958 259 958 319.5 987.5 c 128,-1,4
+ 380 1017 380 1017 446 1028.5 c 128,-1,5
+ 512 1040 512 1040 599 1040 c 0,6,7
+ 805 1040 805 1040 895.5 878.5 c 128,-1,8
+ 986 717 986 717 937 437 c 0,9,10
+ 918 327 918 327 884.5 247 c 128,-1,11
+ 851 167 851 167 808 116.5 c 128,-1,12
+ 765 66 765 66 704.5 36.5 c 128,-1,13
+ 644 7 644 7 578 -4.5 c 128,-1,14
+ 512 -16 512 -16 425 -16 c 0,15,16
+ 219 -16 219 -16 128.5 145.5 c 128,-1,17
+ 38 307 38 307 87 587 c 0,0,1
+573 883 m 0,18,19
+ 440 883 440 883 363 812 c 128,-1,20
+ 286 741 286 741 254 557 c 0,21,22
+ 220 364 220 364 273 252.5 c 128,-1,23
+ 326 141 326 141 451 141 c 0,24,25
+ 584 141 584 141 661 212 c 128,-1,26
+ 738 283 738 283 770 467 c 0,27,28
+ 804 660 804 660 751 771.5 c 128,-1,29
+ 698 883 698 883 573 883 c 0,18,19
+EndSplineSet
+EndChar
+
+StartChar: bar
+Encoding: 124 124 6
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+276 -256 m 1,0,-1
+ 575 1437 l 1,1,-1
+ 748 1437 l 1,2,-1
+ 449 -256 l 1,3,-1
+ 276 -256 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: space
+Encoding: 32 32 7
+Width: 1024
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 8
+Width: 1024
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

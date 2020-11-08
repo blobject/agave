@@ -25,6 +25,6 @@
   </metadata>
   <path
      id="path3157-2-7-0"
-     d="M 512,256 160,608 320,769 512,577 v 959 H 739 V 256 Z"
-     style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     d="M 475,256 123,608 267,753 475,545 v 991 H 731 V 256 Z" />
 </svg>
