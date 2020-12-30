@@ -24,10 +24,10 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,995.63782)"
+     transform="translate(-32,995.63782)"
      id="layer1">
     <path
-       d="M 160,-739.63784 V 540.36218 h 256 v -582 h 448 v -186 H 416 v -326 h 480 v -186.00002 z"
+       d="M 160,-739.63784 V 540.36218 h 256 v -582 h 512 v -186 H 416 v -326 h 544 v -186.00002 z"
        id="path3157-2-7-3-9"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
   </g>

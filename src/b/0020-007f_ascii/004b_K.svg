@@ -27,14 +27,14 @@
      transform="translate(0,995.63782)"
      id="layer1" />
   <g
-     transform="translate(-288.71713,995.63782)"
+     transform="translate(-320.71713,995.63782)"
      id="layer1-46"
      style="display:inline">
     <path
        id="path3157-2-7-7-0-1"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       d="M 669,256 355,832 V 256 H 128 V 1536 H 355 V 896 l 347,640 H 960 L 596,864 928,256 Z"
-       transform="translate(288.71713,-995.63782)" />
+       d="M 664,256 323,832 V 256 H 96 V 1536 H 323 V 896 l 374,640 H 960 L 567,864 928,256 Z"
+       transform="translate(320.71713,-995.63782)" />
   </g>
   <g
      transform="translate(1000,995.63782)"

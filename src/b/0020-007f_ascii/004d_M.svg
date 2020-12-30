@@ -29,7 +29,7 @@
     <path
        id="path3157-2-7-5"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       d="M 733,256 512,612 291,256 H 64 V 1536 H 291 V 896 L 235,500 448,896 H 576 L 789,500 733,896 v 640 H 960 V 256 Z"
+       d="M 733,256 512,612 291,256 H 64 V 1536 H 291 V 896 L 256,539 448,896 H 576 L 768,539 733,896 v 640 H 960 V 256 Z"
        transform="translate(0,-995.63782)" />
   </g>
 </svg>

@@ -1,6 +1,22 @@
-*NOTICE:* github namespace changed from /agarick/ to *blobject*.
+*NOTICE:* github namespace recently changed from +agarick+ to *blobject*.
 
 [[https://raw.githubusercontent.com/blobject/agave/master/pub/title.png]]
+
+*version 36:* (30 dec 2010)
+
+- dotted zero: *[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular.ttf][Agave-Regular.ttf]]* / *[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf][Agave-Bold.ttf]]*
+- slashed zero: *[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular-slashed.ttf][Agave-Regular-slashed.ttf]]* / *[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf][Agave-Bold-slashed.ttf]]*
+
+/(Installing both dotted/slashed variants at the same time is not recommended.)/
+
+[[/pub/metric.png]]
+
+| variant | glyph count | charsets |
+|---------|-------------|----------|
+| Regular | 2443 | ascii, latin ext, greek, cyrillic, ipa, math, arrows, box-drawing, braille, powerline, others |
+| Bold | 96 | ascii |
+| Italic | 9 | /not ready/ |
+| BoldItalic | 3 | /not ready/ |
 
 *agave* is a fixed-width outline typeface, designed and produced by [[https://b.agaric.net/about][type agaric]].
 
@@ -8,36 +24,19 @@ Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph d
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
-** status
 
-*version 35*
+** install
 
-- regular
-  - ascii; latin ext; greek; cyrillic; ipa; math; arrows; box-drawing; braille; powerline; misc.
-  - glyph count: 2443
+The ~Agave-*.ttf~ font files can be found in:
+- https://github.com/blobject/agave/releases
+- https://github.com/blobject/agave/tree/master/dist
 
-- bold
-  - ascii
-  - glyph count: 96
+Please install according to common procedures specified by your platform. Maybe these pages might help: [[https://repology.org/project/fonts:agave/versions][repology]], [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][howtogeek]].
 
-- italic /(not ready yet)/
-  - glyph count: 9
 
-- bold italic /(not ready yet)/
-  - glyph count: 3
+** sample
 
-** use
-
-*IMPORTANT:* Font naming and identification changed in version 11. If you have an older version installed, please remove it before installing a more recent one.
-
-The ~Agave-*.ttf~ font file(s) can be found on the [[https://github.com/blobject/agave/releases][releases]] page or in the ~dist/~ [[https://github.com/blobject/agave/tree/master/dist][folder]] in the source. Note that italic and bold-italic variants are not ready for use, and the ~*-nohint.ttf~ files may not render nicely.
-
-Please install according to common procedures specified by your platform. Maybe this [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][page from howtogeek.com]] might help.
-
-** preview
-
-images are of *version 35*
-- 2160x1440 screen resolution, 200 dpi, freetype v2.10.4, libXft v2.3.3, gimp v2.10.20
+- 2160x1440 screen resolution, 200 dpi, freetype v2.10.4, libXft v2.3.3, libpng v1.6.37, gimp v2.10.20
 
 *glyph distinction* in ASCII
 
@@ -47,28 +46,30 @@ images are of *version 35*
 
 [[/pub/code.png]]
 
-*geometric rationale*, sampling the ASCII =a=:
-
-[[/pub/metric.png]]
-
-*terminal* (alacritty v0.5.0, size *5.5*)
+*terminal* (alacritty v0.6.0, size *5.5*)
 
 [[/pub/term.png]]
 
-*literary text*, sampling ASCII, Greek, and Cyrillic (alacritty v0.5.0, size *5.5*)
+*literary text*, sampling ASCII, Greek, and Cyrillic (alacritty v0.6.0, size *5.5*)
 
 [[/pub/lit.png]]
 
-*unicode* (alacritty v0.5.0, size *5.5*)
+*cataclysm: dark days ahead* (alacritty v0.6.0, size *5.5*)
+
+[[/pub/cdda.png]]
+
+*unicode* (alacritty v0.6.0, size *5.5*)
 
 [[/pub/unicode.png]]
 
-*in the wild*:
+*in the wild:* \\
+/(specific glyph designs may be out of date)/
 - https://www.programmingfonts.org/#agave
 - https://www.reddit.com/r/unixporn/comments/hb4ib9/i3gaps_pywal_is_a_blessing/
 - https://k1ss.org/screenshots (Mike Emanuelli's)
 - https://www.reddit.com/r/unixporn/comments/ft1iu5/stumpwm_preparing_for_the_end_times/
 - https://bbs.archlinux.org/viewtopic.php?pid=1266904#p1266904
+
 
 ** build
 
@@ -80,17 +81,18 @@ images are of *version 35*
 - Hint the generated font file using ttfautohint.
   - Assuming the generated file is ~raw.ttf~, run ~ttfautohint -v -t raw.ttf Agave-Regular.ttf~
 
+
 ** naming
 
-- "Agave" refers either to the green plant or to the daughter of Kadmos in mythology.
+- "Agave" refers either to the [[https://en.wikipedia.org/wiki/Agave][green plant]] or to the [[https://en.wikipedia.org/wiki/Agave_(Theban_princess)][daughter of Kadmos]] in mythology.
 - *agave* is sister to [[https://github.com/blobject/autonoe][autonoe]] and [[https://github.com/blobject/ino][ino]].
 - *type agaric* opted for a slightly eponymic name for their first typeface.
 
+
 ** discussion
 
-Feedback, questions, suggestions, etc. are welcome and encouraged.
+Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] to voice your feedback, questions, or suggestions. Or contact *type agaric* via email at =agaric@protonmail.com=.
 
-Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] or contact *type agaric* via email at =agaric@protonmail.com=.
 
 ** thanks
 

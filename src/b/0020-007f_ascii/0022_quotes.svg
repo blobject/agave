@@ -26,13 +26,8 @@
   <g
      transform="translate(0,995.63782)"
      id="layer1" />
-  <g
-     transform="translate(0,995.63782)"
-     id="layer1-20"
-     style="display:inline">
-    <path
-       d="m 191,-739.63782 21.00001,512 h 185.99998 l 20.00001,-512 z m 415,0 20,512 h 186 l 21,-512 z"
-       id="path3157-2-7-0-4-5-7"
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
-  </g>
+  <path
+     id="path3157-2-7-0-4-5-7-3"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     d="M 163 256 L 198 768 L 384 768 L 419 256 L 163 256 z M 605 256 L 640 768 L 826 768 L 861 256 L 605 256 z " />
 </svg>

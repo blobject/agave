@@ -26,5 +26,5 @@
   <path
      id="path3157-2-7-2-2"
      style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-     d="M 896,256 H 128 V 442 H 675 L 96,1350 v 186 H 928 V 1350 H 317 L 896,442 Z" />
+     d="M 128,256 V 442 H 632 L 96,1350 v 186 H 928 V 1350 H 360 L 896,442 V 256 Z" />
 </svg>

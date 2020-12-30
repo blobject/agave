@@ -27,21 +27,21 @@
      transform="translate(0,995.63782)"
      id="layer1" />
   <g
-     transform="rotate(29.137223,-1407.7013,238.96127)"
+     transform="rotate(19.132392,-2314.7649,397.41309)"
      id="layer1-30"
      style="display:inline">
     <path
        id="path5114-5"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       d="M 480,99 8,945 480,1792 628,1709 202,946 628,182 Z"
-       transform="rotate(-29.137223,-1407.7013,238.96127)" />
+       d="M 390 99 L 96 945 L 390 1792 L 550 1736 L 276 946 L 550 155 L 390 99 z M 768 99 L 474 945 L 768 1792 L 928 1736 L 654 946 L 928 155 L 768 99 z "
+       transform="rotate(-19.132392,-2314.7649,397.41309)" />
   </g>
   <g
      transform="matrix(0.87345608,-0.48690294,-0.48690294,-0.87345608,-61.785095,1175.347)"
      id="layer1-30-3"
      style="display:inline" />
-  <path
-     id="path5114-5-5"
-     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-     d="M 868,101 396,947 868,1794 1016,1711 590,948 1016,184 Z" />
+  <g
+     transform="rotate(19.306392,-2073.0812,1612.1205)"
+     id="layer1-30-7"
+     style="display:inline" />
 </svg>
