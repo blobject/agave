@@ -2,7 +2,7 @@
 
 [[https://raw.githubusercontent.com/blobject/agave/master/pub/title.png]]
 
-*version 36:* (30 dec 2010)
+*version 36:* (30 dec 2020)
 
 *[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular.ttf][Agave-Regular.ttf]]* (*[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular-slashed.ttf][slashed zero]]*) \\
 *[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf][Agave-Bold.ttf]]* (*[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold-slashed.ttf][slashed zero]]*)
