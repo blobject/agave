@@ -1,40 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="1024"
    height="2048"
-   id="svg3355"
-   sodipodi:docname="A-small.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="957"
-     inkscape:window-height="1007"
-     id="namedview6"
-     showgrid="false"
-     inkscape:zoom="0.39648438"
-     inkscape:cx="512"
-     inkscape:cy="1024"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3355" />
+   id="svg3355">
   <defs
      id="defs3357" />
   <metadata
@@ -45,7 +19,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,9 +30,7 @@
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
        d="M 410,512 64,1536 h 179 l 86,-256 h 366 l 86,256 H 960 L 614,512 Z m 102,177 43,177 87,257 H 382 l 87,-257 z"
        transform="matrix(1,0,0,-1,0,1052.3622)"
-       id="path4294-8"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccc" />
+       id="path4294-8" />
   </g>
   <g
      transform="matrix(1,0,0,-1,-320.31527,815.27843)"

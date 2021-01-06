@@ -28,7 +28,7 @@
      id="layer1">
     <path
        transform="matrix(1.1643836,0,0,1,-70.191781,-995.63782)"
-       d="M 366,-128 V 951 H 658 V -128 Z m 0,1225 V 2176 H 658 V 1097 Z"
+       d="M 366,-32 V 951 H 658 V -32 Z m 0,1129 v 983 h 292 v -983 z"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.409661"
        id="path5114-5-3" />
   </g>

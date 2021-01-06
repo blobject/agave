@@ -6,6 +6,21 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+37
+r:
+- [*] non-connectable glyphs strictly within bounds
+- [*] all connectable glyphs overflow bounds by 32
+- [imp] u01bb (stroked "2") shape
+- [imp] u0258 (reversed "e") shape
+- [imp] u2230 (volume integral) dimensions
+b:
+- [*] embolden latin ducks
+- [add] u0131 (dotless "i")
+- [imp] u0057 ("W") ink trap
+i:
+- [add] u003d,u0045,u0046,u0048 ("=EFH")
+- [imp] u004c ("L") position
+
 36
 - [*] move non-production font files to pub/dev/
 - [*] new slashed-zero variants for regular and bold

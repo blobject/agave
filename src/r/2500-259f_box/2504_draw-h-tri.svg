@@ -25,17 +25,15 @@
   </metadata>
   <g
      id="layer1"
-     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)">
-    <path
-       transform="matrix(0,-3.9973798,1.1643836,0,-666.35617,348.52988)"
-       d="M -64,950.99996 V 1097 H 222 V 950.99996 Z m 432,0 V 1097 H 656 V 950.99996 Z m 434,0 V 1097 h 286 V 950.99996 Z"
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.463515"
-       id="path5114-5-3" />
-  </g>
+     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)" />
   <g
      transform="matrix(0,0.85882353,-0.27910319,0,943.04912,572.28236)"
      id="layer1-3" />
   <g
      transform="matrix(0,0.85882353,-0.37069929,0,512.98051,572.28236)"
      id="layer1-7" />
+  <path
+     d="m -32,951 v 146 H 244 V 951 Z m 422,0 v 146 H 634 V 951 Z m 390,0 v 146 h 276 V 951 Z"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.463515"
+     id="path5114-5-3-1" />
 </svg>

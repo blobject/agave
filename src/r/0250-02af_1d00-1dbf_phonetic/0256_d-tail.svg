@@ -5,34 +5,10 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3355"
    height="2048"
    width="1024"
-   version="1.1"
-   sodipodi:docname="0256_d-tail.svg"
-   inkscape:version="1.0.1 (unknown)">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1190"
-     inkscape:window-height="1406"
-     id="namedview276"
-     showgrid="false"
-     inkscape:zoom="0.6225427"
-     inkscape:cx="664.52636"
-     inkscape:cy="883.04022"
-     inkscape:window-x="958"
-     inkscape:window-y="22"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3355" />
+   version="1.1">
   <defs
      id="defs3357" />
   <metadata
@@ -50,6 +26,5 @@
   <path
      id="path3157-2-7-7-2-8-2-3-1-9-4-8"
      style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
-     d="M 662,256 V 557 C 603.4201,531.85379 531.27599,512 448,512 200.99589,512 48,716.99634 48,1048 c 0,302.0032 169.99771,488 444,488 h 170 c 0,198.0041 109.998,264 289,264 42.9974,0 73,-16 73,-16 v -149 h -73 c -74.0032,0 -119,-24.996 -119,-99 V 256 Z M 448,669 c 83.27667,0 155.42085,23.20987 214,53 v 657 H 492 c -168.99868,0 -274,-126.003 -274,-331 0,-233.99643 87.99784,-379 230,-379 z"
-     sodipodi:nodetypes="ccssscsccssccsccsss" />
+     d="M 662,256 V 557 C 603.4201,531.85379 531.27599,512 448,512 200.99589,512 48,716.99634 48,1048 c 0,302.0032 169.99771,488 444,488 h 170 c 0,198.0041 109.998,264 289,264 42.9974,0 73,-16 73,-16 v -149 h -73 c -74.0032,0 -119,-24.996 -119,-99 V 256 Z M 448,669 c 83.27667,0 155.42085,23.20987 214,53 v 657 H 492 c -168.99868,0 -274,-126.003 -274,-331 0,-233.99643 87.99784,-379 230,-379 z" />
 </svg>

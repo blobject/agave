@@ -4,14 +4,14 @@ FullName: Agave Italic
 FamilyName: Agave
 Weight: Regular
 Copyright: (c) 2013-2021 type agaric <agaric@protonmail.com>
-Version: 36
+Version: 37
 ItalicAngle: -10
 UnderlinePosition: -384
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00240000
+sfntRevision: 0x00250000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1603808863
-ModificationTime: 1609338367
+ModificationTime: 1609892551
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -65,11 +65,11 @@ NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 41 41 21
+WinInfo: 0 40 21
 BeginPrivate: 0
 EndPrivate
 TeXData: 3 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65579 55
+BeginChars: 65579 59
 
 StartChar: one
 Encoding: 49 49 0
@@ -1650,13 +1650,96 @@ Width: 1024
 LayerCount: 2
 Fore
 SplineSet
-378 1280 m 1,0,-1
- 550 1280 l 1,1,-1
- 352 157 l 1,2,-1
- 910 157 l 1,3,-1
- 882 0 l 1,4,-1
- 152 0 l 1,5,-1
- 378 1280 l 1,0,-1
+276 1280 m 1,0,-1
+ 448 1280 l 1,1,-1
+ 250 157 l 1,2,-1
+ 808 157 l 1,3,-1
+ 780 0 l 1,4,-1
+ 50 0 l 1,5,-1
+ 276 1280 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: equal
+Encoding: 61 61 55
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+147 925 m 1,0,-1
+ 978.5 925 l 1,1,-1
+ 950.5 768 l 1,2,-1
+ 119 768 l 1,3,-1
+ 147 925 l 1,0,-1
+74 512 m 1,4,-1
+ 905.5 512 l 1,5,-1
+ 877.5 355 l 1,6,-1
+ 46 355 l 1,7,-1
+ 74 512 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: E
+Encoding: 69 69 56
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+276 1280 m 1,0,-1
+ 1006 1280 l 1,1,-1
+ 978 1123 l 1,2,-1
+ 420 1123 l 1,3,-1
+ 358 768 l 1,4,-1
+ 850 768 l 1,5,-1
+ 822 611 l 1,6,-1
+ 330 611 l 1,7,-1
+ 250 157 l 1,8,-1
+ 808 157 l 1,9,-1
+ 780 0 l 1,10,-1
+ 50 0 l 1,11,-1
+ 276 1280 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: F
+Encoding: 70 70 57
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+276 1280 m 1,0,-1
+ 1006 1280 l 1,1,-1
+ 978 1123 l 1,2,-1
+ 420 1123 l 1,3,-1
+ 358 768 l 1,4,-1
+ 850 768 l 1,5,-1
+ 822 611 l 1,6,-1
+ 330 611 l 1,7,-1
+ 222 0 l 1,8,-1
+ 50 0 l 1,9,-1
+ 276 1280 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: H
+Encoding: 72 72 58
+Width: 1024
+LayerCount: 2
+Fore
+SplineSet
+226 1280 m 1,0,-1
+ 398 1280 l 1,1,-1
+ 308 768 l 1,2,-1
+ 762 768 l 1,3,-1
+ 852 1280 l 1,4,-1
+ 1024 1280 l 1,5,-1
+ 798 0 l 1,6,-1
+ 626 0 l 1,7,-1
+ 734 611 l 1,8,-1
+ 280 611 l 1,9,-1
+ 172 0 l 1,10,-1
+ 0 0 l 1,11,-1
+ 226 1280 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars

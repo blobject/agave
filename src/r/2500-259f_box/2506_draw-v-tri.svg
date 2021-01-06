@@ -28,7 +28,7 @@
      transform="matrix(0.85882353,0,0,1,60.282353,995.63782)">
     <path
        transform="matrix(1.1643836,0,0,1,-70.191781,-995.63782)"
-       d="M 439 -128 L 439 585 L 585 585 L 585 -128 L 439 -128 z M 439 731 L 439 1317 L 585 1317 L 585 731 L 439 731 z M 439 1463 L 439 2176 L 585 2176 L 585 1463 L 439 1463 z "
+       d="M 439,-32 V 585 H 585 V -32 Z m 0,763 v 586 H 585 V 731 Z m 0,732 v 617 h 146 v -617 z"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.409661"
        id="path5114-5-3" />
   </g>

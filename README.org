@@ -1,32 +1,34 @@
 *NOTICE:* github namespace recently changed from +agarick+ to *blobject*.
 
-[[https://raw.githubusercontent.com/blobject/agave/master/pub/title.png]]
+[[/pub/title.png]]
 
-*version 36:* (30 dec 2020)
-
-*[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular.ttf][Agave-Regular.ttf]]* (*[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular-slashed.ttf][slashed zero]]*) \\
-*[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf][Agave-Bold.ttf]]* (*[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold-slashed.ttf][slashed zero]]*)
+*version 37*, 06 jan 2021 \\
+| download | Regular | Bold |
+|-|---------|------|
+| size | 261KB | 85KB |
+| dotted zero | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular.ttf][Agave-Regular.ttf]]* | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf][Agave-Bold.ttf]]* |
+| slashed zero | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular-slashed.ttf][Agave-Regular-slashed.ttf]]* | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold-slashed.ttf][Agave-Bold-slashed.ttf]]* |
 
 [[/pub/metric.png]]
 
-| variant | glyph count | charsets |
-|---------|-------------|----------|
+| variant | glyph count | (partially) implemented ranges |
+|---------|-------------|--------------------------------|
 | Regular | 2443 | ascii, latin ext, greek, cyrillic, ipa, math, arrows, box-drawing, braille, powerline, others |
 | Bold | 96 | ascii |
-| Italic | 9 | /not ready/ |
-| BoldItalic | 3 | /not ready/ |
+| Italic | 15 | /not ready/ |
+| BoldItalic | 2 | /not ready/ |
 
 *agave* is a fixed-width outline typeface, designed and produced by [[https://b.agaric.net/about][type agaric]].
 
-Free to use, peruse, and diffuse. Everything (font files, glyph designs, glyph databases, and documentation) is released under the [[/LICENSE][MIT license]].
+Free to use, peruse, and diffuse -- everything (font files, glyph designs, glyph databases, and documentation) is released under the [[/LICENSE][MIT license]].
 
 *more about:* [[https://b.agaric.net/page/agave]]
 
 
 ** install
 
-The ~Agave-*.ttf~ font files can be found at:
-- https://github.com/blobject/agave/releases
+The ~.ttf~ font files can be found at either of:
+- https://github.com/blobject/agave/releases/latest
 - https://github.com/blobject/agave/tree/master/dist
 
 Please install according to common procedures specified by your platform. Maybe these pages might help: [[https://repology.org/project/fonts:agave/versions][repology]], [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][howtogeek]].
@@ -48,7 +50,7 @@ Please install according to common procedures specified by your platform. Maybe 
 
 [[/pub/term.png]]
 
-*literary text*, sampling ASCII, Greek, and Cyrillic (alacritty v0.6.0, size *5.5*)
+*literary text*, sampling ASCII, Greek, Cyrillic, and Czech (alacritty v0.6.0, size *5.5*)
 
 [[/pub/lit.png]]
 
@@ -58,10 +60,10 @@ Please install according to common procedures specified by your platform. Maybe 
 
 *unicode* (alacritty v0.6.0, size *5.5*)
 
-[[/pub/unicode.png]]
+[[/pub/uni.png]]
 
 *in the wild:* \\
-/(specific glyph designs may be out of date)/
+/(particular glyph shapes may be out of date)/
 - https://www.programmingfonts.org/#agave
 - https://www.reddit.com/r/unixporn/comments/hb4ib9/i3gaps_pywal_is_a_blessing/
 - https://k1ss.org/screenshots (Mike Emanuelli's)
@@ -82,14 +84,14 @@ For example, with the Regular variant:
 
 ** naming
 
+- *type agaric* opted for a slightly eponymic name for their first typeface.
 - "Agave" refers either to the [[https://en.wikipedia.org/wiki/Agave][green plant]] or to the [[https://en.wikipedia.org/wiki/Agave_(Theban_princess)][daughter of Kadmos]] in mythology.
 - *agave* is sister to [[https://github.com/blobject/autonoe][autonoe]] and [[https://github.com/blobject/ino][ino]].
-- *type agaric* opted for a slightly eponymic name for their first typeface.
 
 
 ** discussion
 
-Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] to voice your feedback, questions, or suggestions. Or contact *type agaric* via email at =agaric@protonmail.com=.
+Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] to voice your feedback, questions, and suggestions. Or contact *type agaric* via email at =agaric@protonmail.com=.
 
 
 ** thanks

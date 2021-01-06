@@ -1,57 +1,214 @@
-#! /bin/sh
+#! /usr/bin/env tclsh
 
-case $1 in
-  ascii)
-    /bin/echo -e "\n\
+proc argue {arg} {
+  global ascii lit_en lit_el lit_ru lit_cz uni kuhn
+  switch -- $arg {
+    ascii {
+      puts [exec echo -e $ascii]
+    }
+    lit { puts [exec bash -c "paste -d' ' \
+                              <(echo -e \"$lit_en\") \
+                              <(echo -e \"$lit_el\") \
+                              <(echo -e \"$lit_ru\") \
+                              <(echo -e \"$lit_cz\")"]
+    }
+    uni {
+      puts $uni
+    }
+    kuhn {
+      puts $kuhn
+    }
+    default {
+      puts "usage: [file tail $::argv0] (ascii|lit|uni|kuhn)"
+    }
+  }
+}
+
+set ascii {
  !ilI|17 \e[1m!ilI|17\e[0m AHH-eye-el-Eye-pipe-one-seven
  eco0ODQ \e[1meco0ODQ\e[0m ee-see-oh-zero-Oh-Dee-Cue
  b6G&B80 \e[1mb6G&B80\e[0m bee-six-Jee-et-Bee-eight-zero
- \$sS52Z% \e[1m\$sS52Z%\e[0m money-es-Es-five-two-Zee-perc
- \e[1m00123456789% \e[0m00123456789% \e[1m\`'\"_;:,. \e[0m\`'\"_;:,.
+ $sS52Z% \e[1m$sS52Z%\e[0m money-es-Es-five-two-Zee-perc
+ \e[1m00123456789% \e[0m00123456789% \e[1m`'"_;:,. \e[0m`'"_;
  abcdefghijklmnopqrstuvwxyz @#$^& ()[]{}
  \e[1mabcdefghijklmnopqrstuvwxyz @#$^& ()[]{}\e[0m
  ABCDEFGHIJKLMNOPQRSTUVWXYZ ~-=+*\/|!?<>
  \e[1mABCDEFGHIJKLMNOPQRSTUVWXYZ ~-=+*\/|!?<>\e[0m
-"
-    ;;
+}
 
-  lit)
-    /bin/echo -e "\n\
- James Joyce « \e[4mFinnegan's Wake\e[0m »                     Παρμενίδης ὁ Ἐλεάτης « \e[4mἀλήθεια\e[0m »                    Фёдор Михайлович Достоевский « \e[4mИдіотъ\e[0m »
+set lit_en {
+ James Joyce « \e[4mFinnegan's Wake\e[0m »     
 
- \e[1m[1]\e[0m riverrun, past Eve and Adam's, from swerve of   \e[1m[2]\e[0m Εἰ δ' ἄγ' ἐγὼν ἐρέω, κόμισαι δὲ σὺ μῦθον ἀκούσ  \e[1m[1]\e[0m В конце ноября, в оттепель, часов в девять утр
- shore to bend of bay, brings us by a commodius vic  ας, αἵπερ ὁδοὶ μοῦναι διζήσιός εἰσι νοῆσαι· ἡ μὲν   а, поезд Петербургско-Варшавской железной дороги н
- us of recirculation back to Howth Castle and Envir  ὅπως ἔστιν τε καὶ ὡς οὐκ ἔστι μὴ εἶναι, Πειθοῦς ἐσ  а всех парах подходил к Петербургу. Было так сыро
- ons.                                                τι κέλευθος - Ἀληθείῃ γὰρ ὀπηδεῖ - , ἡ δ' ὡς οὐκ ἔ  и туманно, что насилу рассвело; в десяти шагах, вп
-   Sir Tristram, violer d'amores, fr'over the short  στιν τε καὶ ὡς χρεών ἐστι μὴ εἶναι, τὴν δή τοι φρά  раво и влево от дороги, трудно было разглядеть хот
-  sea, had passen-core rearrived from North Armoric  ζω παναπευθέα ἔμμεν ἀταρπόν· οὔτε γὰρ ἂν γνοίης τό  ь что-нибудь из окон вагона. Из пассажиров были и
- a on this side the scraggy isthmus of Europe Minor   γε μὴ ἐὸν - οὐ γὰρ ἀνυστόν - οὔτε φράσαις.         возвращавшиеся из-за границы; но более были наполн
-  to wielderfight his penisolate war: nor had topsa  \e[1m[3]\e[0m ... τὸ γὰρ αὐτὸ νοεῖν ἐστίν τε καὶ εἶναι.       ены отделения для третьего класса, и все людом мел
- wyer's rocks by the stream Oconee exaggerated them  \e[1m[4]\e[0m Λεῦσσε δ' ὅμως ἀπεόντα νόῳ παρεόντα βεβαίως· ο  ким и деловым, не из очень далека. Все, как водитс
- selse to Laurens County's gorgios while they went   ὐ γὰρ ἀποτμήξει τὸ ἐὸν τοῦ ἐόντος ἔχεσθαι οὔτε σκι  я, устали, у всех отяжелели за ночь глаза, все наз
- doublin their mumper all the time: nor avoice from  δνάμενον πάντῃ πάντως κατὰ κόσμον οὔτε συνιστάμενο  яблись, все лица были бледно-желтые, под цвет тума
- afire bellowsed mishe mishe to tauftauf thuartpeat  ν.                                                  на.
- rick: not yet, though venissoon after, had a kidsc  \e[1m[5]\e[0m Ξυνὸν δὲ μοί ἐστιν, ὁππόθεν ἄρξωμαι· τόθι γὰρ     В одном из вагонов третьего класса, с рассвета,
- ad buttended a bland old isaac: not yet, though al  πάλιν ἵξομαι αὖθις.                                 очутились друг против друга, у самого окна, два па
- l's fair in vanessy, were sosie sesthers wroth wit  \e[1m[6]\e[0m Χρὴ τὸ λέγειν τε νοεῖν τ' ἐὸν ἔμμεναι· ἔστι γὰ  ссажира – оба люди молодые, оба почти налегке, оба
- h twone nathandjoe. Rot a peck of pa's malt had Jh  ρ εἶναι, μηδὲν δ' οὐκ ἔστιν· τά σ' ἐγὼ φράζεσθαι ἄ   не щегольски одетые, оба с довольно замечательным
- em or Shen brewed by arclight and rory end to the   νωγα. Πρώτης γάρ σ' ἀφ' ὁδοῦ ταύτης διζήσιος <εἴργ  и физиономиями и оба пожелавшие наконец войти друг
- regginbrow was to be seen ringsome on the aquaface  ω>, αὐτὰρ ἔπειτ' ἀπὸ τῆς, ἣν δὴ βροτοὶ εἰδότες οὐδ   с другом в разговор. Если б они оба знали один пр
- .                                                   ὲν πλάττονται, δίκρανοι· ἀμηχανίη γὰρ ἐν αὐτῶν στή  о другого, чем они особенно в эту минуту замечател
-   The fall (bababadalgharaghtakamminarronnkonnbron  θεσιν ἰθύνει πλακτὸν νόον· οἱ δὲ φοροῦνται κωφοὶ ὁ  ьны, то, конечно, подивились бы, что случай так ст
- ntonner-ronntuonnthunntrovarrhounawnskawntoohoohoo  μῶς τυφλοί τε, τεθηπότες, ἄκριτα φῦλα, οἷς τὸ πέλε  ранно посадил их друг против друга в третьеклассно
- rdenenthur-nuk!) of a once wallstrait oldparr is r  ιν τε καὶ οὐκ εἶναι ταὐτὸν νενόμισται κοὐ ταὐτόν,   м вагоне петербургско-варшавского поезда. Один из
- etaled early in bed and later on life down through  πάντων δὲ παλίντροπός ἐστι κέλευθος.                них был небольшого роста, лет двадцати семи, курча
-  all christian minstrelsy. The great fall of the o  \e[1m[7]\e[0m Οὐ γὰρ μήποτε τοῦτο δαμῇ εἶναι μὴ ἐόντα· ἀλλὰ   вый и почти черноволосый, с серыми маленькими, но
- ffwall entailed at such short notice the pftjschut  σὺ τῆσδ' ἀφ' ὁδοῦ διζήσιος εἶργε νόημα· μηδέ σ' ἔθ  огненными глазами. Нос его был широк и сплюснут, л
- e of Finnegan, erse solid man, that the humptyhill  ος πολύπειρον ὁδὸν κατὰ τήνδε βιάσθω, νωμᾶν ἄσκοπο  ицо скулистое; тонкие губы беспрерывно складывалис
- head of humself prumptly sends an unquiring one we  ν ὄμμα καὶ ἠχήεσσαν ἀκουήν καὶ γλῶσσαν, κρῖναι δὲ   ь в какую-то наглую, насмешливую и даже злую улыбк
- ll to the west in quest of his tumptytumtoes: and   λόγῳ πολύδηριν ἔλεγχον ἐξ ἐμέθεν ῥηθέντα.           у; но лоб его был высок и хорошо сформирован и скр
-"
-    ;;
+ \e[1m[1]\e[0m riverrun, past Eve and Adam's, f
+ rom swerve of shore to bend of bay, 
+ brings us by a commodius vicus of re
+ circulation back to Howth Castle and
+  Environs.                          
+   Sir Tristram, violer d'amores, fr'
+ over the short sea, had passen-core 
+ rearrived from North Armorica on thi
+ s side the scraggy isthmus of Europe
+  Minor to wielderfight his penisolat
+ e war: nor had topsawyer's rocks by 
+ the stream Oconee exaggerated themse
+ lse to Laurens County's gorgios whil
+ e they went doublin their mumper all
+  the time: nor avoice from afire bel
+ lowsed mishe mishe to tauftauf thuar
+ tpeatrick: not yet, though venissoon
+  after, had a kidscad buttended a bl
+ and old isaac: not yet, though all's
+  fair in vanessy, were sosie sesther
+ s wroth with twone nathandjoe. Rot a
+  peck of pa's malt had Jhem or Shen 
+ brewed by arclight and rory end to t
+ he regginbrow was to be seen ringsom
+ e on the aquaface.                  
+   The fall (bababadalgharaghtakammin
+ arronnkonnbronntonner-ronntuonnthunn
+ trovarrhounawnskawntoohoohoordenenth
+ ur-nuk!) of a once wallstrait oldpar
+ r is retaled early in bed and later 
+ on life down through all christian m
+ instrelsy. The great fall of the off
+ wall entailed at such short notice t
+ he pftjschute of Finnegan, erse soli
+ d man, that the humptyhillhead of hu
+ mself prumptly sends an unquiring on
+ e well to the west in quest of his t
+ umptytumtoes: …                     
+}
 
-  unicode)
-    /bin/echo -e "\n\
+set lit_el {
+ Παρμενίδης ὁ Ἐλεάτης « \e[4mἀλήθεια\e[0m »    
+
+ …                                   
+ \e[1m[2]\e[0m Εἰ δ' ἄγ' ἐγὼν ἐρέω, κόμισαι δὲ 
+ σὺ μῦθον ἀκούσας, αἵπερ ὁδοὶ μοῦναι 
+ διζήσιός εἰσι νοῆσαι· ἡ μὲνὅπως ἔστι
+ ν τε καὶ ὡς οὐκ ἔστι μὴ εἶναι, Πειθο
+ ῦς ἐστι κέλευθος - Ἀληθείῃ γὰρ ὀπηδε
+ ῖ - , ἡ δ' ὡς οὐκ ἔστιν τε καὶ ὡς χρ
+ εών ἐστι μὴ εἶναι, τὴν δή τοι φράζω 
+ παναπευθέα ἔμμεν ἀταρπόν· οὔτε γὰρ ἂ
+ ν γνοίης τό γε μὴ ἐὸν - οὐ γὰρ ἀνυστ
+ όν - οὔτε φράσαις.                  
+ \e[1m[3]\e[0m ... τὸ γὰρ αὐτὸ νοεῖν ἐστίν τε κ
+ αὶ εἶναι.                           
+ \e[1m[4]\e[0m Λεῦσσε δ' ὅμως ἀπεόντα νόῳ παρεό
+ ντα βεβαίως· οὐ γὰρ ἀποτμήξει τὸ ἐὸν
+  τοῦ ἐόντος ἔχεσθαι οὔτε σκιδνάμενον
+  πάντῃ πάντως κατὰ κόσμον οὔτε συνισ
+ τάμενον.                            
+ \e[1m[5]\e[0m Ξυνὸν δὲ μοί ἐστιν, ὁππόθεν ἄρξω
+ μαι· τόθι γὰρ πάλιν ἵξομαι αὖθις.   
+ \e[1m[6]\e[0m Χρὴ τὸ λέγειν τε νοεῖν τ' ἐὸν ἔμ
+ μεναι· ἔστι γὰρ εἶναι, μηδὲν δ' οὐκ 
+ ἔστιν· τά σ' ἐγὼ φράζεσθαι ἄνωγα. Πρ
+ ώτης γάρ σ' ἀφ' ὁδοῦ ταύτης διζήσιος
+  <εἴργω>, αὐτὰρ ἔπειτ' ἀπὸ τῆς, ἣν δ
+ ὴ βροτοὶ εἰδότες οὐδὲν πλάττονται, δ
+ ίκρανοι· ἀμηχανίη γὰρ ἐν αὐτῶν στήθε
+ σιν ἰθύνει πλακτὸν νόον· οἱ δὲ φοροῦ
+ νται κωφοὶ ὁμῶς τυφλοί τε, τεθηπότες
+ , ἄκριτα φῦλα, οἷς τὸ πέλειν τε καὶ 
+ οὐκ εἶναι ταὐτὸν νενόμισται κοὐ ταὐτ
+ όν, πάντων δὲ παλίντροπός ἐστι κέλευ
+ θος.                                
+ \e[1m[7]\e[0m Οὐ γὰρ μήποτε τοῦτο δαμῇ εἶναι μ
+ ὴ ἐόντα· ἀλλὰσὺ τῆσδ' ἀφ' ὁδοῦ διζήσ
+ ιος εἶργε νόημα· μηδέ σ' ἔθος πολύπε
+ ιρον ὁδὸν κατὰ τήνδε βιάσθω, νωμᾶν ἄ
+ σκοπον ὄμμα καὶ ἠχήεσσαν ἀκουήν …   
+}
+
+set lit_ru {
+ Фёдор Достоевский « \e[4mИдіотъ\e[0m »        
+
+ \e[1m[1]\e[0m В конце ноября, в оттепель, часо
+ в в девять утра, поезд Петербургско-
+ Варшавской железной дороги на всех п
+ арах подходил к Петербургу. Было так
+  сыро и туманно, что насилу рассвело
+ ; в десяти шагах, вправо и влево от 
+ дороги, трудно было разглядеть хоть 
+ что-нибудь из окон вагона. Из пассаж
+ иров были и возвращавшиеся из-за гра
+ ницы; но более были наполнены отделе
+ ния для третьего класса, и все людом
+  мелким и деловым, не из очень далек
+ а. Все, как водится, устали, у всех 
+ отяжелели за ночь глаза, все назябли
+ сь, все лица были бледно-желтые, под
+  цвет тума на.                      
+   В одном из вагонов третьего класса
+ , с рассвета, очутились друг против 
+ друга, у самого окна, два пассажира 
+ – оба люди молодые, оба почти налегк
+ е, оба не щегольски одетые, оба с до
+ вольно замечательными физиономиями и
+ оба пожелавшие наконец войти друг с 
+ другом в разговор. Если б они оба зн
+ али один про другого, чем они особен
+ но в эту минуту замечательны, то, ко
+ нечно, подивились бы, что случай так
+  странно посадил их друг против друг
+ а в третьеклассном вагоне петербургс
+ ко-варшавского поезда. Один изних бы
+ л небольшого роста, лет двадцати сем
+ и, курчавый и почти черноволосый, с 
+ серыми маленькими, ноогненными глаза
+ ми. Нос его был широк и сплюснут, ли
+ цо скулистое; тонкие губы беспрерывн
+ о складывались в какую-то наглую, на
+ смешливую и даже злую улыбку; но лоб
+  его был высок и хорошо …           
+}
+
+set lit_cz {
+ Karel Čapek « \e[4mR.U.R.\e[0m »              
+
+ …                                   
+ \e[1mDomin:\e[0m Počkejte. Které jsou zbytečné
+  , když má třeba tkát nebo sčítat. N
+  aftový motor nemá mít třapce a orna
+  menty, slečno Gloryová. A vyrábět u
+  mělé dělníky je stejné jako vyrábět
+   naftové motory. Výroba má být co n
+  ejjednodušší a výrobek prakticky ne
+  jlepší. Co myslíte, jaký dělník je 
+  prakticky nejlepší?                
+ \e[1mHelena:\e[0m ejlepší? Snad ten, který - k
+  terý - Když je poctivý - a oddaný. 
+ \e[1mDomin:\e[0m Ne, ale ten nejlacinější. Ten
+  , který má nejmíň potřeb. Mladý Ros
+  sum vynalezl dělníka s nejmenším po
+  čtem potřeb. Musel ho zjednodušit. 
+  Vyhodil všechno, co neslouží přímo 
+  práci. Tím vlastně vyhodil člověka 
+  a udělal Robota. Drahá slečno Glory
+  ová, Roboti nejsou lidé. Jsou mecha
+  nicky dokonalejší než my, mají úžas
+  nou rozumovou inteligenci, ale nema
+  jí duši. Ó, slečno Gloryová, výrobe
+  k inženýra je technicky vytříbenějš
+  í než výrobek přírody.             
+ \e[1mHelena:\e[0m Říká se, že člověk je výrobe
+  k boží.
+ \e[1mDomin:\e[0m Tím hůř. Bůh neměl ani ponětí
+   o moderní technice. Věřila byste, 
+  že si nebožtík mladý Rossum zahrál 
+  na Boha?                           
+ \e[1mHelena:\e[0m Jak, prosím vás?            
+ \e[1mDomin:\e[0m Začal vyrábět Nadroboty. Prac
+  ovní obry. Zkusil to s postavami čt
+  yřmetrovými, ale to byste nevěřila,
+   jak se ti mamuti lámali.          
+ \e[1mHelena:\e[0m Lámali?                     
+ \e[1mDomin:\e[0m Ano. Z ničeho nic jim …      
+}
+
+set uni {
  ┌───┬───┐  ╷   ╻  ░░░░░░▄████▄      ┊╱▔▔▔▔▔▔▔▔╲┊┊┊┊┊
  │┌─┐│┌─┐│ ╶┼╴ ╺╋╸ ░░░░░▐▌░░░░▐▌     ╱┈╱▔▆┈┈╱▔▆┈╲┊┊┊┊
  ││0│││1││  ╵   ╹  ░░▄▀▀█▀░░░░▐▌     ▏▕┈┈▕┈▕┈┈▕┈▕┊┊┊┊
@@ -90,7 +247,7 @@ case $1 in
                                           ⎩⎣⎝i=1    ⎠⎦⎭
    2H₂ + O₂ ⇌ 2H₂O, R = 4.7 kΩ
 
-    ██████████████████████████████████████████ ██
+ ██    ███████████████████████████████████████ ██
                            ⢠
                            ⣾⡇
                           ⣰⡏⢱⡆
@@ -111,11 +268,9 @@ case $1 in
                ⠙⢻⣯⣕⢮⣝⠻⣿⣿⣿⣷⣍⣦⣿⣯⣾⣐⣴⣾⣿⡿⣻⣷⢻⣵⡿⠋
                  ⠈⠙⢿⣾⣽⣷⣿⣿⠿⠿⠛⠛⠛⠻⠿⣿⣿⣯⣿⣯⣿⠿⠋
                     ⠈⠉⠉⠉         ⠈⠛⠛⠋⠁
-"
-    ;;
+}
 
-  kuhn)
-    /bin/echo -e "\n\
+set kuhn {
 UTF-8 encoded sample plain-text file
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 
@@ -157,7 +312,7 @@ Nicer typography in plain text files:
   ║                                          ║
   ║   • Curly apostrophes: “We’ve been here” ║
   ║                                          ║
-  ║   • Latin-1 apostrophe and accents: '´\`  ║
+  ║   • Latin-1 apostrophe and accents: '´`  ║
   ║                                          ║
   ║   • ‚deutsche‘ „Anführungszeichen“       ║
   ║                                          ║
@@ -304,7 +459,7 @@ Braille:
   ⠺⠊⠇⠇ ⠹⠻⠑⠋⠕⠗⠑ ⠏⠻⠍⠊⠞ ⠍⠑ ⠞⠕ ⠗⠑⠏⠑⠁⠞⠂ ⠑⠍⠏⠙⠁⠞⠊⠊⠁⠇⠇⠹⠂ ⠹⠁⠞
   ⡍⠜⠇⠑⠹ ⠺⠁⠎ ⠁⠎ ⠙⠑⠁⠙ ⠁⠎ ⠁ ⠙⠕⠕⠗⠤⠝⠁⠊⠇⠲
 
-  (The first couple of paragraphs of \"A Christmas Carol\" by Dickens)
+  (The first couple of paragraphs of "A Christmas Carol" by Dickens)
 
 Compact font selection example text:
 
@@ -327,10 +482,7 @@ Box drawing alignment tests:                                          █
   ║└─╥─┘║  │╚═╤═╝│  │╘═╪═╛│  │╙─╀─╜│  ┃└─╂─┘┃  ░░▒▒▓▓██ ┊  ┆ ╎ ╏  ┇ ┋ ▏
   ╚══╩══╝  └──┴──┘  ╰──┴──╯  ╰──┴──╯  ┗━━┻━━┛  ▗▄▖▛▀▜   └╌╌┘ ╎ ┗╍╍┛ ┋  ▁▂▃▄▅▆▇█
                                                ▝▀▘▙▄▟
-"
-    ;;
+}
 
-  *)
-    echo "usage: $(basename $0) (ascii|kuhn|lit|unicode)"
-    ;;
-esac
+argue [lindex $::argv 0]
+

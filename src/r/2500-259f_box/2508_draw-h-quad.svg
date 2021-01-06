@@ -25,13 +25,7 @@
   </metadata>
   <g
      id="layer1"
-     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)">
-    <path
-       transform="matrix(0,-3.9973798,1.1643836,0,-666.35617,348.52988)"
-       d="M -64,950.99996 V 1097 H 114 V 950.99996 Z m 324,0 V 1097 H 439 V 950.99996 Z m 325,0 V 1097 H 764 V 950.99996 Z m 325,0 V 1097 h 178 V 950.99996 Z"
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.463515"
-       id="path5114-5-3" />
-  </g>
+     transform="matrix(0,0.85882353,-0.25016387,0,87.189583,572.28236)" />
   <g
      transform="matrix(0,0.85882353,-0.27910319,0,943.04912,572.28236)"
      id="layer1-3" />
@@ -41,4 +35,8 @@
   <g
      id="layer1-7-6"
      transform="matrix(0,0.85882353,-0.37069929,0,618.99751,572.28236)" />
+  <path
+     d="m -32,951 v 146 H 154 V 951 Z m 322,0 v 146 H 444 V 951 Z m 290,0 v 146 H 734 V 951 Z m 290,0 v 146 h 186 V 951 Z"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.463515"
+     id="path5114-5-3-2" />
 </svg>

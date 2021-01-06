@@ -24,7 +24,11 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="M -64 320 L -64 1472 L 1088 1472 L 1088 320 L -64 320 z M 64 448 L 960 448 L 960 1344 L 64 1344 L 64 448 z M 774 627 L 416 984 L 250 819 L 160 909 L 416 1165 L 864 717 L 774 627 z "
+     d="M 774,627 416,984 250,819 160,909 416,1165 864,717 Z"
      style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
      id="path3157-2-7-0" />
+  <path
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+     id="path3157-2-7-0-2"
+     d="M 0,384 V 1408 H 1024 V 384 Z m 128,128 h 768 v 768 H 128 Z" />
 </svg>

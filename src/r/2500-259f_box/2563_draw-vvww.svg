@@ -27,7 +27,7 @@
      transform="matrix(-0.85882353,0,0,-1,978.53437,808.70946)"
      id="layer1-4" />
   <path
-     d="M 731,-128 V 2176 H 585 V -128 Z m -292,0 V 951 H -64 V 805 h 357 v -933 z m 0,1225 V 2176 H 293 V 1243 H -64 v -146 z"
+     d="M 731,-32 V 2080 H 585 V -32 Z m -292,0 V 951 H -32 V 805 H 293 V -32 Z m 0,1129 v 983 H 293 V 1243 H -32 v -146 z"
      id="path6718"
      style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
 </svg>
