@@ -2,9 +2,10 @@
 
 [[/pub/title.png]]
 
-*version 37*, 06 jan 2021 \\
+*version 37* \\
+06 jan 2021
 | download | Regular | Bold |
-|-|---------|------|
+|----------|---------|------|
 | size | 261KB | 85KB |
 | dotted zero | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular.ttf][Agave-Regular.ttf]]* | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf][Agave-Bold.ttf]]* |
 | slashed zero | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Regular-slashed.ttf][Agave-Regular-slashed.ttf]]* | *[[https://github.com/blobject/agave/releases/latest/download/Agave-Bold-slashed.ttf][Agave-Bold-slashed.ttf]]* |

@@ -178,8 +178,8 @@ set lit_cz {
   ejjednodušší a výrobek prakticky ne
   jlepší. Co myslíte, jaký dělník je 
   prakticky nejlepší?                
- \e[1mHelena:\e[0m ejlepší? Snad ten, který - k
-  terý - Když je poctivý - a oddaný. 
+ \e[1mHelena:\e[0m Nejlepší? Snad ten, který - 
+  který - když je poctivý - a oddaný. 
  \e[1mDomin:\e[0m Ne, ale ten nejlacinější. Ten
   , který má nejmíň potřeb. Mladý Ros
   sum vynalezl dělníka s nejmenším po
