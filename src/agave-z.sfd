@@ -4,14 +4,14 @@ FullName: Agave Bold Italic
 FamilyName: Agave
 Weight: Bold
 Copyright: (c) 2013-2021 type agaric <agaric@protonmail.com>
-Version: 37
+Version: 38
 ItalicAngle: -10
 UnderlinePosition: -384
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00250000
+sfntRevision: 0x00260000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1604070579
-ModificationTime: 1609513002
+ModificationTime: 1609947972
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5

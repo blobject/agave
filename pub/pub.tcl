@@ -29,7 +29,7 @@ set ascii {
  eco0ODQ \e[1meco0ODQ\e[0m ee-see-oh-zero-Oh-Dee-Cue
  b6G&B80 \e[1mb6G&B80\e[0m bee-six-Jee-et-Bee-eight-zero
  $sS52Z% \e[1m$sS52Z%\e[0m money-es-Es-five-two-Zee-perc
- \e[1m00123456789% \e[0m00123456789% \e[1m`'"_;:,. \e[0m`'"_;
+ \e[1m00123456789% \e[0m00123456789% \e[1m`'"_;:,. \e[0m`'"_;:,.
  abcdefghijklmnopqrstuvwxyz @#$^& ()[]{}
  \e[1mabcdefghijklmnopqrstuvwxyz @#$^& ()[]{}\e[0m
  ABCDEFGHIJKLMNOPQRSTUVWXYZ ~-=+*\/|!?<>

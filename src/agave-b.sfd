@@ -4,14 +4,14 @@ FullName: Agave Bold
 FamilyName: Agave
 Weight: Bold
 Copyright: (c) 2013-2021 type agaric <agaric@protonmail.com>
-Version: 37
+Version: 38
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00250000
+sfntRevision: 0x00260000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1552578602
-ModificationTime: 1609817331
+ModificationTime: 1609947981
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -68,7 +68,7 @@ NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 40 21
+WinInfo: 40 40 21
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 655360 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

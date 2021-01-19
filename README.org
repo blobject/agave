@@ -2,8 +2,8 @@
 
 [[/pub/title.png]]
 
-*version 37* \\
-06 jan 2021
+*version 38* \\
+.. jan 2021
 | download | Regular | Bold |
 |----------|---------|------|
 | size | 261KB | 85KB |
@@ -12,8 +12,8 @@
 
 [[/pub/metric.png]]
 
-| variant | glyph count | (partially) implemented ranges |
-|---------|-------------|--------------------------------|
+| variant | glyph count | (at least partially) implemented ranges |
+|---------|-------------|-----------------------------------------|
 | Regular | 2443 | ascii, latin ext, greek, cyrillic, ipa, math, arrows, box-drawing, braille, powerline, others |
 | Bold | 96 | ascii |
 | Italic | 15 | /not ready/ |
@@ -33,6 +33,8 @@ The ~.ttf~ font files can be found at either of:
 - https://github.com/blobject/agave/tree/master/dist
 
 Please install according to common procedures specified by your platform. Maybe these pages might help: [[https://repology.org/project/fonts:agave/versions][repology]], [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][howtogeek]].
+
+[[https://repology.org/project/fonts:agave/versions][https://repology.org/badge/vertical-allrepos/fonts:agave.svg]]
 
 
 ** sample
@@ -83,14 +85,14 @@ For example, with the Regular variant:
   - Assuming the generated file is ~raw.ttf~, run ~ttfautohint -v -t raw.ttf Agave-Regular.ttf~
 
 
-** naming
+** name
 
 - *type agaric* opted for a slightly eponymic name for their first typeface.
 - "Agave" refers either to the [[https://en.wikipedia.org/wiki/Agave][green plant]] or to the [[https://en.wikipedia.org/wiki/Agave_(Theban_princess)][daughter of Kadmos]] in mythology.
 - *agave* is sister to [[https://github.com/blobject/autonoe][autonoe]] and [[https://github.com/blobject/ino][ino]].
 
 
-** discussion
+** discuss
 
 Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] to voice your feedback, questions, and suggestions. Or contact *type agaric* via email at =agaric@protonmail.com=.
 

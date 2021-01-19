@@ -4,14 +4,14 @@ FullName: Agave Regular
 FamilyName: Agave
 Weight: Regular
 Copyright: (c) 2013-2021 type agaric <agaric@protonmail.com>
-Version: 37
+Version: 38
 ItalicAngle: 0
 UnderlinePosition: -384
 UnderlineWidth: 128
 Ascent: 1536
 Descent: 512
 InvalidEm: 0
-sfntRevision: 0x00250000
+sfntRevision: 0x00260000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1368797729
-ModificationTime: 1609817739
+ModificationTime: 1609947961
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
