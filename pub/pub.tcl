@@ -6,11 +6,12 @@ proc argue {arg} {
     ascii {
       puts [exec echo -e $ascii]
     }
-    lit { puts [exec bash -c "paste -d' ' \
-                              <(echo -e \"$lit_en\") \
-                              <(echo -e \"$lit_el\") \
-                              <(echo -e \"$lit_ru\") \
-                              <(echo -e \"$lit_cz\")"]
+    lit {
+      puts [exec bash -c "paste -d' ' \
+                          <(echo -e \"$lit_en\") \
+                          <(echo -e \"$lit_el\") \
+                          <(echo -e \"$lit_ru\") \
+                          <(echo -e \"$lit_cz\")"]
     }
     uni {
       puts $uni
@@ -30,10 +31,10 @@ set ascii {
  b6G&B80 \e[1mb6G&B80\e[0m bee-six-Jee-et-Bee-eight-zero
  $sS52Z% \e[1m$sS52Z%\e[0m money-es-Es-five-two-Zee-perc
  \e[1m00123456789% \e[0m00123456789% \e[1m`'"_;:,. \e[0m`'"_;:,.
- abcdefghijklmnopqrstuvwxyz @#$^& ()[]{}
- \e[1mabcdefghijklmnopqrstuvwxyz @#$^& ()[]{}\e[0m
- ABCDEFGHIJKLMNOPQRSTUVWXYZ ~-=+*\/|!?<>
- \e[1mABCDEFGHIJKLMNOPQRSTUVWXYZ ~-=+*\/|!?<>\e[0m
+ abcdefghijklmnopqrstuvwxyz @#$^& ()[]{} ---
+ \e[1mabcdefghijklmnopqrstuvwxyz @#$^& ()[]{} ---\e[0m
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ ~-=+*\/|!?<> ___
+ \e[1mABCDEFGHIJKLMNOPQRSTUVWXYZ ~-=+*\/|!?<> ___\e[0m
 }
 
 set lit_en {

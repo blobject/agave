@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    version="1.1"
    width="1024"
@@ -26,8 +28,8 @@
      transform="translate(0,995.63782)"
      id="layer1">
     <path
-       d="m 384,-556.63783 59,351.00002 -317,-164 -79,243 352,53 -254,250 206,150 161,-320 161,320 206,-150 -254,-250 352,-53 -79,-243 -317,164 59,-351.00002 z"
+       d="m 439,-739.63784 4,351.00002 -334,-112 -45,139 335,105 -210,282 118,86 205,-288 205,288 118,-86 -210,-282 335,-105 -45,-139 -334,112 4,-351.00002 z"
        id="path14873"
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none" />
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
   </g>
 </svg>

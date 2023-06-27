@@ -34,8 +34,6 @@ The ~.ttf~ font files can be found at either of:
 
 Please install according to common procedures specified by your platform. Maybe these pages might help: [[https://repology.org/project/fonts:agave/versions][repology]], [[https://www.howtogeek.com/192980/how-to-install-remove-and-manage-fonts-on-windows-mac-and-linux][howtogeek]].
 
-[[https://repology.org/project/fonts:agave/versions][https://repology.org/badge/vertical-allrepos/fonts:agave.svg]]
-
 
 ** sample
 
@@ -65,14 +63,6 @@ Please install according to common procedures specified by your platform. Maybe 
 
 [[/pub/uni.png]]
 
-*in the wild:* \\
-/(particular glyph shapes may be out of date)/
-- https://www.programmingfonts.org/#agave
-- https://www.reddit.com/r/unixporn/comments/hb4ib9/i3gaps_pywal_is_a_blessing/
-- https://k1ss.org/screenshots (Mike Emanuelli's)
-- https://www.reddit.com/r/unixporn/comments/ft1iu5/stumpwm_preparing_for_the_end_times/
-- https://bbs.archlinux.org/viewtopic.php?pid=1266904#p1266904
-
 
 ** build
 
@@ -94,12 +84,16 @@ For example, with the Regular variant:
 
 ** discuss
 
-Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] to voice your feedback, questions, and suggestions. Or contact *type agaric* via email at =agaric@protonmail.com=.
+Feel free to use the [[https://github.com/blobject/agave/issues][issue tracker]] to voice your feedback, questions, and suggestions. Or contact *type agaric* via email at =agaric@pm.me=.
 
 
 ** thanks
 
 ... foremost to [[https://www.gnu.org/software/bc/][bc]], [[https://inkscape.org/][Inkscape]], [[http://ttfautohint.com/][ttfautohint]], and [[https://fontforge.org/][FontForge]] as I relied on them to respectively measure, draw, hint, and generate *agave*,
+
+to the volunteers who packaged this font for [[https://repology.org/project/fonts:agave/versions][various packaging systems]],
+
+to the reviewers and curators who showcased this font in their projects or websites,
 
 to GitHub for hosting this repo,
 
