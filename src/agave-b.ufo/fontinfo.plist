@@ -11,7 +11,7 @@
     <key>styleMapStyleName</key>
     <string>bold</string>
     <key>versionMajor</key>
-    <integer>38</integer>
+    <integer>39</integer>
     <key>copyright</key>
     <string>Copyright 2013-2026 type agaric &lt;agaric@pm.me&gt;</string>
     <key>unitsPerEm</key>
@@ -137,7 +137,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNameLicenseURL</key>
     <string>https://github.com/blobject/agave/blob/master/LICENSE</string>
     <key>openTypeNameVersion</key>
-    <string>Version Y3›U</string>
+    <string>Version 
+«ŸU</string>
     <key>openTypeNamePreferredFamilyName</key>
     <string>Agave</string>
     <key>openTypeNamePreferredSubfamilyName</key>

@@ -6,6 +6,12 @@ legend:
 "imp" = modified as improvement
 " * " = non-design or holistic update
 
+39
+r, b:
+- [imp] u1d08 (turned open "e") flip direction
+- [imp] u002a (*) closer to middle, add raised to variation
+- [add] u0028,u0029 ("()") add bulged to variation
+
 38
 - [*] switch license of font files to SIL Open Font License v1.1
 - [*] add UFO files

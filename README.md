@@ -1,12 +1,13 @@
-# Agave
+# agave
 
-**version 38**, 20 jun 2026
+**version 39**, 15 sep 2026
 
 | *download* | Regular | Bold |
 |-|---------|------|
-| size | 271KB | 95KB |
-| dotted zero | **[Agave-Regular.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Regular.ttf)** | **[Agave-Bold.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf)** |
-| slashed zero | **[Agave-Regular-slashed.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Regular-slashed.ttf)** | **[Agave-Bold-slashed.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Bold-slashed.ttf)** |
+| normal | **[Agave-Regular.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Regular.ttf)** | **[Agave-Bold.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Bold.ttf)** |
+| slashed zero | **[Agave-Regular-zeroslashed.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Regular-zeroslashed.ttf)** | **[Agave-Bold-zeroslashed.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Bold-zeroslashed.ttf)** |
+| bulged parens | **[Agave-Regular-parenbulged.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Regular-parenbulged.ttf)** | **[Agave-Bold-parenbulged.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Bold-parenbulged.ttf)** |
+| slashed zero, bulged parens | **[Agave-Regular-zeroslashed-parenbulged.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Regular-zeroslashed-parenbulged.ttf)** | **[Agave-Bold-zeroslashed-parenbulged.ttf](https://github.com/blobject/agave/releases/latest/download/Agave-Bold-zeroslashed-parenbulged.ttf)** |
 
 ![image: social](https://raw.githubusercontent.com/blobject/agave/refs/heads/master/pub/social.png)
 
